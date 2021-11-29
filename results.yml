@@ -207,21 +207,21 @@ translations:
     ###########################################################################
 
     # heatmaps
-    - key: blocks.tools_company_size_heatmap.title
+    - key: blocks.tools_company_size_heatmap
       t: Uso en función do Tamaño da Compañía
     - key: blocks.tools_company_size_heatmap.description
       t: |
         Para cada tecnoloxía, coma está extendido o uso entre os enquisados
         atendendo aos diferentes tamaños das compañías.
 
-    - key: blocks.tools_yearly_salary_heatmap.title
+    - key: blocks.tools_yearly_salary_heatmap
       t: Uso en función do Rango Salarial
     - key: blocks.tools_yearly_salary_heatmap.description
       t: |
         Para cada tecnoloxía, como está extendido o uso entre os enquisados
         atendendo aos diferentes rangos salariais.
 
-    - key: blocks.tools_years_of_experience_heatmap.title
+    - key: blocks.tools_years_of_experience_heatmap
       t: Uso en función dos Anos de Experiencia
     - key: blocks.tools_years_of_experience_heatmap.description
       t: |
@@ -235,18 +235,18 @@ translations:
       t: GitHub
 
     # cardinality
-    - key: blocks.all_sections_tools_cardinality_by_user.title
+    - key: blocks.all_sections_tools_cardinality_by_user
       t: Cardinalidade do Uso das Tecnoloxías
     - key: blocks.all_sections_tools_cardinality_by_user.description
       t: Para cada sección, qué porcentaxe de enquisados usa (definido como ter respondido “o volvería a usar”) unha, dúas, tres, etc, tecnoloxías.
 
-    - key: blocks.front_end_frameworks_tools_cardinality_by_user.title
+    - key: blocks.front_end_frameworks_tools_cardinality_by_user
       t: Cardinalidade do Uso das Tecnoloxías
     - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
       t: Que porcentaxe de enquisados usa (definido como ter respondido “o volvería a usar”) uno, dos, tres, etc, elementos desta sección.
 
     # tools arrows
-    - key: blocks.tools_arrows.title
+    - key: blocks.tools_arrows
       t: Cambios ao longo do tempo
     - key: blocks.tools_arrows.description
       t: |
@@ -258,7 +258,7 @@ translations:
           - Non se mostran tecnoloxías con só un ano de información. 
 
     # tools quadrant
-    - key: blocks.tools_quadrant.title
+    - key: blocks.tools_quadrant
       t: Satisfacción contra Uso
     - key: blocks.tools_quadrant.description
       t: |
@@ -282,19 +282,19 @@ translations:
         (Decatarvos que un número baixo pode deberse a que a tecnoloxía é descoñecida ou a que a xente xa a está usando)
 
     # category other tools
-    - key: blocks.category_other_tools.title
+    - key: blocks.category_other_tools
       t: Outras Ferramentas
     - key: blocks.category_other_tools.description
       t: Outras ferramentas nesta categoría (respostas libres).
 
     # tool experience
-    - key: blocks.tool_experience.title
+    - key: blocks.tool_experience
       t: '{name} Experiencia no Tempo'
     - key: blocks.tool_experience.description
       t: Experiencia con {name}.
 
     # tool positive/negative split ("marimekko" chart)
-    - key: blocks.tools_experience_marimekko.title
+    - key: blocks.tools_experience_marimekko
       t: Separación Positiva/Negativa
     - key: blocks.tools_experience_marimekko.description
       t: |
@@ -305,7 +305,7 @@ translations:
           O groso da barra representa o número de enquisados que coñecen a tecnoloxía.
 
     # tools section streams
-    - key: blocks.tools_section_streams.title
+    - key: blocks.tools_section_streams
       t: Experiencia no Tempo
     - key: blocks.tools_section_streams.description
       t: |
@@ -315,7 +315,7 @@ translations:
         Non se mostran tecnoloxías con só un ano de información.
 
     # tools section overview
-    - key: blocks.tools_section_overview.title
+    - key: blocks.tools_section_overview
       t: Vista Xeral da Categoría
     - key: blocks.tools_section_overview.description
       t: |
@@ -323,7 +323,7 @@ translations:
         mentres que os segmentos craros representan opinións negativas.
 
     # tools experience ranking
-    - key: blocks.tools_experience_ranking.title
+    - key: blocks.tools_experience_ranking
       t: Clasificacións
     - key: blocks.tools_experience_ranking.description
       t: Clasificación da conciencia, o interese e o ratio de satisfacción.
@@ -337,7 +337,7 @@ translations:
         - Presenza: (**total** - **nunca o oín**) / **total**
 
     # happiness
-    - key: blocks.happiness.title
+    - key: blocks.happiness
       t: Satisfacción Xeral
     - key: blocks.happiness.description
       t: |
@@ -345,7 +345,7 @@ translations:
           có estado xeral desta categoría?
 
     # newsletter
-    - key: blocks.newsletter.title
+    - key: blocks.newsletter
       t: Mantente Conectado
     - key: blocks.newsletter.description
       t: |
@@ -357,7 +357,7 @@ translations:
       t: Avisádeme
 
     # features_overview
-    - key: blocks.features_overview.title
+    - key: blocks.features_overview
       t: Uso
     - key: blocks.features_overview.description
       t: |
@@ -381,7 +381,7 @@ translations:
           Podes usar estas <i>queries</i> na nosa <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">API pública en GraphQL</a>.
 
     # Tools usage variations
-    - key: blocks.tools_usage_variations.title
+    - key: blocks.tools_usage_variations
       t: Variacións no Uso
     - key: blocks.tools_usage_variations.description
       t: |
@@ -400,7 +400,7 @@ translations:
         Por favor, ten presente que ferramentas con pouco uso, tenden a variar máis.
 
     # Recommended Resources
-    - key: blocks.recommended_resources.title
+    - key: blocks.recommended_resources
       t: Recursos Recomendados
 
     ###########################################################################
