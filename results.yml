@@ -345,7 +345,7 @@ translations:
           có estado xeral desta categoría?
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: Mantente Conectado
     - key: blocks.newsletter.description
       t: |
