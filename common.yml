@@ -120,9 +120,9 @@ translations:
       t: Elixe unha opción
 
     # partners
-    - key: partners.our_partners
+    - key: sponsors.our_partners
       t: Nosos Socios
-    - key: partners.become_partner
+    - key: sponsors.become_partner
       t: Converterse nun socio
 
     # 404
