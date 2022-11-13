@@ -50,7 +50,7 @@ translations:
     - key: general.preview_survey
       t: Vista Previa da Enquisa »
     - key: general.finish_survey
-      t: Rematar Enquisa »
+      t: Rematar Enquisa
     - key: general.survey_closed
       t: Esta enquisa está pechada.
     - key: general.survey_results
