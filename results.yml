@@ -378,7 +378,7 @@ translations:
       t: Sentímolo pero non está dispoñible exportar a CSV para estes datos.
     - key: export.graphql
       t: >
-          Podes usar estas <i>queries</i> na nosa <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">API pública en GraphQL</a>.
+          Podes usar estas <i>queries</i> na nosa <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">API pública en GraphQL</a>.
 
     # Tools usage variations
     - key: blocks.tools_usage_variations

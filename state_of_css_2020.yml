@@ -4,7 +4,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.css2020
       t: |
 
             <span class="first-letter">E</span>quece todo o que sabes sobre CSS. Ou, alo menos, prepárate para reconsiderar unha boa parte. Se coma min, estiveches escribindo CSS por máis dunha década, CSS en 2020 non se parece nada ao que estabas acostumado.
