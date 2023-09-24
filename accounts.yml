@@ -9,7 +9,7 @@ translations:
     - key: accounts.error_invalid_email
       t: O correo electrónico non é válido
     - key: accounts.error_minchar
-      t: Teu contrasinal é demasiado curto
+      t: O teu contrasinal é demasiado curto
     - key: accounts.error_unknown
       t: Erro descoñecido
     - key: accounts.error_user_not_found
@@ -21,7 +21,7 @@ translations:
     - key: accounts.error_internal_server_error
       t: Erro interno
     - key: accounts.error_token_expired
-      t: Token inválido para renovar teu contrasinal
+      t: O token para renovar o teu contrasinal é inválido
     - key: accounts.username_or_email
       t: Nome de usuario ou correo electrónico
     - key: accounts.enter_username
@@ -39,21 +39,25 @@ translations:
     - key: accounts.choose_password
       t: Elixe un contrasinal
     - key: accounts.change_password
-      t: Cambia teu contrasinal
+      t: Cambia o teu contrasinal
     - key: accounts.reset_your_password
-      t: Renova teu contrasinal
+      t: Renova o teu contrasinal
     - key: accounts.set_password
       t: Pon un contrasinal
     - key: accounts.enter_new_password
-      t: Introduce un contrasinal novo
+      t: Introduce un novo contrasinal
     - key: accounts.new_password
       t: Novo contrasinal
     - key: accounts.forgot_password
-      t: Esquecín meu contrasinal
+      t: Esquecín o meu contrasinal
     - key: accounts.sign_up
       t: Rexistrarse
     - key: accounts.sign_in
       t: Entrar
+    - key: accounts.switch_to_sign_up
+      t: Non tes unha conta? Crea unha
+    - key: accounts.switch_to_sign_in
+      t: Xa tes unha conta? Entra
     - key: accounts.sign_out
       t: Sair
     - key: accounts.cancel
@@ -68,8 +72,16 @@ translations:
       t: Por favor, rexístrate ou entra para continuar.
     - key: accounts.logged_in_as
       t: Rexistrado como {email}
+    - key: accounts.logged_in_as_guest
+      t: Rexistrado como invitado
     - key: accounts.questions
       t: >
-          Se tes algunha pregunta sobre como usamos os teus datos, ou se te gustaría
-          que os eliminásemos dos nosos rexistros,
-          por favor, <a href="mailto:hello@stateofjs.com">remítenos un email</a>.
+          Se tes algunha pregunta sobre como usamos os teus datos, ou se che gustaría
+          eliminalos dos nosos rexistros,
+          por favor, <a href="mailto:hello@stateofjs.com">contacta con nós</a>.
+
+    - key: accounts.token_verified
+      t: Token verificado correctamente, redirixindo…
+
+    - key: accounts.your_surveys
+      t: As túas enquisas
