@@ -13,19 +13,54 @@ translations:
     t: "Seguinte:"
 
   - key: general.state_of_css_link
-    t: Estado de CSS
+    t: Estado do CSS
 
   - key: general.netlify_link
-    t: Hospedado por <a href="{link}">Netlify</a>.
+    t: Aloxado por <a href="{link}">Netlify</a>.
 
   - key: general.completion_percentage
-    t: "Porcentaxe completado:"
+    t: "Porcentaxe completada:"
 
   - key: sponsors.thanks
     t: Grazas aos nosos colaboradores por darnos o seu apoio!
 
   - key: sponsors.learn_more
     t: Saber máis.
+  
+  - key: tabs.all_respondents
+    t: Todos os enquisados
+  - key: tabs.main_answers
+    t: Respostas principais
+  - key: tabs.other_answers
+    t: Outras respostas
+  - key: tabs.bracket_wins
+    t: Gañadores
+  - key: tabs.bracket_matchups
+    t: Emparexamentos
+  - key: tabs.chart
+    t: Gráficas
+  - key: tabs.data
+    t: Datos
+  - key: tabs.share
+    t: Compartir
+  - key: tabs.debug
+    t: Debug
+  - key: tabs.by_country
+    t: Por país
+  - key: tabs.by_experience
+    t: Por experiencia
+  - key: tabs.by_degree
+    t: Por titulación
+  - key: tabs.by_salary
+    t: Por salario
+  - key: tabs.by_gender
+    t: Por xénero
+  - key: tabs.by_race_ethnicity
+    t: Por raza e etnia
+  - key: tabs.low_vs_high_income
+    t: Renda baixa vs renda alta
+  - key: tabs.usa_vs_the_world
+    t: U.S. vs resto do mundo
 
   ###########################################################################
   # Options
@@ -39,11 +74,20 @@ translations:
     t: Uso
   - key: options.experience_ranking.awareness
     t: Conciencia
+  
+  - key: options.features_mode.grouped
+    t: Agrupados
+  - key: options.features_mode.awareness_rank
+    t: Por conciencia
+  - key: options.features_mode.usage_rank
+    t: Por uso
+  - key: options.features_mode.usage_ratio_rank
+    t: Por ratio
 
   - key: options.features_simplified.know_it
-    t: O coñezo
+    t: Coñézoo
   - key: options.features_simplified.used_it
-    t: O usei
+    t: Useino
   - key: options.features_simplified.usage_ratio
     t: Ratio de uso
 
@@ -68,12 +112,87 @@ translations:
     t: |
       ANALIZAR: Moi usadas, baixa satisfacción. Pénsao ben, se son tecnoloxías que estás a usar nestes momentos.
 
+  - key: options.quadrant.1
+    t: 1
+  - key: options.quadrant.1.long
+    t: |
+      1: Baixo uso, alta satisfacción. Tecnoloxías que merecen que lles botes un ollo.
+  - key: options.quadrant.2
+    t: 2
+  - key: options.quadrant.2.long
+    t: |
+      2: Moi usadas, alta satisfacción. Tecnoloxías seguras para adoptar.
+  - key: options.quadrant.3
+    t: 3
+  - key: options.quadrant.3.long
+    t: |
+      3: Baixo uso, baixa satisfacción. Tecnoloxías que probablemente deberías evitar a día de hoxe.
+  - key: options.quadrant.4
+    t: 4
+  - key: options.quadrant.4.long
+    t: |
+      4: Moi usadas, baixa satisfacción. Pénsao ben, se son tecnoloxías que estás a usar nestes momentos.
+
   - key: ranges.selector.years_of_experience
     t: Experiencia
   - key: ranges.selector.yearly_salary
     t: Soldo
   - key: ranges.selector.company_size
     t: Tamaño da compañía
+
+  # other learning methods
+  - key: options.first_steps.blogs
+    t: Blogs
+  - key: options.first_steps.forums
+    t: Foros
+  - key: options.first_steps.view_source
+    t: Ver código
+  - key: options.first_steps.copy_paste
+    t: Copiar/pegar
+  - key: options.first_steps.trial_and_error
+    t: Ensaio e erro
+  - key: options.first_steps.documentation
+    t: Documentación
+
+  # other disablities
+  - key: options.disability_status_others.adhd
+    t: TDAH
+  - key: options.disability_status_others.autism
+    t: Autismo
+  - key: options.disability_status_others.glasses
+    t: Gafas
+  - key: options.disability_status_others.old
+    t: Vellez
+  - key: options.disability_status_others.back_pain
+    t: Dor de costas
+  - key: options.disability_status_others.epilepsy
+    t: Epilepsia
+  - key: options.disability_status_others.aspergers
+    t: Asperger
+  - key: options.disability_status_others.color_blindness
+    t: Daltonismo
+  - key: options.disability_status_others.anxiety
+    t: Ansiedade
+  - key: options.disability_status_others.dyslexia
+    t: Dislexia
+  - key: options.disability_status_others.diabetes
+    t: Diabetes
+  - key: options.disability_status_others.carpal_tunnel
+    t: Arco do carpo
+  - key: options.disability_status_others.migraine
+    t: Enxaqueca
+  - key: options.disability_status_others.speech_impairment
+    t: Deficiencia na fala
+  - key: options.disability_status_others.ocd
+    t: TOC
+  - key: options.disability_status_others.chronic_pain
+    t: Dor crónica
+  - key: options.disability_status_others.chronic_fatigue
+    t: Fatiga crónica
+  - key: options.disability_status_others.crohn
+    t: Mal de Crohn
+  - key: options.disability_status_others.depression
+    t: Depresión
 
   ###########################################################################
   # Sections
@@ -90,23 +209,32 @@ translations:
 
   - key: sections.technologies.title
     t: Tecnoloxías
+  
+  - key: sections.libraries.title
+    t: Bibliotecas
 
   - key: sections.conclusion.title
     t: Conclusión
+  
+  - key: sections.about.title
+    t: Acerca de
+  
+  - key: sections.how_to_help.title
+    t: Como axudar
 
   - key: sections.support.title
     t: Danos o teu apoio
   - key: sections.support.description
     t: >
-      Mantemos a enquisa coma un proxecto paralelo, así que para facelo
+      Mantemos a enquisa como un proxecto paralelo, polo que para facelo
       sostible estamos buscando continuamente colaboradores que nos boten unha man,
-      tanto de forma financeira coma dándoa a coñecer.
+      tanto de forma financeira como dándoa a coñecer.
       Se cres que podes axudarnos dalgunha forma, non o dubides e [ponte en contacto con nós](mailto:hello@stateofjs.com)!
 
   - key: sections.awards.title
     t: Premios
   - key: sections.awards.description
-    t: Cousas que destacaron neste ano.
+    t: Cousas que destacaron este ano.
 
   ###########################################################################
   # User Info
@@ -116,11 +244,72 @@ translations:
     t: Idioma
   - key: user_info.locale.description
     t: En que lingua se respondeu a enquisa?
+  - key: user_info.locale.note
+    t: >
+      Este dato cóllese automaticamente en base á configuración da xente que responde a enquisa; 
+      Os idiomas con mennos de 20 persoas non se mostran.
 
   - key: user_info.source
     t: Fonte
   - key: user_info.source.description
     t: Como se coñeceu a enquisa?
+  - key: user_info.source.note
+    t: A orixe da xente calcúlase en base aos datos de referencias, datos de seguimento de URLs e respostas na propia enquisa.
+
+  - key: user_info.source_by_gender
+    t: Orixe por xénero
+
+  - key: user_info.source_by_race_ethnicity
+    t: Orixe por raza ou étnia 
+
+  - key: user_info.gender_by_country
+    t: Orixe por país
+  - key: user_info.gender_by_country.description
+    t: Distribución de xénero por país con 100 respostas como mínimo, ordenados por "xénero medio" (asignándolle a cada clave de xénero un valor enteiro en orde ascendente) descendente.
+
+  - key: user_info.years_of_experience_by_salary
+    t: Anos de experiencia por rango de salario
+  - key: user_info.years_of_experience_by_salary.description
+    t: Anos de experiencia por anos rango de salario.
+
+  - key: user_info.average_income_by_years_of_experience
+    t: Ingreso medio por anos de experiencia
+  - key: user_info.average_income_by_years_of_experience.description
+    t: Ingreso medio por anos de experiencia.
+
+  - key: user_info.average_income_by_company_size
+    t: Ingreso medio por tamaño de empresa
+  - key: user_info.average_income_by_company_size.description
+    t: Ingreso medio por tamaño de empresa.
+
+  - key: user_info.yearly_salary_by_country
+    t: Salario por país
+  - key: user_info.yearly_salary_by_country.description
+    t: Salario anual agrupado por país con un mínimo de 100 respostas, ordenado descendentemente por salario medio.
+
+  - key: user_info.yearly_salary_by_degree
+    t: Salario por titulación de educación superior
+  - key: user_info.yearly_salary_by_degree.description
+    t: Salario anual agrupado por titulación de educación superior, ordenado descendentemente por salario medio.
+
+  - key: user_info.yearly_salary_by_experience
+    t: Salario por experiencia
+  - key: user_info.yearly_salary_by_experience.description
+    t: Salario anual agrupado por experiencia, ordenado descendentemente por salario medio.
+
+  - key: user_info.yearly_salary_usa_vs_the_world
+    t: >
+      Ingreso anual: Estados Unidos vs resto do mundo
+
+  - key: user_info.race_ethnicity_by_years_of_experience
+    t: Raza e étnia por anos de experiencia
+  - key: user_info.race_ethnicity_by_years_of_experience.description
+    t: Raza e étnia distribuía por anos de experiencia, ordenada ascendentemente por experiencia media.
+
+  - key: user_info.higher_education_degree_by_gender
+    t: Título de educación superior por xénero
+  - key: user_info.higher_education_degree_by_gender.description
+    t: Títulos de educación superior agrupados por xénero.
 
   ###########################################################################
   # Locales
@@ -134,8 +323,6 @@ translations:
     t: Español
   - key: options.locale.ru-RU
     t: Ruso
-  - key: options.locale.ua-UA
-    t: Ucraíno
   - key: options.locale.fr-FR
     t: Francés
   - key: options.locale.zh-Hant
@@ -146,6 +333,8 @@ translations:
     t: Checo
   - key: options.locale.pt-PT
     t: Portugués
+  - key: options.locale.pt-BR
+    t: Portugués (Brasil)
   - key: options.locale.it-IT
     t: Italiano
   - key: options.locale.sv-SE
@@ -160,12 +349,34 @@ translations:
     t: Chino (Simplificado)
   - key: options.locale.ja-JP
     t: Xaponés
-  - key: options.locale.gl-ES
-    t: Galego
+  - key: options.locale.ua-UA
+    t: Ucraíno
   - key: options.locale.pl-PL
     t: Polaco
   - key: options.locale.fa-IR
     t: Farsi
+  - key: options.locale.nl-NL
+    t: Holandés
+  - key: options.locale.ko-KR
+    t: Coreano
+  - key: options.locale.ro-RO
+    t: Romanés
+  - key: options.locale.am-ET
+    t: Amárico
+  - key: options.locale.ar-EG
+    t: Árabe
+  - key: options.locale.el-GR
+    t: Grego
+  - key: options.locale.gl-ES
+    t: Galego
+  - key: options.locale.hr-HR
+    t: Croata
+  - key: options.locale.hu-HU
+    t: Húngaro
+  - key: options.locale.sk-SK
+    t: Eslovaco
+  - key: options.locale.vi-VN
+    t: Vietnamita
 
   ###########################################################################
   # Features
@@ -176,7 +387,7 @@ translations:
   - key: features.mdn_link
     t: MDN
   - key: features.caniuse_link
-    t: CanIUse
+    t: Can I use
   - key: features.specification_link
     t: Especificación W3C
 
@@ -201,6 +412,8 @@ translations:
     t: Paxina de Inicio
   - key: tools.npm_link
     t: NPM
+  - key: tools.technology
+    t: Tecnoloxía
 
   ###########################################################################
   # Blocks
@@ -208,62 +421,84 @@ translations:
 
   # heatmaps
   - key: blocks.tools_company_size_heatmap
-    t: Uso en función do Tamaño da Compañía
+    t: Uso en función do tamaño da empresa
   - key: blocks.tools_company_size_heatmap.description
     t: |
-      Para cada tecnoloxía, coma está extendido o uso entre os enquisados
+      Para cada tecnoloxía, como está estendido o uso entre os enquisados
       atendendo aos diferentes tamaños das compañías.
 
   - key: blocks.tools_yearly_salary_heatmap
-    t: Uso en función do Rango Salarial
+    t: Uso en función do rango Salarial
   - key: blocks.tools_yearly_salary_heatmap.description
     t: |
-      Para cada tecnoloxía, como está extendido o uso entre os enquisados
+      Para cada tecnoloxía, como está estendido o uso entre os enquisados
       atendendo aos diferentes rangos salariais.
 
   - key: blocks.tools_years_of_experience_heatmap
-    t: Uso en función dos Anos de Experiencia
+    t: Uso en función dos anos de experiencia
   - key: blocks.tools_years_of_experience_heatmap.description
     t: |
       Para cada tecnoloxía, como está extendido o uso entre os enquisados atendendo a diferentes niveis de experiencia.
-      Pensade que experiencia aquí é a experiencia xeral, non a experiencia cunha tecnoloxía específica.
+      Pensa que experiencia aquí é a experiencia xeral, non a experiencia cunha tecnoloxía específica.
 
   # tool
   - key: blocks.entity.homepage_link
     t: Paxina Principal
   - key: blocks.entity.github_link
     t: GitHub
+  - key: blocks.entity.twitter_link
+    t: Twitter
+  - key: blocks.entity.mastodon_link
+    t: Mastodon
+  - key: blocks.entity.blog_link
+    t: Blog
+  - key: blocks.entity.rss_link
+    t: RSS
+  - key: blocks.entity.twitch_link
+    t: Twitch
+  - key: blocks.entity.npm_link
+    t: npm
+  - key: blocks.entity.youtube_link
+    t: YouTube
+  
+  # people
+  - key: blocks.people.name
+    t: Nome
+  - key: blocks.people.social_links
+    t: Ligazóns
+  - key: blocks.people.responses
+    t: Enquistados
 
   # cardinality
   - key: blocks.all_sections_tools_cardinality_by_user
-    t: Cardinalidade do Uso das Tecnoloxías
+    t: Cardinalidade do uso das tecnoloxías
   - key: blocks.all_sections_tools_cardinality_by_user.description
-    t: Para cada sección, qué porcentaxe de enquisados usa (definido como ter respondido “o volvería a usar”) unha, dúas, tres, etc, tecnoloxías.
-
-  - key: blocks.front_end_frameworks_tools_cardinality_by_user
-    t: Cardinalidade do Uso das Tecnoloxías
-  - key: blocks.front_end_frameworks_tools_cardinality_by_user.description
-    t: Que porcentaxe de enquisados usa (definido como ter respondido “o volvería a usar”) uno, dos, tres, etc, elementos desta sección.
+    t: Para cada sección, o porcentaxe de enquisados que usa (definido como ter respondido «volveríao usar») unha, dúas, tres etc, tecnoloxías.
+  
+  - key: blocks.cardinality.max
+    t: Respostas máis repetidas
 
   # tools arrows
   - key: blocks.tools_arrows
     t: Cambios ao longo do tempo
   - key: blocks.tools_arrows.description
     t: |
-      Cada liña vai desde 2016 a 2020. Máis arriba significa que a tecnología foi usada por máis xente,
-      e máis cara a dereita significa que hai máis xente que quere aprendela; ou que a usaron e a volverían a usar.
+      Cada liña vai dende 2016 a 2020. Máis arriba significa que a tecnología foi usada por máis xente,
+      e máis cara a dereita significa que hai máis xente que quere aprendela; ou que a usaron e a volverían usar.
   - key: blocks.tools_arrows.note
     t: |
       - Algunhas líñas se saltan anos.
-      - Non se mostran tecnoloxías con só un ano de información.
+      - Non se mostran tecnoloxías con só un ano de datos.
+      - Fórmula de velocidade = (opinión máis recente - opinión máis antiga) + (uso máis recente) - (uso máis antigo)
+      - Velocidade positiva significa que o uso e/ou as opinións positivas foron aumentando ao longo do tempo.
 
   # tools quadrant
   - key: blocks.tools_quadrant
-    t: Satisfacción contra Uso
+    t: Retención vs Uso
   - key: blocks.tools_quadrant.description
     t: |
-      Este gráfico mostra o **ratio de satisfacción** fronte ao **número total de usuarios** de cada tecnoloxía.
-      Se pode dividir en catro cadrantes:
+      Este gráfico mostra o **ratio de retención** fronte ao **número total de usuarios** de cada tecnoloxía.
+      Pódese dividir en catro cadrantes:
 
         - **AVALIAR**: Baixo uso, alta satisfacción. Tecnoloxías que merecen que lles botes un ollo.
 
@@ -272,73 +507,89 @@ translations:
         - **EVITAR**: Baixo uso, baixa satisfacción. Tecnoloxías que probablemente deberías evitar a día de hoxe.
 
         - **ANALIZAR**: Moi usadas, baixa satisfacción. Pénsao ben, se son tecnoloxías que estás a usar nestes momentos.
-  - key: blocks.tools_quadrant.note
-    t: Decatarse que TypeScript aparece dúas veces porque se inclúe tanto na sección de Sabores de JavaScript coma na de Ferramentas de Construción.
-
-  - key: blocks.tools_quadrant.interest.description
-    t: |
-      Este gráfico mostra o **ratio de interese** fronte ao **número total de usuarios** de cada tecnoloxía (definido polas respostas da xente que saben que existen pero *inda* non as usaron).
-
-      (Decatarvos que un número baixo pode deberse a que a tecnoloxía é descoñecida ou a que a xente xa a está usando)
 
   # category other tools
   - key: blocks.category_other_tools
-    t: Outras Ferramentas
+    t: Outras ferramentas
   - key: blocks.category_other_tools.description
     t: Outras ferramentas nesta categoría (respostas libres).
 
   # tool experience
   - key: blocks.tool_experience
-    t: "{name} Experiencia no Tempo"
+    t: "Experiencia con {name}"
   - key: blocks.tool_experience.description
-    t: Experiencia con {name}.
+    t: Experiencia dos enquistados con {name}.
 
   # tool positive/negative split ("marimekko" chart)
   - key: blocks.tools_experience_marimekko
     t: Separación Positiva/Negativa
   - key: blocks.tools_experience_marimekko.description
     t: |
-      Esta gráfica separa experiencias positivas (“quero aprender”,
-      “o volvería a usar”) das negativas (“non me interesan”,
-      “non as volvería a usar”) a ambos lados do eixo central.
+      Esta gráfica separa experiencias positivas («quero aprender»,
+      «volveríao usar») das negativas («non me interesan»,
+      «non as volvería usar») a ambos lados do eixo central.
 
       O groso da barra representa o número de enquisados que coñecen a tecnoloxía.
 
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: Lista de niveis de bibliotecas
+  - key: blocks.tools_tier_list.description
+    t: |
+      Este gráfico clasifica bibliotecas baseadas na no seu ratio de retención (porcentaxe de usuarios
+      que a usarían de novo). Ten en conta que as bibliotecas usadas por menos do 10% 
+      dos enquistados non se inclúen.
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+
   # tools section streams
   - key: blocks.tools_section_streams
-    t: Experiencia no Tempo
+    t: Experiencia no tempo
   - key: blocks.tools_section_streams.description
     t: |
-      Opinións sobre tecnoloxías enquisadas, no tempo.
+      Opinións sobre tecnoloxías enquisadas no tempo.
   - key: blocks.tools_section_streams.note
     t: |
-      Non se mostran tecnoloxías con só un ano de información.
+      Non se mostran as tecnoloxías con só un ano de información.
 
   # tools section overview
   - key: blocks.tools_section_overview
-    t: Vista Xeral da Categoría
+    t: Vista xeral categorizadas
   - key: blocks.tools_section_overview.description
     t: |
-      Opinións sobre a tecnología enquisada. Os segmentos máis escuros representan opinións positivas,
-      mentres que os segmentos craros representan opinións negativas.
+      Opinións sobre a tecnoloxía enquisada. Os segmentos máis escuros representan opinións positivas,
+      mentres que os segmentos claros representan opinións negativas.
 
   # tools experience ranking
   - key: blocks.tools_experience_ranking
+    t: Clasificacións no tempo
+  - key: blocks.tools_experience_ranking.percentages
+    t: Porcentaxes
+  - key: blocks.tools_experience_ranking.rankings
     t: Clasificacións
   - key: blocks.tools_experience_ranking.description
-    t: Clasificación da conciencia, o interese e o ratio de satisfacción.
+    t: Clasificación da retención, interese, uso e ratio de conciencia.
   - key: blocks.tools_experience_ranking.note
     t: |
-      Non se inclúen tecnoloxías con menos dun 10% de presenza. Cada relación se define como:
+      Non se inclúen tecnoloxías con menos dun 10% de presenza. Cada relación defínese como:
 
-      - Satisfacción: **o volvería a usar** / (**o volvería a usar** + **non o volvería a usar**)
+      - Retención: **volveríao usar** / (**volveríao usar** + **non o volvería usar**)
       - Interese: **quero aprendela** / (**quero aprendela** + **non me interesa**)
-      - Uso: (**o volvería a usar** + **non o volvería a usar**) / **total**
-      - Presenza: (**total** - **nunca o oín**) / **total**
+      - Uso: (**volveríao usar** + **non o volvería usar**) / **total**
+      - Presenza: (**total** - **nunca oín falar deso**) / **total**
+
+  # tools experience linechart
+  - key: blocks.tools_experience_linechart
+    t: Ratios ao longo do tempo
+  - key: blocks.tools_experience_linechart.description
+    t: Retención, interese, uso e ratio de presenza ao longo do tempo.
+  - key: blocks.tools_experience_linechart.note
+    aliasFor: blocks.tools_experience_ranking.note
 
   # happiness
   - key: blocks.happiness
-    t: Satisfacción Xeral
+    t: Satisfacción xeral
   - key: blocks.happiness.description
     t: |
       Nunha escala do un (moi descontento) ao cinco (moi satisfeito), como de contentos están os desenvolvedores
@@ -346,11 +597,11 @@ translations:
 
   # newsletter
   - key: blocks.newsletter.title
-    t: Mantente Conectado
+    t: Mantente informado
   - key: blocks.newsletter.description
     t: |
       Se queres saber cando sacaremos resultados adicionais ou cando anunciaremos a edición do ano que ven,
-      só deixanos o teu correo electrónico aquí debaixo:
+      déixanos o teu correo electrónico aquí abaixo:
   - key: blocks.newsletter.email
     t: O teu correo electrónico
   - key: blocks.newsletter.submit
@@ -361,83 +612,225 @@ translations:
     t: Uso
   - key: blocks.features_overview.description
     t: |
-      Este gráfico representa os diferentes graos de adopción para tódalas características, afatadas por categoría.
+      O tamaño do **círculo exterior**
+      corresponde co número total de usuarios que coñece unha característica (que responderon *teño oído sobre ela* + *téñoa usado*)
+      , mentres que
+      o **círculo interior** representa a aqueles que a están usando (que responderon *téñoa usado*).
 
-      O tamaño do <span class="text-teal-darker text-bold">cerco exterior</span>
-      representa o número total de usuarios que coñece a característica, mentras que
-      o <span class="text-teal text-bold">cerco interior</span> representa a aqueles que a están usando.
+      Pasa por cada nodo có rato para ver información detallada, incluído o ratio entre os dous valores.
 
-      Pasa por cada nodo có rato para ver información detallada xunto cunha <span class="text-blackpink text-bold">capa</span> representando o número total de enquisados.
+  # features_experience_linechart
+  - key: blocks.features_experience_linechart
+    t: Ratios ao longo do tempo
+  - key: blocks.features_experience_linechart.description
+    t: Ratio do uso e presenza ao longo do tempo das características mellor clasificadas.
+  - key: blocks.features_experience_linechart.note
+    t: |
+      Cada ratio defínese desta forma:
+
+      - Uso: (**Téñoa usado**) / **total**
+      - Presenza: (**Téñoa usado** + **Coñézoa **) / **total**
+
+  - key: blocks.features_experience_ranking
+    t: Clasificación ao longo do tempo
+  - key: blocks.features_experience_ranking.description
+    t: Rango de uso e presenza ao longo do tempo.
+  - key: blocks.features_experience_ranking.note
+    aliasFor: blocks.features_experience_linechart.note
 
   # export
   - key: export.export
     t: Exportar
   - key: export.title
-    t: Exportar información para {title}
+    t: Exportar información de {title}
   - key: export.nocsv
-    t: Sentímolo pero non está dispoñible exportar a CSV para estes datos.
+    t: Sentímolo pero estes datos non se poden exportar a CSV.
   - key: export.graphql
     t: >
-      Podes usar estas <i>queries</i> na nosa <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">API pública en GraphQL</a>.
+      Podes copiar e pegar esta consulta na nosa <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">API pública de GraphQL</a>.
+  - key: export.export_json
+    t: Descarga os datos en JSON
+  - key: export.export_graphql
+    t: Obtén a consulta GraphQL
+
+  - key: custom_data.heading
+    t: Gráfica personalizada
+  - key: custom_data.custom_data
+    t: Datos personalizados
+  - key: custom_data.graphql_query
+    t: Consulta GraphQL
+  - key: custom_data.chart_title
+    t: Gráfica personalizada
+  - key: custom_data.submit
+    t: Enviar
+  - key: custom_data.empty_contents
+    t: Por favor, escribe algo no campo "Datos personalizados".
+  - key: custom_data.edit_title
+    t: Editar o título da gráfica
+  - key: custom_data.customize
+    t: Personalizar datos
+  - key: custom_data.details
+    t: >
+
+      1. Copia o contido do campo de texto "GraphQL Consulta" e pégao no panel do medio do [explorador da API de GraphQL](https://graphiql.stateofjs.com/).
+
+      2. Modifica a consulta engadindo un ou máis **filtros** usando o explorador da barra da esquerda. Asegúrate de manter a estrutura xeral.
+
+      3. Na fiestra do explorador, pincha no botón de "Play" (Executar consulta).
+
+      4. Copia os resultados da consulta modificada (`{ data: … }` ) dentro do campo de texto superior "Datos personalizados" e envíaos.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
     t: Variacións no Uso
   - key: blocks.tools_usage_variations.description
     t: |
-      Coma os diferentes factores coma o rango salarial, os anos de experiencia
-      ou o tamaño da compañía inflúen no uso (participantes que responderon
-      ou “o volvería a usar” ou “non o volvería a usar”).
+      Como os diferentes factores coma o rango salarial, os anos de experiencia
+      ou o tamaño da empresa inflúen no uso (participantes que responderon
+      ou «volveríao usar» ou «non o volvería usar»).
 
       A liña base representa o uso básico de cada ferramenta e o offset
-      corresponde ao delta desde esta base en cada rango. Digamos que
+      corresponde ao delta dende esta base en cada rango. Digamos que
       a ferramenta X ten un uso xeral do 10% entre os participantes (a base),
-      así que si a porcentaxe de usuarios que teñen entre 1 e 2 anos de experiencia
+      así que se a porcentaxe de usuarios que teñen entre 1 e 2 anos de experiencia
       usando esta ferramenta é o 13% (comparado con todos os usuarios entre 1 e 2
       anos de experiencia) teremos un delta positivo do +3%.
   - key: blocks.tools_usage_variations.note
     t: |
-      Por favor, ten presente que ferramentas con pouco uso, tenden a variar máis.
+      Por favor, ten en conta que as ferramentas con pouco uso tenden a variar máis.
 
   # Recommended Resources
   - key: blocks.recommended_resources
-    t: Recursos Recomendados
+    t: Recursos recomendados
+  - key: blocks.recommended_events
+    t: Eventos recomendados
+  
+  # Brackets
+  - key: tool_evaluation.tool_evaluation_wins
+    t: Clasificación de evaluación de bibliotecas
+  - key: tool_evaluation.tool_evaluation_wins.description
+    t: Que factores priorizas á hora de evaluar unha nova biblioteca? Os resultados están clasificados por número de roldas gañadas.
+
+  - key: tool_evaluation.tool_evaluation_matchups
+    t: Clasificación de evaluación de bibliotecas (Emparexamentos)
+  - key: tool_evaluation.tool_evaluation_matchups.description
+    t: Que factores priorizas á hora de evaluar unha nova biblioteca? A porcentaxe de roldas gañadas polos elementos da esquerda contra os elementos de arriba.
+
+  # other
+  - key: blocks.freeform
+    t: (resposta libre)
+
+  # Reading List
+  - key: features.reading_list
+    t: Lista de lectura
+  - key: features.reading_list.description
+    t: Cantos enquistados engadiron elementos á súa lista de lectura?
+  - key: features.reading_list.note
+    t: >
+      A «Lista de lectura» permite aos enquistados gardar os elementos dos que queren aprender máis mentras completan a enquisa; e logo ter un resumo de recursos útiles ao final da enquisa.
 
   ###########################################################################
   # Charts
   ###########################################################################
 
+  - key: chart_units.respondents
+    t: "{count} dos entrevistados ({percentage}% porcentaxe de finalización)"
   - key: chart_units.percentage
     t: Porcentaxes
   - key: chart_units.count
     t: Conta
+  - key: chart_units.percentage_question
+    t: "% dos entrevistados"
+  - key: chart_units.percentageQuestion
+    aliasFor: chart_units.percentage_question
+  - key: chart_units.percentage_survey
+    t: "% dos enquisados"
+  - key: chart_units.percentageSurvey
+    aliasFor: chart_units.percentage_survey
+  - key: chart_units.percentage_bucket
+    t: "% de balde"
+  - key: chart_units.percentageBucket
+    aliasFor: chart_units.percentage_bucket
+  - key: chart_units.average
+    t: Media {axis}
+  - key: chart_units.averageByFacet
+    aliasFor: chart_units.average
+  
+  - key: chart_units.percentilesByFacet
+    t: "{axis} percentiles"
+
+  - key: charts.average
+    t: Media {axis}
+  - key: charts.mean
+    t: Medio
+  - key: charts.overall
+    t: En xeral
+  - key: charts.all_respondents
+    t: Todos os enquisados
+  - key: charts.facet_responses
+    t: "{count} respostas"
 
   - key: charts.axis_legends.years_of_experience
-    t: Anos de Experiencia
+    t: Anos de experiencia
   - key: charts.axis_legends.yearly_salary
-    t: Rango Salarial (USD)
+    t: Rango salarial (USD)
   - key: charts.axis_legends.company_size
-    t: Número de Empregados
+    t: Número de empregados
   - key: charts.axis_legends.backend_proficiency
-    t: Competencia no Backend
+    t: Competencia no back-end
   - key: charts.axis_legends.css_proficiency
     t: Competencia con CSS
   - key: charts.axis_legends.javascript_proficiency
     t: Competencia con JavaScript
   - key: charts.axis_legends.users_percentage
-    t: Porcentaxe de Usuarios
+    t: Porcentaxe de usuarios
   - key: charts.axis_legends.users_count
-    t: Número de Usuarios
+    t: Número de usuarios
+  - key: charts.axis_legends.users_average
+    t: Media {axis}
   - key: charts.axis_legends.interest_percentage
-    t: Porcentaxe de Interese
+    t: Interese %
   - key: charts.axis_legends.satisfaction_percentage
-    t: Porcentaxe de Satisfacción
+    t: Satifacción %
+  - key: charts.axis_legends.usage_percentage
+    t: Uso %
+  - key: charts.axis_legends.awareness_percentage
+    t: Presenza %
+  
+  - key: chart_units.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: chart_units.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: chart_units.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: chart_units.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
   - key: charts.axis_legends.happiness
     t: Satisfacción
   - key: charts.axis_legends.knowledge_score
-    t: Porcentaxe
+    t: Características coñecidas
   - key: charts.axis_legends.frequency
     t: Frecuencia
+  - key: charts.axis_legends.age
+    t: Idade
+  - key: charts.axis_legends.users_percentage_survey
+    t: "% dos enquisados"
+  - key: charts.axis_legends.users_percentageSurvey
+    aliasFor: charts.axis_legends.users_percentage_survey
+  - key: charts.axis_legends.users_percentage_question
+    t: "% dos enquisados"
+  - key: charts.axis_legends.users_percentageQuestion
+    aliasFor: charts.axis_legends.users_percentage_question
+  - key: charts.axis_legends.users_percentage_bucket
+    t: "% dos enquisados de balde"
+  - key: charts.axis_legends.users_percentageBucket
+    aliasFor: charts.axis_legends.users_percentage_bucket
+
+  - key: charts.axis_legends.users_averageByFacet
+    aliasFor: chart_units.average
+  - key: charts.axis_legends.users_percentilesByFacet
+    aliasFor: chart_units.percentilesByFacet
 
   - key: charts.ranges_multiple_diverging_lines.baseline
     t: liña base
@@ -453,7 +846,71 @@ translations:
   - key: charts.tools_arrows.have_not_used
     t: Non se usou
   - key: charts.tools_arrows.have_used
-    t: Se usou
+    t: Usouse
+  - key: charts.tools_arrows.x_axis
+    t: Rango eixe X
+  - key: charts.tools_arrows.y_axis
+    t: Rango eixe Y
+  - key: charts.tools_arrows.legend
+    t: Lenda
+  - key: charts.tools_arrows.velocity
+    t: Velocidade
+  - key: charts.tools_arrows.velocity_positive
+    t: Opinións máis positivas e/ou máis uso ao longo do tempo en xeral
+  - key: charts.tools_arrows.velocity_negative
+    t: Opinións máis negativas e/ou menos uso ao longo do tempo en xeral
+  - key: charts.tools_arrows.opinions_positive
+    t: Maioría de opinións positivas
+  - key: charts.tools_arrows.opinions_negative
+    t: Maioría de opinións negativas
+  - key: charts.tools_arrows.low_usage
+    t: Pouco uso
+  - key: charts.tools_arrows.high_usage
+    t: Moito uso
+  - key: charts.tools_arrows.popularity_positive
+    t: Aumento en popularidade
+  - key: charts.tools_arrows.popularity_negative
+    t: Caída de popularidade
+
+  - key: charts.no_answer
+    t: Sen resposta
+  - key: charts.no_answer.short
+    t: Sen resposta
+
+  - key: charts.other_answers
+    t: Outros
+  - key: charts.other_answers.short
+    t: Outros
+
+  - key: charts.tick.links
+    t: Ligazóns
+
+  - key: charts.resources
+    t: Ligazóns útiles
+
+  - key: charts.facets_clarification
+    t: >
+      Ten en conta que as porcentaxes amosadas anteriormente están influenciadas polo número de enquisados en xeral en cada grupo
+
+  - key: charts.average_clarification
+    t: >
+      Ten en conta que as medias están calculadas collendo o valor medio de cada rango e como un valor aproximado representativo.
+
+  ###########################################################################
+  # Comments
+  ###########################################################################
+
+  - key: comments.comments
+    t: Comentarios
+  - key: comments.comments_for
+    t: Comentarios de «{name}»
+  - key: comments.description
+    t: |
+      Estes comentarios foron enviados como parte da enquisa a través dos campos de texto de resposta opcional libre que se atopa despois da pregunta principal.
+  - key: comments.report_abuse
+    t: Reporta este comentario
+  - key: comments.share
+    t: Comparte o comentario
 
   ###########################################################################
   # Sharing
@@ -461,18 +918,22 @@ translations:
 
   - key: share.share
     t: Compartir
+  - key: share.options
+    t: Opcións para compartir
+  - key: share.preview
+    t: Vista previa das redes sociais
   - key: share.site.title
     t: Descubrir os resultados de {siteTitle}
   - key: share.site.twitter_text
-    t: "Descubra los resultados de {siteTitle} {link} {hashtag}"
+    t: "Descubre los resultados de {siteTitle} {link} {hashtag}"
   - key: share.site.subject
-    t: Resultados da Enquisa {siteTitle}
+    t: Resultados da enquisa {siteTitle}
   - key: share.site.body
     t: "Aquí hai algúns resultados interesantes dunha enquisa: {link}"
   - key: share.block.twitter_text
     t: "{hashtag} {year}: {title} {link}"
   - key: share.block.subject
-    t: Resultados da Enquisa {siteTitle}
+    t: Resultados da enquisa {siteTitle}
   - key: share.block.body
     t: "Aquí hai algúns resultados interesantes dunha enquisa ({title}): {link}"
   - key: share.twitter
@@ -484,7 +945,90 @@ translations:
   - key: share.email
     t: Enviar por correo
   - key: share.image
-    t: Conseguir imaxe
+    t: Obter imaxe
+  - key: share.link
+    t: Ligazón á sección
+  - key: share.url
+    t: Obter ligazón
+  - key: share.close
+    t: Pechar
+
+  ###########################################################################
+  # Views
+  ###########################################################################
+  - key: views.viz
+    t: Gráfica
+  - key: views.table
+    t: Táboa
+
+  ###########################################################################
+  # Tables
+  ###########################################################################
+  - key: table.label
+    t: Etiqueta
+  - key: table.item
+    t: Elemento
+  - key: table.percentage_survey
+    t: "% dos enquisados"
+  - key: table.percentageSurvey
+    aliasFor: table.percentage_survey
+  - key: table.percentage_question
+    t: "% dos enquisados"
+  - key: table.percentageQuestion
+    aliasFor: table.percentage_question
+  - key: table.percentage_facet
+    t: "% dos enquisados"
+  - key: table.percentageFacet
+    aliasFor: table.percentage_facet
+  - key: table.count
+    t: Conta
+  - key: table.year
+    t: Ano
+  - key: table.mean
+    t: Media
+  - key: table.usage
+    aliasFor: options.features_simplified.used_it
+  - key: table.awareness
+    aliasFor: options.features_simplified.know_it
+  - key: table.usage_ratio
+    aliasFor: options.features_simplified.usage_ratio
+
+  - key: table.usage_count
+    aliasFor: charts.axis_legends.users_count
+  - key: table.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: table.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: table.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: table.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
+  - key: table.percentages_table
+    t: Porcentaxe
+  - key: table.rankings_table
+    t: Clasificacións
+
+  - key: table.satisfaction_rank
+    t: Clasificación de retención
+  - key: table.interest_rank
+    t: Clasificación de interese
+  - key: table.usage_rank
+    t: Clasificación de uso
+  - key: table.awareness_rank
+    t: Clasificación de presenza
+
+  - key: table.would_not_use_percentage
+    t: Non o usaría %
+  - key: table.not_interested_percentage
+    t: Non estou interesado %
+  - key: table.would_use_percentage
+    t: Usaríao de novo %
+  - key: table.interested_percentage
+    t: Estou interesado %
+
+  - key: table.not_available
+    t: Non hai unha táboa de datos dispoñible.
 
   ###########################################################################
   # Awards
@@ -494,49 +1038,59 @@ translations:
     t: Finalistas
 
   - key: award.feature_adoption_award.title
-    t: Característica máis Adoptada
+    t: Característica máis adoptada
   - key: award.feature_adoption_award.description
     t: Concedido á característica máis adoptada.
 
   - key: award.feature_adoption_delta_award.title
-    t: Característica máis Adoptada
+    t: Característica máis adoptada
   - key: award.feature_adoption_delta_award.description
-    t: Concedido á característica coa mellor progresión inter anual.
+    t: Concedido á característica coa mellor progresión interanual.
 
   - key: award.tool_usage_award.title
-    t: Tecnoloxía máis Utilizada
+    t: Tecnoloxía máis usada
   - key: award.tool_usage_award.description
-    t: Concedido á tecnoloxía con maior número de usuarios.
+    t: Concedido á tecnoloxía co maior número de usuarios.
 
   - key: award.tool_usage_delta_award.title
-    t: Tecnología máis Utilizada
+    t: Tecnología máis usada
   - key: award.tool_usage_delta_award.description
-    t: Concedido á tecnoloxía coa mellor progresión inter anual.
+    t: Concedido á tecnoloxía coa mellor progresión interanual.
 
   - key: award.tool_satisfaction_award.title
-    t: Mayor Satisfacción
+    t: Mayor satisfacción
   - key: award.tool_satisfaction_award.description
     t: Concedido á tecnoloxía coa maior porcentaxe de usuarios satisfeitos.
 
   - key: award.tool_interest_award.title
-    t: Maior Interese
+    t: Maior interese
   - key: award.tool_interest_award.description
     t: Concedido á tecnoloxía que os desenvolvedores están máis interesados en aprender.
 
   - key: award.resource_usage_award.title
-    t: Recurso Máis Utilizado
+    t: Recurso máis utilizado
   - key: award.resource_usage_award.description
     t: Concedido ao recurso máis utilizado entre os desenvolvedores.
 
   - key: award.prediction_award.title
-    t: Premio á Predicción
+    t: Premio á predicción
   - key: award.prediction_award.description
     t: Concedido a unha tecnoloxía que ven a trunfar… ou non?
 
   - key: award.most_write_ins_award.title
-    t: Con máis Respostas Escritas
-  - key: award.most_write_ins_award.descriptiona
+    t: Con máis respostas escritas
+  - key: award.most_write_ins_award.description
     t: Concedido ao elemento con máis respostas escritas.
+
+  - key: award.most_commented_feature_award.title
+    t: A característica máis comentada
+  - key: award.most_commented_feature_award.description
+    t: Concedido á característica que recibiu máis comentarios.
+
+  - key: award.most_commented_tool_award.title
+    t: Biblioteca máis comentada
+  - key: award.most_commented_tool_award.description
+    t: Concedido á biblioteca que recibiu máis comentarios.
 
   ###########################################################################
   # Hints
@@ -545,32 +1099,32 @@ translations:
   - key: hints.hint_hint
     t: >
       Atoparás pequenas pistas coma esta ao longo dos resultados da enquisa
-      que te indicarán características e detalles adicionais.
+      que che indicarán características e detalles adicionais.
 
   - key: hints.units_switcher_hint
     t: >
       Podes usar o segmento de control arriba á dereita de cada bloque para cambiar
-      entre porcentaxes relativos e contas absolutas para ter unha vista distinta da mesma información.
+      entre porcentaxes relativos e valores absolutos para ter unha vista distinta da mesma información.
 
   - key: hints.export_hint
     t: >
       O <span class="hint-export-button">Botón de Exportar</span> na parte de arriba
       de cada bloque permite obtener o JSON dos datos en bruto de calquera gráfica, 
-      ou unha consulta de GraphQL que podes desempeñar contra a nosa API pública.
+      ou unha consulta de GraphQL que podes executar contra a nosa API pública.
 
   - key: hints.completion_hint
     t: >
-      Xa que tódalas preguntas son opcionais, algunhas delas teñen menos respostas ca outras.
-      O indicador de completado (<span class="hint-completion-indicator">◕</span>) che di canta xente as respondeu.
+      Xa que todas as preguntas son opcionais, algunhas delas teñen menos respostas ca outras.
+      O indicador de completado (<span class="hint-completion-indicator">◕</span>) indica canta xente as respondeu.
 
   - key: hints.tool_modal_hint
     t: >
       Podes premer no nome de calquera tecnoloxía para obter
-      detalles adicionais e unha vista máis fonda dos seus datos.
+      detalles adicionais e unha vista máis detallada dos datos.
 
   - key: hints.rankings_modes_hint
     t: >
-      A gráfica de Rankings cambia entre satisfacción, interese, uso e relevancia para
+      A gráfica de rankings cambia entre satisfacción, interese, uso e relevancia para
       dar unha visión máis completa dos rankings dunha categoría.
 
   - key: hints.sharing_hint
@@ -581,4 +1135,393 @@ translations:
   - key: hints.tshirt_hint
     t: >
       Outro descobrimento científico garantizado: comprar a nosa camiseta
-      ¡incrementará os teus coñecimentos de JavaScript por riba de 9000!
+      incrementará os teus coñecimentos de JavaScript por riba de 9000!
+
+  - key: hints.variants_hint
+    t: >
+      Algúns gráficos teen pestanas adicionais que ofrecen desgloses complementarios dos mesmos datos ou datos relacionados. Asegúrate de comprobalos!
+
+  - key: hints.share_hint
+    t: >
+      O <span class="hint-icon hint-share-button">botón de compartir</span> fai máis fácil compartir calquera gráfica ou incluso descargala como imaxe.
+
+  - key: hints.bracket_hint
+    t: >
+      <span class="hint-bracket"><span class="hint-text">A seguinte gráfica proporciona os resultados dun grupo de 8 xogadores estilo torneo no que os enquisados se encargaron de escoller o gañador de cada encontro ata quedarse cun único gañador.</span><span class="hint-diagram"/></span>
+
+  - key: hints.comments_hint
+    t: >
+      O <span class="hint-icon hint-comment-button">botónd e comentar</span> permite ver os comentarios deixados polos enquisados mentres cubrían a enquisa.
+
+  ###########################################################################
+  # Sponsor Chart
+  ###########################################################################
+
+  - key: sections.sponsor_finish.title
+    t: Grazas
+
+  - key: sponsor.sponsor_finish
+    t: >
+      Grazas por apoiar a enquisa. O teu avatar debería aparecer despois da gráfica que escolleches na próxima hora ou así. Se iso non sucede, por favor [contacta conmigo](mailto:chartsponsor@stateofjs.com).
+
+  - key: sponsor.sponsored_by
+    t: >
+      **{name}** donou **${amount}** para patrocinar esta gráfica
+
+  - key: sponsor.sponsor_button
+    t: Patrocinou esta gráfica
+
+  - key: sponsor.sponsor_chart.title
+    t: Patrocinou a gráfica "{title}"
+
+  - key: sponsor.sponsor_chart.description
+    t: >
+      Apoia esta enquisa económicamente donando $10 ou máis, e pon o teu avatar de Twitter xunto a unha gráfica!
+
+  - key: sponsor.chart_id
+    t: "ID da gráfica: "
+
+  - key: sponsor.sponsor_this_chart
+    t: Patrocina esta gráfica (${baseAmount}+)
+
+  - key: sponsor.how_it_works.title
+    t: Como funciona
+
+  - key: sponsor.how_it_works.description
+    t: >
+      1. Cando **pinchas no botón "Patrocina esta gráfica"**, serás redirixido á páxina de pago [SendOwl](https://www.sendowl.com/). 
+
+
+      2. Podes **axutar a cantidade** que che gustaría doar para patrocinar a enquisa, a cantidade mínima é $10.
+
+
+      3. Unha vez feito o pagamento, xa poderás **proporcionarnos o teu usuario de Twitter**. 
+
+
+      4. Verás unha páxina para **Descargar o arquivo**, pero podes ignorala con seguridade.
+
+
+      5. O sitio será xerado de novo e o teu usuario e a donación feita **aparecerán xunto á gráfica nas próximas horas**.
+
+  - key: sponsor.faq.title
+    t: F.A.Q.
+
+  - key: sponsor.faq.usage.title
+    t: Para que se usará a miña donción?
+
+  - key: sponsor.faq.usage.description
+    t: A túa doación axudaranos a apoidar aos responsables da enquisa, así como tamén a contratar novos colaboradores (ilustradores, expertos en accesibilidade e diversidade etc.).
+
+  - key: sponsor.faq.public.title
+    t: A miña doación vai ser pública?
+
+  - key: sponsor.faq.public.description
+    t: Si. O teu **usuario de Twitter** así como tamén a **cantidade doada** mostraráse públicamente xunto á gráfica.
+
+  # - key: sponsor.faq.donation_public.title
+  #   t: Can I donate on somebody else's behalf?
+
+  # - key: sponsor.faq.donation_public.description
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
+
+  - key: sponsor.faq.refund.title
+    t: Cal é a vosa política de reembolso?
+
+  - key: sponsor.faq.refund.description
+    t: Todas as doación son reembolsables nun período dunha semana, menos as comisións de transacción.
+
+  - key: sponsor.faq.influence.title
+    t: As doacións inflúen no contido da enquisa?
+
+  - key: sponsor.faq.influence.description
+    t: As donacións realizaránse unha vez a enquisa xa estea publicada, e os doadores non teñen ningunha influencia no seu contido.
+
+  - key: sponsor.faq.feedback.title
+    t: Como podo deixarvos feedback ou facervos preguntas?
+
+  - key: sponsor.faq.feedback.description
+    t: Pódes facelo [en GitHub](https://github.com/StateOfJS/Monorepo/issues/69) ou [no noso Discord](https://discord.gg/tuWRUWVyJs).
+
+  ###########################################################################
+  # Data Explorer
+  ###########################################################################
+
+  - key: sections.data_explorer.title
+    t: Explorador de datos
+  - key: sections.data_explorer.description
+    t: |
+      Explora dinamicamente a audiencia da enquisa escollendo dúas preguntas e vendo como se distribúen as respostas entre elas.
+
+  - key: hints.data_explorer
+    t: |
+      Esta é unha vista previa do noso noso Explorador de datos. Se atopas algún erro ou insconsistencia de datos, por favor [avísanos]({issueLink}).
+
+  # heading
+
+  - key: explorer.main_heading
+    t: “{xAxisLabel}” vs “{yAxisLabel}”
+
+  - key: explorer.total_respondents
+    t: |
+      (**{totalCount}** enquisados en total)
+
+  - key: explorer.count_per_dot
+    t: |
+      {respondentsPerDot} enquisados
+  - key: explorer.percentage_per_dot
+    t: |
+      {percentsPerDot}%
+  - key: explorer.extra_respondents
+    t: Enquisados extra
+  - key: explorer.missing_respondents
+    t: Enquisados desaparecidos
+
+  - key: explorer.count_per_dot.tooltip
+    t: |
+      1 punto representa {respondentsPerDot} enquisados
+  - key: explorer.percentage_per_dot.tooltip
+    t: |
+      1 punto representa {percentsPerDot}% dos enquisados
+  - key: explorer.extra_respondents.tooltip
+    t: Os puntos destacados indican resultados maiores dos agardados.
+  - key: explorer.missing_respondents.tooltip
+    t: Os puntos baleiros indican resultados menores dos agardados.
+
+  - key: explorer.units_count
+    t: Conta
+  - key: explorer.units_percentage
+    t: "% da fila"
+
+  - key: explorer.edit
+    t: Editar parámetros…
+
+  - key: explorer.get_data
+    t: Obter os datos…
+
+  # loading
+
+  - key: explorer.loading.1
+    t: Consultando API…
+  - key: explorer.loading.2
+    t: Agardando pola resposta…
+  - key: explorer.loading.3
+    t: Aínda traballando…
+  - key: explorer.loading.4
+    t: Agarda un pouquiño máis…
+  - key: explorer.loading.5
+    t: Perdoa, esto vai levar un cacho. Podes agardar un pouco máis, ou [repórtanos un problema]({issueLink}).
+  - key: explorer.timeout
+    t: Timeout
+  - key: explorer.timeout.description
+    t: A API non respondeu a tempo. Por favor inténtao de novo máis tarde, ou [repórtanos un erro]({issueLink}).
+
+  # share
+
+  - key: explorer.share
+    t: Compartir…
+  - key: explorer.share.title
+    t: Compartir “{xAxisLabel}” vs “{yAxisLabel}”
+  - key: explorer.share.tweet
+    t: “{xAxisLabel}” vs “{yAxisLabel}” da enquisa {surveyName} {year}
+
+  # axis
+
+  - key: explorer.axis_total
+    t: "{totalCount} enquisados"
+  - key: explorer.axis_percent
+    t: "{percentCount}% dos enquisados"
+
+  - key: explorer.x_axis_details
+    t: |
+      De todos os enquisados que commpletaron a pregunta “{yAxisLabel}”, **{totalCount}** os enquisados escolleron “{xQuestionLabel}” para “{xAxisLabel}”
+  - key: explorer.y_axis_details
+    t: |
+      **{totalCount}** enquisados escolleron “{yQuestionLabel}”
+  - key: explorer.main_legend_count
+    t: |
+      **{totalCount}** enquisados, **1** punto = **{respondentsPerDot}** enquisados, **{dotsPerLine}** puntos por liña
+
+  # controls
+  - key: explorer.dots_per_line
+    t: Puntos por liña
+  - key: explorer.respondents_per_dot
+    t: Enquisados por liña
+  - key: explorer.show_cell_counts
+    t: Ver o reconto de celas
+  - key: explorer.show_no_answer
+    t: Ver as celas «Sen resposta»
+
+  - key: explorer.all_fields
+    t: Todos os campos
+  - key: explorer.select_item
+    t: Selecciona un elemento
+
+  # details views
+
+  - key: explorer.count_details.1
+    t: |
+      **{xAxisTotal}** “{xAxisLabel}” enquisados escolleron “{xAnswerLabel}”.
+
+  - key: explorer.count_details.2
+    t: |
+      **{yAxisPercentage}%** de “{yAxisLabel}” enquisados escolleron “{yAnswerLabel}”.
+
+  - key: explorer.count_details.3
+    t: |
+      Ao aplicar esa porcentaxe aos **{xAxisTotal}** enquisados previous a figura danos unha liña base esperada de **{normalizedCount}** enquisados nesta intersección.
+
+  - key: explorer.count_details.4_extra
+    t: |
+      O reconto actual é **{cellCount}**, e eses **{normalizedCountDelta}** enquisados extra están *destacados*.
+
+  - key: explorer.count_details.4_missing
+    t: |
+      O reconto actual é **{cellCount}**, e eses **{normalizedCountDelta}** enquisados desaparecidos aparecen como puntos baleiros.
+
+  - key: explorer.percentage_details.1_extra
+    t: |
+      En xeral, **{xAxisPercentage}%** dos “{xAxisLabel}” enquisados seleccionaron “{xAnswerLabel}”, pero
+      dos **“{yAxisLabel}” enquisados que seleccionaron “{yAnswerLabel}”** esa porcentaxe sobe a **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.1_missing
+    t: |
+      En xeral, **{xAxisPercentage}%** dos “{xAxisLabel}” enquisados seleccionaron “{xAnswerLabel}”, pero
+      dos **“{yAxisLabel}” enquisados que seleccionaron “{yAnswerLabel}”** esa porcentaxe baixa a **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.2_extra
+    t: |
+      Eses **{normalizedPercentageDelta}%** enquisados extra están *destacados*.
+
+  - key: explorer.percentage_details.2_missing
+    t: |
+      Eses **{normalizedPercentageDelta}%** enquisados desaparecidos aparecen como puntos baleiros.
+
+  # - key: explorer.percentage_details.1
+  #   t: |
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+
+  # - key: explorer.percentage_details.2
+  #   t: |
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
+  # - key: explorer.percentage_details.3
+  #   t: |
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
+  # - key: explorer.percentage_details.4_extra
+  #   t: |
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  # - key: explorer.percentage_details.4_missing
+  #   t: |
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+  - key: explorer.extra_missing_respondents
+    t: |
+      ### Enquisados extras e desaparecidos
+
+      A gráfica superior pretende identificar áreas que mostran valores superiores ou inferiores aos esperados comparados coa liña base. 
+
+      Por exemplo, se asumimos que hai 1000 usuarios de CSS Grid, e 50% dos enquisados traballan nunha empresa grande, agardarías atopar 500 usuarios de CSS Grid traballando en grandes compañías. 
+
+      Calquera desviación por arriba ou abaixo do total esperado podería indicar unha potencial correlación entre as dúas variables, que está destacado na gráfica con puntos coloreados (para enquisados por encima da liña base) ou puntos baleiros (para enquisados desaparecidos).
+
+  ###########################################################################
+  # Filters
+  ###########################################################################
+
+  - key: filters.compare_data
+    t: Comparar datos
+  - key: filters.customize_chart
+    t: Personalizar gráficas
+  - key: filters.docs
+    t: Documentación
+  - key: filters.compare_chart
+    t: Personalizar “{chartName}”
+  - key: filters.filters.description
+    t: |
+      Usando unha combinación de filtros demográficos, podes definir ata catro **series de datos personalizados** para cargar e comparar dinamicamente cos datos por defecto desta pregunta.
+  - key: filters.facets.description
+    t: |
+      Escolle unha variable para dividir cada barra en "facets".
+  - key: filters.grid_mode
+    t: Cara a cara
+  - key: filters.combined_mode
+    t: Combinados
+  - key: filters.facet_mode
+    t: Facets
+  - key: filters.facet
+    t: "Facet:"
+
+  - key: filters.series.heading
+    t: Serie {index}
+  - key: filters.series.add
+    t: Engadir series…
+  - key: filters.series.delete
+    t: Eliminar series
+  - key: filters.series.year
+    t: |
+      datos de {year}
+  - key: filters.series.show_default
+    t: |
+      Amosar series por defecto
+  - key: filters.series.no_data
+    t: Sen datos
+
+  - key: filters.condition.add
+    t: Engadir filtro
+  - key: filters.condition.delete
+    t: Eliminar filtro
+  - key: filters.condition.and
+    t: e
+  - key: filters.operators.eq
+    t: é
+  - key: filters.operators.in
+    t: é un de
+  - key: filters.operators.nin
+    t: non é un de
+  - key: filters.value.add
+    t: Engadir valor
+  - key: filters.value.delete
+    t: Eliminar valor
+
+  - key: filters.legend.default
+    t: Defecto
+
+  - key: filters.cancel
+    t: Cancelar
+  - key: filters.submit
+    t: Actualizar gráfica
+  - key: filters.copy_link
+    t: Copiar a ligazón do filtro actual
+  - key: filters.get_code
+    t: Obter o código do filtro
+
+  - key: filters.presets.title
+    t: "Preestablecido:"
+  - key: filters.presets.save
+    t: Gardar o filtro actual como preestablecido…
+  - key: filters.presets.delete
+    t: Eliminar preestablecido
+  - key: filters.presets.enter_name
+    t: |
+      Dalle un nome ao teu novo valor preestablecido:
+  - key: filters.presets.previous_years
+    t: Anos anteriores
+  - key: filters.presets.gender
+    t: Xénero
+  - key: filters.presets.top_countries
+    t: Países top
+  - key: filters.presets.salary_low_high
+    t: |
+      Salario alto vs baixo
+  - key: filters.presets.experience_low_high
+    t: |
+      Experiencia alta vs baixa
+  - key: filters.presets.company_size_low_high
+    t: |
+      Empresa pequena vs grande
+
+  - key: filters.facet.select
+    t: Selecciona unha facet…
