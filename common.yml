@@ -9,24 +9,35 @@ translations:
     t: Por que necesito crear unha conta?
   - key: general.create_account_reasons
     t: >
-      Te pedimos que crees unha conta para:
+      Pedímosche que crees unha conta para:
 
       - Evitar respostas duplicadas
 
       - Darche acceso á túa información
 
-      - Salvar a túa sesión segundo avanzas
+      - Gardar a túa sesión segundo avanzas
 
       - Notificarche cando teñamos os resultados
   - key: general.survey_closed_detailed
     t: >
-      Sentímolo, a enquisa xa rematou! Inda podes revisar a túa información, pero non podes modificala.
+      Sentímolo, a enquisa xa rematou! Aínda podes revisar a túa información, pero non podes modificala.
   - key: general.survey_read_only
     t: >
-      Actualmente estás vendo esta enquisa en modo de só lectura.
+      Estás vendo esta enquisa en modo de só lectura.
+  - key: general.survey_preview
+    t: >
+      Esta enquisa está en **modo previsualización**. As preguntas actuais poden cambiar e calquera dato introducido **será eliminado** cando a enquisa comece.
+  - key: general.survey_feedback
+    t: Deixar comentarios
+
   - key: general.survey_read_only_back
     t: >
       <a href="{link}">Volver</a> á paxina principal para continuar coa enquisa ou comenzala.
+  - key: general.take_survey
+    t: Facer a enquisa {name}
+
+  - key: options.na
+    t: 🚫 Ningunha
 
   # surveys
   - key: general.open_surveys
@@ -45,14 +56,28 @@ translations:
     t: Comezar Enquisa »
   - key: general.continue_survey
     t: Continuar Enquisa »
+  - key: general.completion
+    t: "{completion}% completada"
+  - key: general.started_on
+    t: Comezada {createdAt}
+  - key: general.last_modified_on
+    t: Última modificación {updatedAt}
   - key: general.review_survey
     t: Revisar Enquisa »
+  - key: general.review_answers
+    t: Revisar respostas »
   - key: general.preview_survey
     t: Vista Previa da Enquisa »
   - key: general.finish_survey
     t: Rematar Enquisa
+  - key: general.next_section
+    t: Seguinte sección
+  - key: general.previous_section
+    t: Sección anterior
   - key: general.survey_closed
     t: Esta enquisa está pechada.
+  - key: general.survey_closed_on
+    t: Esta enquisa foi pechada {endedAt}.
   - key: general.survey_results
     t: Ver Resultados da Enquisa »
   - key: general.surveys_available_languages
@@ -63,50 +88,112 @@ translations:
     t: Tradutores
   - key: general.translation_help
     t: Axuda coas Traducións
+  - key: general.newly_added
+    t: Recén engadida este ano
+  - key: general.new
+    t: Nova
+  - key: general.devographics_banner
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> é o novo nome do colectivo que promove as enquisas State of JavaScript, CSS, e GraphQL.
+
+  # credits
+  - key: credits.thanks
+    t: Agradecementos especiais
+  - key: credits.contributors
+    t: Colaboradores
+  - key: credits.contributors.description
+    t: Agradecementos especiais para as seguintes persoas por axudarmos a deseñar a enquisa.
+  - key: credits.accessibility
+    t: Consultoría de accesibilidade
+  - key: credits.survey_design
+    t: Deseño da enquisa
+  - key: credits.logo_design
+    t: Deseño do logo
+  - key: credits.mobile_testing
+    t: Probas en móbil.
+  - key: credits.data_visualizations
+    t: Visualización de datos
+  - key: credits.repo_architecture
+    t: Arquitectura do repositorio
+  - key: credits.code_refactoring
+    t: Refactorización do código
+  - key: credits.data_processing
+    t: Procesamento de datos
+  - key: credits.back_end_development
+    t: Desenvolvemento Back-End
+
+  # support
+  - key: general.support_from
+    t: Co soporte de
 
   # footer
   - key: general.privacy_policy
     t: Política de Privacidade
   - key: general.leave_issue
     t: Preguntas? Atopaches un erro? <a href="{link}" target="_blank">Contacta con nós</a>.
+  - key: general.leave_issue2
+    aliasFor: homepage.leave_issue
   - key: general.emoji_icons
-    t: Emojis por <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+    t: Os emojis son de <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
   # navigation
   - key: general.table_of_contents
-    t: Taboa de Contidos
+    t: >
+     {sectionCount} seccións ({completion}% completado)
   - key: general.all_questions_optional
     t: >
-      Nota: tódalas preguntas son opcionais, así que non necesitas respondelas todas.
+      Nota: todas as preguntas son opcionais, non precisas respondelas todas.
   - key: general.data_is_saved
-    t: Salvamos as túas respostas cada vez que navegas entre seccións.
+    t: Gardamos as túas respostas cada vez que navegas entre seccións.
+  - key: general.close_nav
+    t: Pechar menu
+  - key: general.open_nav
+    t: Abrir menu
+  - key: general.more_actions
+    t: Máis accións
+  - key: general.skip_to_content
+    t: Ir ao contido
 
   # thanks
   - key: general.back
     t: Volver
   - key: general.thanks
     t: >
-      Grazas por cubrir a enquisa!
+      Grazas por cubrires a enquisa! A túa información queda gardada.
 
-      A túa información queda gardada. Podes revisala ou modificala hasta que a enquisa estea pechada.
 
-      Tamén podes axudarnos a chegar a todo o mundo compartindo a enquisa. Todo axuda é pouca. Así poderemos facer
-      os datos recollidos máis representativos:
+      Podes axudarnos a chegar a todo o mundo compartindo a enquisa. Calquera axuda conta, por pequena que sexa. E poderemos facer que
+      os datos recollidos sexan máis representativos:
+
+  - key: general.thanks1
+    t: >
+      Grazas por cubrires a enquisa! A túa información queda gardada.
+  - key: general.thanks2
+    t: >
+      Axúdanos a chegar a todo o mundo compartindo a enquisa. Calquera axuda conta, por pequena que sexa. E poderemos facer que
+      os datos recollidos sexan máis representativos:
   - key: thanks.learn_more_about
-    t: "Algunhas das características das que queres aprender máis:"
+    t: "Algunhas das características das que podes querer aprender máis:"
   - key: thanks.knowledge_score
-    t: Avaliación do teu Coñecimento
+    t: Avaliación do teu coñecemento
+  - key: thanks.features_score
+    t: Avaliación das características
+  - key: thanks.quiz_score
+    t: Avaliación do cuestionario
   - key: thanks.score_explanation
     t: >
-      Te soan ou tes empregado <span class="score-number score-number-known">{known}</span> características de 
+      Sóanche ou empregaches <span class="score-number score-number-known">{known}</span> características de 
       <span class="score-number score-number-total">{total}</span> mencionadas na enquisa,
       o que te sitúa dentro do <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
       de todos os que a responderon.
+  - key: thanks.score_explanation_no_ranking
+    t: >
+      Sóanche ou empregaches <span class="score-number score-number-known">{known}</span> de
+      <span class="score-number score-number-total">{total}</span> funcionalidades mencionadas na enquisa.
   - key: thanks.share_on_twitter
-    t: Comparteo en Twitter
+    t: Comparte en Twitter
   - key: thanks.share_score_message
     t: >
-      Teño unha puntuación do {score}% na enquisa #{hashtag} deste ano! Fai a enquisa ti tamén aquí: {shareUrl}
+      Tiven unha puntuación do {score}% na enquisa #{hashtag} deste ano! Fai a enquisa ti tamén aquí: {shareUrl}
   # share
   - key: general.share_subject
     t: >
@@ -118,26 +205,45 @@ translations:
   # forms
   - key: forms.select_option
     t: Elixe unha opción
+  - key: forms.clear_field
+    t: Borrar resposta
+  - key: forms.more_options
+    t: Ver máis…
+  - key: forms.less_options
+    t: Ver menos
 
-  # partners
+  # partners & sponsors
+  - key: sponsors.with_support_from
+    t: Co soporte especial de
   - key: sponsors.our_partners
-    t: Nosos Socios
+    t: Os nosos Socios
   - key: sponsors.become_partner
-    t: Converterse nun socio
+    t: Convértete nun socio
 
   # 404
   - key: notfound.title
     t: 404 Non Atopado
   - key: notfound.description
-    t: Sentímolo pero non poidemos atopar o que estabas buscando.
+    t: Sentímolo pero non atopamos o que estabas buscando.
 
   # other
   - key: general.join_discord
-    t: Únete a nós en <a href="{link}">Discord</a>.
+    t: Únete a nós no <a href="{link}">Discord</a>.
   - key: general.translator_mode
     t: Presiona option/alt para habilitar o modo traductor.
   - key: general.charts_nivo
     t: Gráficas construidas con <a href="{link}">Nivo</a>.
+  - key: general.made_by_devographics
+    t: Feito por <a href="{link}">Devographics</a>
+  - key: general.view_code_example
+    t: Ver código de exemplo
+  - key: general.feature_code_example
+    t: "Código de exemplo de **{featureName}**"
+  - key: general.code_example
+    t: Código de exemplo
+  - key: general.language_code
+    t: |
+      Código {language}
 
   ###########################################################################
   # Nav
@@ -155,7 +261,7 @@ translations:
   - key: sections.user_info.title
     t: Sobre Tí
   - key: sections.user_info.description
-    t: Deixanos coñecer ao teu verdadeiro eu.
+    t: Deixanos coñecer quen es de verdade.
 
   - key: sections.features.title
     t: Características
@@ -165,7 +271,7 @@ translations:
   - key: sections.resources.title
     t: Recursos
   - key: sections.resources.description
-    t: Que recursos consultas en relación a {topic}?
+    t: Que recursos consultas?
 
   - key: sections.opinions.title
     t: Opinións
@@ -176,21 +282,64 @@ translations:
     t: Outras Ferramentas
   - key: sections.other_tools.description
     t: Destas ferramentas e tecnoloxías, selecciona as que uses acotío.
+  - key: section.tools_others.title
+    aliasFor: section.other_tools.title
+  - key: section.tools_others.description
+    aliasFor: section.other_tools.description
 
   - key: sections.report.title
-    t: Informe de Tendencia
+    t: Informe de tendencia
+  
+  - key: sections.usage.title
+    t: Uso
+
+  - key: sections.finish.title
+    t: Rematar enquisa
+
+  - key: sections.finish.description
+    t: Rematar esta enquisa
 
   ###########################################################################
   # Options
   ###########################################################################
 
+  # other answer
+  - key: options.other
+    t: Outra…
+  - key: options.other.placeholder
+    t: Outros elementos non mencionados, separados por coma
+
   # features
   - key: options.features.never_heard
-    t: 🤷 Nunca oín falar diso/Non estou seguro do que é
+    t: <span aria-hidden="true">🤷</span> Nunca oín falar diso/Non estou seguro do que é
   - key: options.features.heard
-    t: ✅ Sei o que é, pero nunca o usei
+    t: <span aria-hidden="true">✅</span> Sei o que é, pero nunca o usei
   - key: options.features.used
-    t: 👍 Useino
+    t: <span aria-hidden="true">👍</span> Useino
+
+  # features v2
+  - key: options.features2.never_heard
+    t: <span class="option-chip option-main option-main-never_heard">Nunca oín falar diso/Non estou seguro do que é</option>
+  - key: options.features2.interested
+    t: |
+      <span class="option-chip option-main option-main-heard">Oín falar diso</span> » <span class="option-chip option-positive">Teño interese</span>
+  - key: options.features2.not_interested
+    t: |
+      <span class="option-chip option-main option-main-heard">Oín falar diso</span> » <span class="option-chip option-negative">Non teño interese</span>
+  - key: options.features2.used_positive
+    t: |
+      <span class="option-chip option-main option-main-used">Useino</span> » <span class="option-chip option-positive">Boa experiencia</span>
+  - key: options.features2.used_negative
+    t: |
+      <span class="option-chip option-main option-main-used">Useino</span> » <span class="option-chip option-negative">Mala experiencia</span>
+
+  # features (short)
+  - key: options.features.never_heard.short
+    t: <span aria-hidden="true">🤷</span> Nunca oín falar diso
+  - key: options.features.heard.short
+    t: <span aria-hidden="true">👀</span> Oín falar diso
+  - key: options.features.used.short
+    t: <span aria-hidden="true">🤓</span> Useino
 
   # features (no emoji)
   - key: options.features.never_heard.label
@@ -199,38 +348,38 @@ translations:
     t: Sei o que é, pero nunca o usei
   - key: options.features.used.label
     t: Useino
-
-  # features (short versions)
-  - key: options.features.never_heard.short
-    t: Nunca he oín falar diso
-  - key: options.features.heard.short
-    t: O coñezo
-  - key: options.features.used.short
+  
+  # features (no emoji, short versions)
+  - key: options.features.never_heard.label.short
+    t: Nunca oín falar diso
+  - key: options.features.heard.label.short
+    t: Oín falar diso
+  - key: options.features.used.label.short
     t: Useino
 
   # patterns
   - key: options.patterns.use_never
-    t: Case sempre o evito
+    t: Evítoo case sempre
   - key: options.patterns.use_sparingly
-    t: Raramente o uso
+    t: Úsoo raramente
   - key: options.patterns.use_neutral
     t: Neutro
   - key: options.patterns.use_frequently
-    t: O uso acotío
+    t: Úsoo acotío
   - key: options.patterns.use_always
-    t: O uso todo o que podo
+    t: Úsoo sempre que podo
 
   # tools experience
   - key: options.tools.never_heard
-    t: 🤷 Nunca oín falar diso/Non estou seguro do que é
+    t: <span aria-hidden="true">🤷</span> Nunca oín falar diso/Non estou seguro do que é
   - key: options.tools.interested
-    t: ✅ Oín falar diso > Quero aprenderlo
+    t: <span aria-hidden="true">✅</span> Oín falar diso > Quero aprenderlo
   - key: options.tools.not_interested
-    t: 🚫 Oín falar diso > Non estou interesado
+    t: <span aria-hidden="true">🚫</span> Oín falar diso > Non estou interesado
   - key: options.tools.would_use
-    t: 👍 Useino > O volvería a usar
+    t: <span aria-hidden="true">👍</span> Useino > Volveríao usar
   - key: options.tools.would_not_use
-    t: 👎 Useino > Non o volvería a usar
+    t: <span aria-hidden="true">👎</span> Useino > Non o volvería usar
 
   # tools experience (no emoji)
   - key: options.tools.never_heard.legend
@@ -240,19 +389,19 @@ translations:
   - key: options.tools.not_interested.legend
     t: Oín falar diso > Non estou interesado
   - key: options.tools.would_use.legend
-    t: Useino > O volvería a usar
+    t: Useino > Volveríao usar
   - key: options.tools.would_not_use.legend
-    t: Useino > Non o volvería a usar
+    t: Useino > Non o volvería usar
 
   # tools experience (short versions)
   - key: options.tools.never_heard.short
-    t: Nunca o oín
+    t: Nunca oín sobre iso
   - key: options.tools.interested.short
     t: Interesado
   - key: options.tools.not_interested.short
     t: Non estou interesado
   - key: options.tools.would_use.short
-    t: O volvería a usar
+    t: Volveríao usar
   - key: options.tools.would_not_use.short
     t: Non o usaría
 
@@ -282,15 +431,51 @@ translations:
 
   # opinions
   - key: options.opinions.0
-    t: Estou Moi en desacordo
+    t: Estou moi en desacordo
   - key: options.opinions.1
-    t: Estou en Desacordo
+    t: Estou en desacordo
   - key: options.opinions.2
     t: Neutro
   - key: options.opinions.3
-    t: Estou de Acordo
+    t: Estou dacordo
   - key: options.opinions.4
-    t: Estou Moi de acordo
+    t: Estou moi dacordo
+  
+  # age
+  - key: options.age.range_less_than_10
+    t: 10 anos ou menos
+  - key: options.age.range_10_18
+    t: 11-18 anos
+  - key: options.age.range_18_24
+    t: 19-24 anos
+  - key: options.age.range_25_34
+    t: 25-34 anos
+  - key: options.age.range_35_44
+    t: 35-44 anos
+  - key: options.age.range_45_54
+    t: 45-54 anos
+  - key: options.age.range_55_64
+    t: 55-64 anos
+  - key: options.age.range_more_than_65
+    t: 65 anos ou máis
+
+  # age (short versions)
+  - key: options.age.range_less_than_10.short
+    t: "<=10"
+  - key: options.age.range_10_18.short
+    t: 11-18
+  - key: options.age.range_18_24.short
+    t: 19-24
+  - key: options.age.range_25_34.short
+    t: 25-34
+  - key: options.age.range_35_44.short
+    t: 35-44
+  - key: options.age.range_45_54.short
+    t: 45-54
+  - key: options.age.range_55_64.short
+    t: 55-64
+  - key: options.age.range_more_than_65.short
+    t: ">65"
 
   # years of experience
   - key: options.years_of_experience.range_less_than_1
@@ -321,42 +506,48 @@ translations:
     t: ">20"
 
   # company size
+  - key: options.company_size.na
+    t: 🚫 Non aplicable
   - key: options.company_size.range_1
-    t: Un empregado
+    t: Só eu
   - key: options.company_size.range_1_5
-    t: De 1 a 5 empregados
+    t: De 2 a 5 empregados
   - key: options.company_size.range_5_10
-    t: De 5 a 10 empregados
+    t: De 6 a 10 empregados
   - key: options.company_size.range_10_20
-    t: De 10 a 20 empregados
+    t: De 11 a 20 empregados
   - key: options.company_size.range_20_50
-    t: De 20 a 50 empregados
+    t: De 21 a 50 empregados
   - key: options.company_size.range_50_100
-    t: De 50 a 100 empregados
+    t: De 51 a 100 empregados
   - key: options.company_size.range_100_1000
-    t: De 100 a 1000 empregados
+    t: De 101 a 1000 empregados
   - key: options.company_size.range_more_than_1000
     t: Máis de 1000 empregados
 
   # company size (short versions)
+  - key: options.company_size.na.short
+    t: N/A
   - key: options.company_size.range_1.short
-    t: 1
+    t: "1"
   - key: options.company_size.range_1_5.short
-    t: 1-5
+    t: 2-5
   - key: options.company_size.range_5_10.short
-    t: 5-10
+    t: 6-10
   - key: options.company_size.range_10_20.short
-    t: 10-20
+    t: 11-20
   - key: options.company_size.range_20_50.short
-    t: 20-50
+    t: 21-50
   - key: options.company_size.range_50_100.short
-    t: 50-100
+    t: 51-100
   - key: options.company_size.range_100_1000.short
-    t: 100-1000
+    t: 101-1000
   - key: options.company_size.range_more_than_1000.short
     t: ">1000"
 
   # salary
+  - key: options.yearly_salary.na
+    t: 🚫 Non aplicable
   - key: options.yearly_salary.range_work_for_free
     t: Traballo de balde
   - key: options.yearly_salary.range_0_10
@@ -373,89 +564,35 @@ translations:
     t: Máis de $200k
 
   # salary (short versions)
+  - key: options.yearly_salary.na.short
+    t: N/A
   - key: options.yearly_salary.range_work_for_free.short
     t: "0"
   - key: options.yearly_salary.range_0_10.short
-    t: 0~10k
+    t: $0-$10k
   - key: options.yearly_salary.range_10_30.short
-    t: 10~30k
+    t: $10k-$30k
   - key: options.yearly_salary.range_30_50.short
-    t: 30~50k
+    t: $30k-$50k
   - key: options.yearly_salary.range_50_100.short
-    t: 50~100k
+    t: $50k-$100k
   - key: options.yearly_salary.range_100_200.short
-    t: 100~200k
+    t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200.short
-    t: ">200k"
-
-  # job titles
-  - key: options.job_title.cto
-    t: Xefe de Tecnoloxía CTO
-  - key: options.job_title.front_end_developer
-    t: Desenvolvedor Front-end/Enxeñeiro
-  - key: options.job_title.back_end_developer
-    t: Desenvolvedor Back-end/Enxeñeiro
-  - key: options.job_title.full_stack_developer
-    t: Desenvolvedor Full Stack/Enxeñeiro
-  - key: options.job_title.web_developer
-    t: Desenvolvedor Web
-  - key: options.job_title.web_designer
-    t: Deseñador Web
-  - key: options.job_title.ux_designer
-    t: Deseñador UX
-  - key: options.job_title.ui_designer
-    t: Deseñador UI
-  - key: options.job_title.back_end_dev
-    t: Desenvolvedor back-end/Enxeñeiro
-
-  # JavaScript proficiency
-  - key: options.javascript_proficiency.0
-    t: Non son quen de escribir JavaScript
-  - key: options.javascript_proficiency.1
-    t: Escribo código sinxelo en JavaScript ou jQuery
-  - key: options.javascript_proficiency.2
-    t: Traballo en proxectos existentes de front usando frameworks modernos (React, Vue, etc.)
-  - key: options.javascript_proficiency.3
-    t: Creo proxectos completos desde cero
-  - key: options.javascript_proficiency.4
-    t: Manexo patróns complexos no front (manexo de estado, carga de datos, etc.)
-
-  # CSS proficiency
-  - key: options.css_proficiency.0
-    t: Non teño ningún coñecimento de CSS
-  - key: options.css_proficiency.1
-    t: Uso CSS frameworks e modifico estilos existentes
-  - key: options.css_proficiency.2
-    t: Coñezo as regras de especificidade, e son quen de crear layouts
-  - key: options.css_proficiency.3
-    t: Domino as animacións, interaccións, transicións, etc.
-  - key: options.css_proficiency.4
-    t: Son capaz de dar estilos dende cero a un proxecto segundo metodoloxías consistentes
-
-  # Back-end proficiency
-  - key: options.backend_proficiency.0
-    t: Non son quen de facer nada no backend.
-  - key: options.backend_proficiency.1
-    t: Son quen de montar CMSs (WordPress, etc.) ou usar xeneradores de páginas estáticas (Jekyll, etc.)
-  - key: options.backend_proficiency.2
-    t: Son quen de desenvolver aplicacións usando frameworks existentes (Rails, Laravel, etc.)
-  - key: options.backend_proficiency.3
-    t: Son quen de montar un backend desde cero (Go, Node.js, etc.)
-  - key: options.backend_proficiency.4
-    t: Son quen de manexar arquitecturas complexas con multi-servizos o micro-servizos
+    t: ">$200k"
 
   # Proficiency (generic versions)
   - key: options.proficiency.0
     t: Ningunha
   - key: options.proficiency.1
-    t: Novizo
+    t: Principiante
   - key: options.proficiency.2
     t: Intermedio
   - key: options.proficiency.3
     t: Avanzado
   - key: options.proficiency.4
     t: Experto
-
+  
   # Gender
 
   - key: options.gender.female
@@ -463,78 +600,183 @@ translations:
   - key: options.gender.male
     t: Home
   - key: options.gender.non_binary
-    t: No-Binario/Terceiro Xénero
+    t: Non binario ou inconformidade de xénero
+  - key: options.gender.questioning
+    t: Estouno cuestionando
   - key: options.gender.prefer_not_to_say
     t: Prefiro non dicilo
+  - key: options.gender.not_listed
+    t: Ningún destes
+  
+  # Gender (short)
 
+  - key: options.gender.female.short
+    t: Muller
+  - key: options.gender.male.short
+    t: Home
+  - key: options.gender.non_binary.short
+    t: Non binario ou non conforme
+  - key: options.gender.questioning.short
+    t: Cuestionándoo
+  - key: options.gender.prefer_not_to_say.short
+    t: Prefiro non dicilo
+  - key: options.gender.not_listed.short
+    t: Ningún destes
+  
   # Race & Ethnicity
 
   - key: options.race_ethnicity.white_european
-    t: Branco ou descendente de Europeos
+    t: Branco
   - key: options.race_ethnicity.south_asian
-    t: Asiático do Sur
+    t: Do sur asiático
+  - key: options.race_ethnicity.south_east_asian
+    t: Do sueste asiático
   - key: options.race_ethnicity.hispanic_latin
     t: Hispano ou Latino
   - key: options.race_ethnicity.east_asian
-    t: Asiático do Este
+    t: Do leste asiático
   - key: options.race_ethnicity.middle_eastern
-    t: De Oriente Medio
+    t: Oriente medio
   - key: options.race_ethnicity.black_african
-    t: Negro ou descendente de Africanos
+    t: Negro ou descendente de África
   - key: options.race_ethnicity.multiracial
     t: Multirracial
   - key: options.race_ethnicity.biracial
     t: Birracial
   - key: options.race_ethnicity.native_american_islander_australian
-    t: Nativo Americano, das Illas do Pacífico ou Indíxena Australiano
+    t: Nativo americano, das illas do Pacífico ou indíxena australiano
+  - key: options.race_ethnicity.not_listed
+    t: Ningúnha das opcións
 
+  - key: options.race_ethnicity.european
+    t: Europeo
+  - key: options.race_ethnicity.indian
+    t: Índio
+  - key: options.race_ethnicity.human
+    t: Humano
+  - key: options.race_ethnicity.slav
+    t: Eslavo
+  - key: options.race_ethnicity.north_african
+    t: Norte africano
+  - key: options.race_ethnicity.jewish
+    t: Xudeu
+
+  # Race & Ethnicity (short)
+
+  - key: options.race_ethnicity.white_european.short
+    t: Branco
+  - key: options.race_ethnicity.south_asian.short
+    t: Sur asiático
+  - key: options.race_ethnicity.south_east_asian.short
+    t: Sueste asiático
+  - key: options.race_ethnicity.hispanic_latin.short
+    t: Hispano/Latino
+  - key: options.race_ethnicity.east_asian.short
+    t: Leste asiático
+  - key: options.race_ethnicity.middle_eastern.short
+    t: Oriente medio
+  - key: options.race_ethnicity.black_african.short
+    t: Negro/Descendente africano
+  - key: options.race_ethnicity.multiracial.short
+    t: Multirracial
+  - key: options.race_ethnicity.biracial.short
+    t: Birracial
+  - key: options.race_ethnicity.native_american_islander_australian.short
+    t: Nativo americano/Illas do pacífico/Indixena australiano
+  - key: options.race_ethnicity.not_listed.short
+    t: Ningúnha das opcións
+  
+  # Disability Status
+  - key: options.disability_status.na
+    t: 🚫 Ningunha
+  - key: options.disability_status.visual_impairments
+    t: >
+      Discapacidade visual (cegueira, daltonismo etc.)
+  - key: options.disability_status.hearing_impairments
+    t: >
+      Discapacidade auditiva (xordeira, zunido etc.)
+  - key: options.disability_status.mobility_impairments
+    t: >
+      Mobilidade reducida (artrite, arco do carpo etc.)
+  - key: options.disability_status.cognitive_impairments
+    t: >
+      Discapacidade cognitiva (ansiedade, dislexia, TDAH etc.)
+  - key: options.disability_status.not_listed
+    t: >
+      Ningunha das opcións
+  
+  # Disability Status (short)
+  - key: options.disability_status.visual_impairments.short
+    t: >
+      Discapacidade visual
+  - key: options.disability_status.hearing_impairments.short
+    t: >
+      Discapacidade auditiva
+  - key: options.disability_status.mobility_impairments.short
+    t: >
+      Mobilidade reducida
+  - key: options.disability_status.cognitive_impairments.short
+    t: >
+      Discapacidade cognitiva
+  - key: options.disability_status.not_listed.short
+    t: >
+      Ningunha das opcións
+  
   # Form Factors
   - key: options.form_factors.desktop
     t: Escritorio
+  - key: options.form_factors.keyboard_only
+    t: Escritorio só con teclado
   - key: options.form_factors.smartphone
-    t: Telefono intelixente
+    t: Teléfono intelixente
   - key: options.form_factors.feature_phone
-    t: Teléfono móbil (non intelixente)
+    t: Teléfono básico
   - key: options.form_factors.tablet
     t: Tableta
   - key: options.form_factors.smart_watch
-    t: Reloxo intelixente
+    t: Reloxio intelixente
   - key: options.form_factors.tv
     t: TV
   - key: options.form_factors.gaming_console
-    t: Consola de xogos
+    t: Consola de videoxogos
   - key: options.form_factors.screen_reader
     t: Lector de pantalla
   - key: options.form_factors.print
-    t: Para imprimir
+    t: Impresora
+  - key: options.form_factors.testing_tools
+    t: Ferramentas de probas (Axe, Lighthouse etc.)
+  - key: options.form_factors.vision_simulator
+    t: Simulador de visión alterada (daltonismo etc.)
 
   # Industry Sector
   - key: options.industry_sector.ecommerce
-    t: Comercio electrónico e Venda Minorista
+    t: Comercio electrónico e venda ao por menor
   - key: options.industry_sector.news_media
-    t: Novas, Medios e Blogs
+    t: Novas, medios e blogs
   - key: options.industry_sector.healthcare
-    t: Coidado da Saúde
+    t: Saúde
   - key: options.industry_sector.finance
     t: Finanzas
   - key: options.industry_sector.programming_tools
-    t: Programación e Ferramentas Técnicas
+    t: Programación e ferramentas tecnolóxicas
   - key: options.industry_sector.socialmedia
-    t: Social Media
+    t: Redes sociais
   - key: options.industry_sector.marketing_tools
-    t: Ferramentas de Marketing/Vendas/Análisis
+    t: Ferramentas de marketing/ventas/análise
   - key: options.industry_sector.education
     t: Educación
   - key: options.industry_sector.real_estate
-    t: Bens raíces
+    t: Bens inmobles
   - key: options.industry_sector.government
     t: Goberno
   - key: options.industry_sector.entertainment
     t: Entretemento
   - key: options.industry_sector.consulting
-    t: Servizos de Consultoría
+    t: Consultoría e servizos
   - key: options.industry_sector.travel
     t: Viaxes
+  - key: options.industry_sector.tourism
+    t: Turismo
   - key: options.industry_sector.insurance
     t: Seguros
   - key: options.industry_sector.logistics
@@ -544,21 +786,326 @@ translations:
   - key: options.industry_sector.telecommunications
     t: Telecomunicacións
   - key: options.industry_sector.student
-    t: Estudante
+    t: Estudos
   - key: options.industry_sector.hospitality
-    t: Hostelería
+    t: Hostalería
   - key: options.industry_sector.cyber_security
-    t: Seguridade Cibernética
+    t: Ciberseguridade
   - key: options.industry_sector.construction
     t: Construción
   - key: options.industry_sector.automotive
-    t: Automotor
+    t: Automoción
   - key: options.industry_sector.agriculture
     t: Agricultura
   - key: options.industry_sector.transport
     t: Transporte
   - key: options.industry_sector.manufacturing
     t: Fabricación
+
+  - key: options.industry_sector.tech_it
+    t: Tecnoloxía e TI
+  - key: options.industry_sector.human_resources
+    t: Recursos humanos
+  - key: options.industry_sector.sports
+    t: Deportes
+  - key: options.industry_sector.gaming
+    t: Xogos
+  - key: options.industry_sector.research
+    t: Investigación
+  - key: options.industry_sector.law
+    t: Dereito
+  - key: options.industry_sector.non_profit
+    t: Sen ánimo de lucro
+  - key: options.industry_sector.art
+    t: Arte
+  - key: options.industry_sector.crypto
+    t: Cripto
+  - key: options.industry_sector.aerospace
+    t: Aeroespacial
+  - key: options.industry_sector.web3
+    t: Web3
+  - key: options.industry_sector.iot
+    t: Internet das cousas
+  - key: options.industry_sector.gambling
+    t: Xogos de azar
+  - key: options.industry_sector.blockchain
+    t: Blockchain
+  - key: options.industry_sector.design
+    t: Deseño
+  - key: options.industry_sector.unemployed
+    t: Desempregado
+
+  # tool evaluation
+  - key: options.tool_evaluation.learning_curve_documentation
+    t: Documentación
+  - key: options.tool_evaluation.learning_curve_documentation.description
+    t: É fácil de aprender e/ou está ben documentado?
+  - key: options.tool_evaluation.momentum_popularity
+    t: Popularidade actual
+  - key: options.tool_evaluation.momentum_popularity.description
+    t: Está a xerar moito ruído actualmente?
+  - key: options.tool_evaluation.user_base_size
+    t: Número de xente que o usa
+  - key: options.tool_evaluation.user_base_size.description
+    t: É unha opción consolidada cunha longa traxectoria?
+  - key: options.tool_evaluation.developer_experience_tooling
+    t: Experiencia de uso no desenvolvemento
+  - key: options.tool_evaluation.developer_experience_tooling.description
+    t: Ten boas ferramentas para desenvolvedores, un gran ecosistema de plugins etc?
+  - key: options.tool_evaluation.performance_user_experience
+    t: Experiencia de uso
+  - key: options.tool_evaluation.performance_user_experience.description
+    t: Axuda a crear experiencias de uso fluídas e con bo rendemento?
+  - key: options.tool_evaluation.creator_team
+    t: A persoa que o creou & equipo
+  - key: options.tool_evaluation.creator_team.description
+    t: Está apoiado por un equipo coñecido, ben financiado ou experimentado?
+  - key: options.tool_evaluation.accessibility_features
+    t: Características de accesibilidade
+  - key: options.tool_evaluation.accessibility_features.description
+    t: É bo para crear experiencias accesibles para todos os usuarios?
+  - key: options.tool_evaluation.community_inclusivity
+    t: Comunidade e inclusión
+  - key: options.tool_evaluation.community_inclusivity.description
+    t: Ten unha comunidade acolledora e activa ao seu redor?
+
+  # accessibility features
+  - key: options.accessibility_features.keyboard_navigation
+    t: Navegación por teclado
+  - key: options.accessibility_features.compliant_contrast
+    t: Contraste compatible co WCAG
+  - key: options.accessibility_features.focus_indicators
+    t: Indicadores do estado Focus
+  - key: options.accessibility_features.skip_to_content_link
+    t: Ligazón para ir ao contido
+  - key: options.accessibility_features.color_themes
+    t: Temas de cores (modo escuro, modo de alto contraste etc.)
+  - key: options.accessibility_features.prefers_reduced_motion
+    t: Prefers-reduced-motion
+  - key: options.accessibility_features.alt_text
+    t: Textos alternativos
+  - key: options.accessibility_features.semantic_markup
+    t: Marcado semántico
+  - key: options.accessibility_features.aria_attributes
+    t: Atributos HTML ARIA
+
+  # learning methods
+  - key: options.first_steps.na
+    t: 🚫 Ningún
+  - key: options.first_steps.books
+    t: Libros
+  - key: options.first_steps.videos
+    t: Vídeos e screencasts
+  - key: options.first_steps.school
+    t: Escola e educación superior
+  - key: options.first_steps.courses_free
+    t: Cursos online (de balde)
+  - key: options.first_steps.courses_paid
+    t: Cursos online (de pago)
+  - key: options.first_steps.podcasts
+    t: Podcasts
+  - key: options.first_steps.bootcamp
+    t: Bootcamp
+  - key: options.first_steps.on_the_job
+    t: Aprendo mentres traballo
+  - key: options.first_steps.self_directed
+    t: Aprendo buscando información (Google, Stack Overflow, etc.)
+  - key: options.first_steps.mentoring
+    t: Mentoría
+
+  - key: options.first_steps.documentation
+    t: Documentación
+  - key: options.first_steps.blogs
+    t: Blogs
+  - key: options.first_steps.view_source
+    t: Ver o código
+  - key: options.first_steps.trial_and_error
+    t: Proba e erro
+  - key: options.first_steps.forums
+    t: Foros
+  - key: options.first_steps.newsletters
+    t: Boletíns
+  - key: options.first_steps.events
+    t: Eventos
+
+  # learning methods
+
+  - key: resources.learning_methods
+    t: Métodos de aprendizaxe
+
+  - key: options.learning_methods.na
+    aliasFor: options.first_steps.na
+  - key: options.learning_methods.books
+    aliasFor: options.first_steps.books
+  - key: options.learning_methods.videos
+    aliasFor: options.first_steps.videos
+  - key: options.learning_methods.school
+    aliasFor: options.first_steps.school
+  - key: options.learning_methods.courses_free
+    aliasFor: options.first_steps.courses_free
+  - key: options.learning_methods.courses_paid
+    aliasFor: options.first_steps.courses_paid
+  - key: options.learning_methods.podcasts
+    aliasFor: options.first_steps.podcasts
+  - key: options.learning_methods.bootcamp
+    aliasFor: options.first_steps.bootcamp
+  - key: options.learning_methods.on_the_job
+    aliasFor: options.first_steps.on_the_job
+  - key: options.learning_methods.self_directed
+    aliasFor: options.first_steps.self_directed
+  - key: options.learning_methods.mentoring
+    aliasFor: options.first_steps.mentoring
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.blogs
+    aliasFor: options.first_steps.blogs
+  - key: options.learning_methods.view_source
+    aliasFor: options.first_steps.view_source
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.trial_and_error
+    aliasFor: options.first_steps.trial_and_error
+  - key: options.learning_methods.forums
+    aliasFor: options.first_steps.forums
+  - key: options.learning_methods.newsletters
+    aliasFor: options.first_steps.newsletters
+  - key: options.learning_methods.events
+    aliasFor: options.first_steps.events
+
+  # degree
+  - key: options.higher_education_degree.no_degree
+    t: Non
+  - key: options.higher_education_degree.yes_related
+    t: Si, nun campo relacionado coa miña profesión actual
+  - key: options.higher_education_degree.yes_unrelated
+    t: Si pero nun campo non relacionado coa miña profesión actual
+
+  # degree (short versions)
+  - key: options.higher_education_degree.no_degree.short
+    t: Non
+  - key: options.higher_education_degree.yes_related.short
+    t: Si, relacionado co que fago
+  - key: options.higher_education_degree.yes_unrelated.short
+    t: Si, pero non relacionado
+
+  # employment_status
+  - key: options.employment_status.full_time
+    t: A tempo completo
+  - key: options.employment_status.student
+    t: Estudante
+  - key: options.employment_status.self_employed
+    t: Por conta propia
+  - key: options.employment_status.contractor
+    t: Contratado autónomo
+  - key: options.employment_status.part_time
+    t: A tempo parcial
+  - key: options.employment_status.between_jobs
+    t: Estou entre postos de traballo
+  - key: options.employment_status.retired
+    t: Xubilado
+
+  # bracket
+  - key: options.bracket.round1
+    t: Gaña a rolda 1
+  - key: options.bracket.round2
+    t: Gaña a rolda 2
+  - key: options.bracket.round3
+    t: Gaña a rolda 3
+  - key: options.bracket.combined
+    t: Combinado
+
+  # email_temporary (receive updates?)
+  - key: options.receive_notifications.yes
+    t: Si, envíame un correo electrónico cando se publiquen os resultados da enquisa
+
+  # usage type
+
+  - key: usage.usage_type
+    t: Tipo de uso
+
+  - key: options.usage_type.professionally
+    t: Profesional
+  - key: options.usage_type.student
+    t: Como estudante
+  - key: options.usage_type.hobby
+    t: Como pasatempo
+
+  - key: options.percentage_segments.range_0_10
+    t: 0-10%
+  - key: options.percentage_segments.range_11_20
+    t: 11-20%
+  - key: options.percentage_segments.range_21_30
+    t: 21-30%
+  - key: options.percentage_segments.range_31_40
+    t: 31-40%
+  - key: options.percentage_segments.range_41_50
+    t: 41-50%
+  - key: options.percentage_segments.range_51_60
+    t: 51-60%
+  - key: options.percentage_segments.range_61_70
+    t: 61-70%
+  - key: options.percentage_segments.range_71_80
+    t: 71-80%
+  - key: options.percentage_segments.range_81_90
+    t: 81-90%
+  - key: options.percentage_segments.range_91_100
+    t: 91-100%
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_11_20
+    aliasFor: options.percentage_segments.range_11_20
+  - key: options.completion_stats.range_21_30
+    aliasFor: options.percentage_segments.range_21_30
+  - key: options.completion_stats.range_31_40
+    aliasFor: options.percentage_segments.range_31_40
+  - key: options.completion_stats.range_41_50
+    aliasFor: options.percentage_segments.range_41_50
+  - key: options.completion_stats.range_51_60
+    aliasFor: options.percentage_segments.range_51_60
+  - key: options.completion_stats.range_61_70
+    aliasFor: options.percentage_segments.range_61_70
+  - key: options.completion_stats.range_71_80
+    aliasFor: options.percentage_segments.range_71_80
+  - key: options.completion_stats.range_81_90
+    aliasFor: options.percentage_segments.range_81_90
+  - key: options.completion_stats.range_91_100
+    aliasFor: options.percentage_segments.range_91_100
+
+  - key: options.knowledge_score.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.knowledge_score.range_11_20
+    aliasFor: options.percentage_segments.range_11_20
+  - key: options.knowledge_score.range_21_30
+    aliasFor: options.percentage_segments.range_21_30
+  - key: options.knowledge_score.range_31_40
+    aliasFor: options.percentage_segments.range_31_40
+  - key: options.knowledge_score.range_41_50
+    aliasFor: options.percentage_segments.range_41_50
+  - key: options.knowledge_score.range_51_60
+    aliasFor: options.percentage_segments.range_51_60
+  - key: options.knowledge_score.range_61_70
+    aliasFor: options.percentage_segments.range_61_70
+  - key: options.knowledge_score.range_71_80
+    aliasFor: options.percentage_segments.range_71_80
+  - key: options.knowledge_score.range_81_90
+    aliasFor: options.percentage_segments.range_81_90
+  - key: options.knowledge_score.range_91_100
+    aliasFor: options.percentage_segments.range_91_100
+
+  # source
+  - key: options.source.angular_community
+    t: Comunidade de Angular
+  - key: options.source.work
+    t: Lugar de traballo
+  - key: options.source.word_of_mouth
+    t: De boca a boca
+  - key: options.source.podcast
+    t: Podcasts
+  - key: options.source.other_online_sources
+    t: Outras fontes online
+  - key: options.source.blog
+    t: Blogs
 
   ###########################################################################
   # Tools
@@ -567,39 +1114,45 @@ translations:
   - key: tools.other_tools
     t: Outras Opcións
   - key: tools.other_tools.description
-    t: Outras opcións que uses nesta sección e que non teñamos mentado
+    t: Outras opcións que uses nesta sección que non aparezan na lista
   - key: tools.happiness
-    t: Satisfacción Xeral
+    t: Satisfacción xeral
   - key: tools.happiness.description
     t: >
-      Nunha escala do un (moi insatisfeito) a cinco (moi satisfeito), como de satisfeito estás
+      Nunha escala do un (moi insatisfeito) ao cinco (moi satisfeito), como de satisfeito estás
       có estado xeral dos elementos relacionados coas opcións expostas anteriormente?
 
   ###########################################################################
   # Demographics (About You/User Info)
   ###########################################################################
 
+  # age
+  - key: user_info.age
+    t: Idade
+  - key: user_info.age.description
+    t: Cantos anos tes?
+
   # years of experience
   - key: user_info.years_of_experience
     t: Anos de Experiencia
   - key: user_info.years_of_experience.description
-    t: Canto tempo levas traballando ou estudando neste eido?
+    t: Cantos anos levas traballando ou estudando neste eido?
 
   # company size
   - key: user_info.company_size
-    t: Tamaño da túa Empresa
+    t: Tamaño da empresa onde traballas
   - key: user_info.company_size.description
-    t: Como é a túa empresa de grande?
+    t: Canta xente traballa na empresa, incluíndote a ti?
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Soldo Anual
   - key: user_info.yearly_salary.description
-    t: En USD.
+    t: Salario bruto anual en dólares americanos (USD).
 
   # job title
   - key: user_info.job_title
-    t: Título Laboral
+    t: Posto laboral
   - key: user_info.job_title.description
     t: Como te presentas a ti mesmo nas festas?
 
@@ -613,126 +1166,182 @@ translations:
   - key: user_info.css_proficiency
     t: Competencia con CSS
   - key: user_info.css_proficiency.description
-    t: Comode competente es con CSS?
+    t: Como de competente es con CSS?
 
   # backend proficiency
   - key: user_info.backend_proficiency
-    t: Competencia no Backend
+    t: Competencia no back-end
   - key: user_info.backend_proficiency.description
-    t: Cómo de competente es no backend?
+    t: Cómo de competente es no back-end?
 
   # gender
   - key: user_info.gender
     t: Xénero
+  - key: user_info.gender.description
+    t: >
+      Cal das seguintes opcións te describe mellor, se hai algunha? Selecciona unha.
+  - key: user_info.gender.note
+    t: >
+      Aínda que sabemos que recoller e publicar datos sobre a diversidade pode ser un tema delicado,
+      pensamos que é importante ter estos datos para axudar a medir e ampliar os esforzos
+      para mellorar a enquisa en termos de inclusividade e representatibilidade.
 
-  # skin tone/appearance
+  # race & ethnicity
   - key: user_info.race_ethnicity
     t: Raza e Etnia
+  - key: user_info.race_ethnicity.description
+    t: >
+      Cal das seguintes opcións te describe mellor, se hai alguna? Selecciona todas as que queiras.
+  - key: user_info.race_ethnicity.note
+    t: >
+      Aínda que sabemos que recoller e publicar datos sobre a diversidade pode ser un tema delicado,
+      pensamos que é importante ter estos datos para axudar a medir e ampliar os esforzos
+      para mellorar a enquisa en termos de inclusividade e representatibilidade.
+  - key: user_info.race_ethnicity.not_allowed
+    t: >
+      Co fin de cumprir coas políticas locais, a recollida de raza ou etnia foi
+        deshabilitada para o teu país ou rexión.
+  - key: user_info.race_ethnicity.others
+    t: Outras razas ou etnias
+  - key: user_info.race_ethnicity_freeform
+    aliasFor: user_info.race_ethnicity.others
+
+  # disability status
+  - key: user_info.disability_status
+    t: Estado de discapacidade
+  - key: user_info.disability_status.description
+    t: >
+      Cales das seguintes discapacidades experimentas, se tes algunha? Selecciona todas as que queiras.
+      Ten en conta que podes incluír discapacidades temporais ou feridas.
+
+  # disability status (other)
+  - key: user_info.disability_status.others
+    t: Outras discapacidades
+  - key: user_info.disability_status_freeform
+    aliasFor: user_info.disability_status.others
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
     t: Como soubeches desta enquisa?
   - key: user_info.email
-    t: Teu Correo Electrónico
+    t: O teu correo electrónico
+  - key: user_info.email.description
+    t: >
+      Cubriches a enquisa de forma anónima. Se queres, podes opcionalmente engadir o teu correo electrónico para poder acceder aos teus datos máis tarde, e recibir unha notificación cando os resultados da enquisa se publiquen.
+  - key: user_info.email.note
+    t: >
+      Non gardamos ningún dato persoal, despois de que cubrires este campo co teu correo electrónico, usarémolo para xerar un identificador ano fill in your email address we will use it to generate a unique anonimizado único e eliminaremos a dirección da nosa base de datos.
   - key: user_info.country
-    t: Teu País ou Rexión
+    t: O teu país ou rexión
+  - key: user_info.country.description
+    t: Onde resides actualmente?
+
   - key: user_info.github_username
-    t: Teu usuario de GitHub
+    t: O teu usuario de GitHub
   - key: user_info.github_username.description
     t: >
       Poderíamos usar nomes de usuario de GitHub no 
-      futuro para ver repositorios e referencias cruzadas 
-      de información dispoñible públicamente.
+      futuro para ver repositorios e referencias cruzadas de información dispoñible públicamente.
+
+  - key: user_info.twitter_username
+    t: O teu usuario de Twitter
+  - key: user_info.twitter_username.description
+    t: >
+      Poderíamos usar os usuarios de Twitter no futuro
+      para ver a actividade de Twitter e referencias cruzadas de información dispoñible públicamente
+       (como a lista de xente á que sigues).
+
   - key: user_info.industry_sector
-    t: Sector de Industria
+    t: Sector industrial
   - key: user_info.industry_sector.description
-    t: En que sector(es) da industria traballas?
+    t: En que sector(es) industriais traballas?
   - key: user_info.industry_sector.others
-    t: Outros sectores da Industria
+    t: Outros sectores industriais
   - key: user_info.industry_sector.others.description
-    t: Outros sectores da industria nos que traballas non mencionados anteriormente.
+    t: Outros sectores industriais nos que traballas non mencionados anteriormente.
+  
+  - key: usage.industry_sector
+    aliasFor: user_info.industry_sector
+  - key: usage.industry_sector.description
+    aliasFor: user_info.industry_sector.description
+  - key: usage.industry_sector.others
+    aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector_freeform
+    aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector.others.description
+    aliasFor: user_info.industry_sector.description
+  
+  # degree
+  - key: user_info.higher_education_degree
+    t: Grao de educación superior
+  - key: user_info.higher_education_degree.description
+    t: Tes algún grao de educación superior?
+
+  # employment status
+  - key: user_info.employment_status
+    t: Situación laboral
+  - key: user_info.employment_status.description
+    t: Cal é a túa situación laboral?
+
+  # completion
+  - key: user_info.completion_stats
+    t: Finalización da enquisa
+  - key: user_info.completion_stats.description
+    t: Que proporción da enquisa cubriron os entrevistados?
+
+  # email_temporary (receive updates?)
+  - key: user_info.receive_notifications
+    t: Queres ser notificado cando os datos da enquisa sexan publicados?
+  - key: user_info.receive_notifications.note
+    t: >
+      Non gardamos ningún dato privado, despois de que enviarlle a túa dirección de correo electrónico ao noso 
+      proveedor de lista de correo, borrarémolo da nosa base de datos.
+
+  # how can we improve the survey?
+  - key: user_info.how_can_we_improve
+    t: Como poderíamos mellorar esta enquisa?
 
   ###########################################################################
-  # Other Tools
+  # Usage
   ###########################################################################
-
-  - key: tools_others.libraries
-    t: Librarías
-  - key: tools_others.libraries.description
-    t: Que librarías usas regularmente?
-  - key: tools_others.libraries.others
-    t: Outras Librarías
-  - key: tools_others.libraries.others.description
-    t: Outras Respostas (eido libre).
-
-  - key: tools_others.text_editors
-    t: Editores de Texto
-  - key: tools_others.text_editors.description
-    t: Que editor(es) de texto usas habitualmente?
-  - key: tools_others.text_editors.others
-    t: Outros Editores de Texto
-  - key: tools_others.text_editors.others.description
-    t: Outras respostas (eido para texto libre).
-
-  - key: tools_others.utilities
-    t: Utilidades
-  - key: tools_others.utilities.description
-    t: Que librarías de utilidades usas habitualmente?
-  - key: tools_others.utilities.others
-    t: Outras Utilidades
-  - key: tools_others.utilities.others.description
-    t: Outras respostas (eido para texto libre).
-
-  - key: tools_others.browsers
-    t: Navegadores
-  - key: tools_others.browsers.description
-    t: Con que navegador(es) traballas principalmente durante o desenvolvemento inicial?
-  - key: tools_others.browsers.others
-    t: Outros Navegadores
-  - key: tools_others.browsers.others.description
-    t: Outras respostas (eido para texto libre).
-
-  - key: tools_others.build_tools
-    t: Ferramentas de Construcción
-  - key: tools_others.build_tools.description
-    t: Que ferramentas de construcción empregas?
-  - key: tools_others.build_tools.others
-    t: Outras Ferramentas de Construcción
-  - key: tools_others.build_tools.others.description
-    t: Outras respostas (eido para texto libre).
-
-  - key: tools_others.non_js_languages
-    t: Outras Linguaxes (non relacionadas con JavaScript)
-  - key: tools_others.non_js_languages.description
-    t: Que outras linguaxes de programación empregas?
-  - key: tools_others.non_js_languages.others
-    t: Outras Linguaxes
-  - key: tools_others.non_js_languages.others.description
-    t: Outras respostas (eido para texto libre).
 
   ###########################################################################
   # Resources
   ###########################################################################
 
+  # first steps
+  - key: resources.first_steps
+    t: Métodos iniciais de aprendizaxe
+  - key: resources.first_steps.description
+    t: Como aprendiches a escribir código nos teus comezos?
+  - key: resources.first_steps.others
+    t: Outros métodos iniciais de aprendizaxe
+  - key: resources.first_steps.others.description
+    t: Outras respostas (campo de texto libre).
+
   # blogs & magazines
   - key: resources.blogs_news_magazines
-    t: Blogs e Revistas
+    t: Blogs e revistas
   - key: resources.blogs_news_magazines.description
     t: Que blogs/revistas/etc. acostumas ler?
   - key: resources.blogs_news_magazines.others
-    t: Outros Blogs e Revistas
+    t: Outros blogs e revistas
   - key: resources.blogs_news_magazines.others.description
-    t: Outras respostas (eido para texto libre).
+    t: Outras respostas (campo de texto libre).
+  - key: options.blogs_news_magazines.na
+    t: 🚫 Ningún
 
   # sites & courses
   - key: resources.sites_courses
-    t: Sitios Web e Cursos
+    t: Páxinas web e cursos
   - key: resources.sites_courses.description
-    t: Que sitios web/cursos/etc. acostumas consultar?
+    t: Que páxinas web/cursos/etc. acostumas consultar?
   - key: resources.sites_courses.others
-    t: Outros Sitios Web e Cursos
+    t: Outras páxinas webs e cursos
   - key: resources.sites_courses.others.description
-    t: Outras respostas (eido para texto libre).
+    t: Outras respostas (campo de texto libre).
+  - key: options.sites_courses.na
+    t: 🚫 Ningunha
 
   # podcasts
   - key: resources.podcasts
@@ -742,4 +1351,103 @@ translations:
   - key: resources.podcasts.others
     t: Outros Podcasts
   - key: resources.podcasts.others.description
-    t: Outras respostas (eido para texto libre).
+    t: Outras respostas (campo de texto libre).
+  - key: options.podcasts.na
+    t: 🚫 Ningún
+
+  # people
+  - key: resources.people
+    t: Xente
+  - key: resources.people.description
+    t: Xente que les, sigues, ou simplemente queres destacar.
+  # - key: resources.people.others
+  #   t: Other People
+  # - key: resources.people.others.description
+  #   t: Other answers (freeform field).
+  - key: resources.people.others
+    t: Xente
+  - key: resources.people.others.description
+    t: >
+      Xente que les, sigues, ou simplemente queres destacar polo seu traballo
+      (campo de texto libre, nomes separados por coma).
+  - key: options.people.na
+    t: 🚫 Ninguén
+
+  # other surveys
+  - key: resources.other_surveys
+    t: Outas enquisas
+  - key: resources.other_surveys.description
+    t: En que outras enquisas de desenvolvedores participaches?
+  - key: resources.other_surveys.others
+    t: Outras enquisas non incluídas na lista
+  - key: options.other_surveys.na
+    t: 🚫 Ningunha
+    # TODO: temporary fix, this should not be needed in the first place
+  - key: user_info.other_surveys.question
+    t: En que outras enquisas de desenvolvedores participaches?
+
+  - key: user_info.other_surveys
+    aliasFor: resources.other_surveys
+  - key: user_info.other_surveys.question
+    aliasFor: resources.other_surveys.description
+
+  # video creators
+  - key: resources.video_creators
+    t: Creadores de vídeo
+  - key: resources.video_creators.description
+    t: Creadores ou creadoras que sigues en plataformas de vídeo como YouTube, Twitch, TikTok etc.
+  - key: resources.video_creators.others
+    t: Outros creadores/creadoras de vídeo
+  - key: options.video_creators.na
+    t: 🚫 Ninguén
+
+  ###########################################################################
+  # Follow-Up Questions
+  ###########################################################################
+
+  - key: followups.button
+    t: Cóntanos máis…
+
+  - key: followups.description
+    t: |
+      Opcionalmente, podes contarnos por que escolleches esta resposta?:
+
+  - key: followups.description.short
+    t: |
+      Cóntanos máis:
+
+  - key: followups.placeholder
+    t: Outras razóns…
+
+  - key: followups.want_to_learn_more
+    t: Quero aprender máis
+  - key: followups.not_interested
+    t: Non teño interese
+  - key: followups.insufficient_browser_support
+    t: Soporte de navegadores insuficiente
+  - key: followups.not_needed
+    t: Nunca o necesitei
+  - key: followups.hard_to_use
+    t: Era complexo de usar
+  - key: followups.positive_experience
+    t: Tiven unha experiencia positiva
+  - key: followups.not_powerful
+    t: Non era suficientemente potente
+
+  - key: followups.sentiment_interested
+    t: Interésame
+  - key: followups.sentiment_not_interested
+    t: Non me interesa
+  - key: followups.sentiment_positive_experience
+    t: Quero seguir usándoo
+  - key: followups.sentiment_negative_experience
+    t: Mala experiencia
+
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
