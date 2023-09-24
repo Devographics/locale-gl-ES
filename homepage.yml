@@ -1,52 +1,82 @@
 locale: gl-ES
 translations:
-    ###########################################################################
-    # Homepage
-    ###########################################################################
+  ###########################################################################
+  # Homepage
+  ###########################################################################
 
-    - key: homepage.hand_coded
-      t: Programado a man no Xapón.
-    - key: homepage.leave_issue
-      t: Atopáches algún problema?
-    - key: homepage.get_in_touch
-      t: Permanece en contacto
+  - key: homepage.hand_coded
+    t: Programado a man no Xapón.
+  - key: homepage.leave_issue
+    t: Atopáches algún problema?
+  - key: homepage.get_in_touch
+    t: Seguir en contacto
 
-    - key: homepage.made_by
-      t: 'O Estado de CSS está feito por:'
+  - key: homepage.previous_years
+    t: 'Anos Anteriores:'
 
-    - key: homepage.previous_years
-      t: 'Anos Anteriores:'
+  - key: homepage.take_survey
+    t: Cubrir a enquisa
 
-    - key: homepage.intro
-      t: >
-          ## CSS está evolucionando máis á présa que nunca.
+  - key: homepage.view_results
+    t: Ver resultados
+  
+  - key: homepage.results_coming_soon
+    t: Os resultados mostraránse pronto…
 
-          Flexbox, Grid, Multi-Column… por non falar de paradigmas totalmente novos como CSS-in-JS.
+  - key: share.help_spread
+    t: Axúdanos a difundila!
+  
+  - key: homepage.other_surveys
+    t: "Outras enquisas:"
+  
+  - key: homepage.survey_open_now
+    t: Abertas actualmente
 
-          Así que despois do éxito da nosa enquisa anual [Estado de JavaScript](https://stateofjs.com), decidimos
-          abordar o mundo dos estilos e selectores para axudar a identificar as últimas tendencias, e tratar de salvar
-          a "siempre crecente fenda do front".
+  - key: homepage.survey_preview
+    t: Previsualizar enquisa
 
-    - key: homepage.take_survey
-      t: Realizar a enquisa
+  - key: homepage.most_recent_survey
+    t: Máis recente
 
-    - key: homepage.view_results
-      t: Resultados de 2019
+  - key: homepage.current_survey
+    t: Enquisa actual
 
-    - key: share.help_spread
-      t: Axúdanos a dala coñecer!
+  - key: homepage.past_surveys
+    t: Enquisas anteriores
 
-    - key: newsletter.stay_tuned
-      t: Estate Informado
-    - key: newsletter.leave_your_email
-      t: Deixanos o teu correo electrónico e te informaremos de futuras enquisas.
+  - key: homepage.view_questions
+    t: Ver preguntas
 
-    - key: author.sacha.bio
-      t: >
-          Creador de [Nivo](http://nivo.rocks/), unha libraría en JavaScript para visualizar datos e
-          [Mozaik](http://mozaik.rocks/), unha ferramenta para construir elegantes taboleiros -dashboards-.
+  - key: homepage.preview_questions
+    t: Previsualizar as preguntas
 
-    - key: author.raphael.bio
-      t: >
-          Creador do boletín diario de novas [Sidebar](http://sidebar.io) e
-          [VulcanJS](http://vulcanjs.org), un framework de código aberto para React+GraphQL.
+  # newsletter
+  - key: newsletter.stay_tuned
+    t: Non te perdas a próxima enquisa
+  - key: newsletter.leave_your_email
+    t: Deixanos o teu correo electrónico e avisarémoste das próximas enquisas.
+  - key: newsletter.email
+    t: O teu correo electrónico
+  - key: newsletter.submit
+    t: Avisarme
+  
+  # languages
+  - key: languages.available_languages
+    t: "Idiomas dispoñibles:"
+  - key: languages.help_us_translate
+    t: Axúdanos a traducir a enquisa ao teu idioma →
+  
+  # partners
+  - key: homepage.with_support_from
+    aliasFor: sponsors.with_support_from
+
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+
+  - key: homepage.join_discord
+    aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: Creado con [Astro](https://astro.build/)
