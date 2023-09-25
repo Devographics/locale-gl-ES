@@ -73,12 +73,12 @@ translations:
   - key: options.experience_ranking.usage
     t: Uso
   - key: options.experience_ranking.awareness
-    t: Conciencia
+    t: Presenza
   
   - key: options.features_mode.grouped
     t: Agrupados
   - key: options.features_mode.awareness_rank
-    t: Por conciencia
+    t: Por presenza
   - key: options.features_mode.usage_rank
     t: Por uso
   - key: options.features_mode.usage_ratio_rank
@@ -569,7 +569,7 @@ translations:
   - key: blocks.tools_experience_ranking.rankings
     t: Clasificacións
   - key: blocks.tools_experience_ranking.description
-    t: Clasificación da retención, interese, uso e ratio de conciencia.
+    t: Clasificación da retención, interese, uso e ratio de presenza.
   - key: blocks.tools_experience_ranking.note
     t: |
       Non se inclúen tecnoloxías con menos dun 10% de presenza. Cada relación defínese como:
@@ -1259,7 +1259,7 @@ translations:
   # heading
 
   - key: explorer.main_heading
-    t: “{xAxisLabel}” vs “{yAxisLabel}”
+    t: «{xAxisLabel}» vs «{yAxisLabel}»
 
   - key: explorer.total_respondents
     t: |
@@ -1320,9 +1320,9 @@ translations:
   - key: explorer.share
     t: Compartir…
   - key: explorer.share.title
-    t: Compartir “{xAxisLabel}” vs “{yAxisLabel}”
+    t: Compartir «{xAxisLabel}» vs «{yAxisLabel}»
   - key: explorer.share.tweet
-    t: “{xAxisLabel}” vs “{yAxisLabel}” da enquisa {surveyName} {year}
+    t: «{xAxisLabel}» vs «{yAxisLabel}» da enquisa {surveyName} {year}
 
   # axis
 
@@ -1333,10 +1333,10 @@ translations:
 
   - key: explorer.x_axis_details
     t: |
-      De todos os enquisados que commpletaron a pregunta “{yAxisLabel}”, **{totalCount}** os enquisados escolleron “{xQuestionLabel}” para “{xAxisLabel}”
+      De todos os enquisados que commpletaron a pregunta «{yAxisLabel}», **{totalCount}** os enquisados escolleron «{xQuestionLabel}» para «{xAxisLabel}»
   - key: explorer.y_axis_details
     t: |
-      **{totalCount}** enquisados escolleron “{yQuestionLabel}”
+      **{totalCount}** enquisados escolleron «{yQuestionLabel}»
   - key: explorer.main_legend_count
     t: |
       **{totalCount}** enquisados, **1** punto = **{respondentsPerDot}** enquisados, **{dotsPerLine}** puntos por liña
@@ -1360,11 +1360,11 @@ translations:
 
   - key: explorer.count_details.1
     t: |
-      **{xAxisTotal}** “{xAxisLabel}” enquisados escolleron “{xAnswerLabel}”.
+      **{xAxisTotal}** «{xAxisLabel}» enquisados escolleron «{xAnswerLabel}».
 
   - key: explorer.count_details.2
     t: |
-      **{yAxisPercentage}%** de “{yAxisLabel}” enquisados escolleron “{yAnswerLabel}”.
+      **{yAxisPercentage}%** de «{yAxisLabel}» enquisados escolleron «{yAnswerLabel}».
 
   - key: explorer.count_details.3
     t: |
@@ -1380,13 +1380,13 @@ translations:
 
   - key: explorer.percentage_details.1_extra
     t: |
-      En xeral, **{xAxisPercentage}%** dos “{xAxisLabel}” enquisados seleccionaron “{xAnswerLabel}”, pero
-      dos **“{yAxisLabel}” enquisados que seleccionaron “{yAnswerLabel}”** esa porcentaxe sobe a **{bucketPercentage}%**.
+      En xeral, **{xAxisPercentage}%** dos «{xAxisLabel}» enquisados seleccionaron «{xAnswerLabel}», pero
+      dos **«{yAxisLabel}» enquisados que seleccionaron «{yAnswerLabel}»** esa porcentaxe sobe a **{bucketPercentage}%**.
 
   - key: explorer.percentage_details.1_missing
     t: |
-      En xeral, **{xAxisPercentage}%** dos “{xAxisLabel}” enquisados seleccionaron “{xAnswerLabel}”, pero
-      dos **“{yAxisLabel}” enquisados que seleccionaron “{yAnswerLabel}”** esa porcentaxe baixa a **{bucketPercentage}%**.
+      En xeral, **{xAxisPercentage}%** dos «{xAxisLabel}» enquisados seleccionaron «{xAnswerLabel}», pero
+      dos **«{yAxisLabel}» enquisados que seleccionaron «{yAnswerLabel}»** esa porcentaxe baixa a **{bucketPercentage}%**.
 
   - key: explorer.percentage_details.2_extra
     t: |
@@ -1398,11 +1398,11 @@ translations:
 
   # - key: explorer.percentage_details.1
   #   t: |
-  #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** «{xAxisLabel}» respondents selected «{xAnswerLabel}».
 
   # - key: explorer.percentage_details.2
   #   t: |
-  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+  #       **{yAxisPercentage}%** of «{yAxisLabel}» respondents selected «{yAnswerLabel}».
 
   # - key: explorer.percentage_details.3
   #   t: |
@@ -1438,7 +1438,7 @@ translations:
   - key: filters.docs
     t: Documentación
   - key: filters.compare_chart
-    t: Personalizar “{chartName}”
+    t: Personalizar «{chartName}»
   - key: filters.filters.description
     t: |
       Usando unha combinación de filtros demográficos, podes definir ata catro **series de datos personalizados** para cargar e comparar dinamicamente cos datos por defecto desta pregunta.

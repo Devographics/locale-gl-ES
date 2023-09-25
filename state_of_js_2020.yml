@@ -209,7 +209,7 @@ translations:
     - key: picks.my_2020_pick
       t: 'Miña selección 2020'
     - key: picks.intro
-      t: Pedimoslles a membros da comunidade de JavaScript que compartan as súas “eleccións do ano”
+      t: Pedimoslles a membros da comunidade de JavaScript que compartan as súas «eleccións do ano»
 
     - key: picks.joshwcomeau.bio
       t: Enxeñeiro de Software convertido en educador

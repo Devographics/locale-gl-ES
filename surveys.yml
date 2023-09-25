@@ -1,8 +1,338 @@
 locale: gl-ES
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: general.no_preview_surveys
-      t: Non hai enquisas que visualizar
+  - key: general.no_preview_surveys
+    t: Non hai enquisas para previsualizar
+  - key: general.global_nav
+    t: Global
+  - key: general.survey_status_preview
+    t: Previsualización
+  - key: general.survey_status_open
+    t: Aberta
+  - key: general.survey_status_closed
+    t: Pechada
+  - key: general.survey_status_hidden
+    t: Oculta
+
+  - key: general.pick_up_to
+    t: Selecciona {limit} items como máximo.
+
+  - key: general.privacy_policy
+    t: Política de privacidade
+  - key: general.privacy_policy.description
+    t: >
+      ### 1. Recollida de datos
+
+      Ademais dos datos recollidos a través das preguntas da enquisa, recompilamos o teu dispositivo, navegador, sistema operativo, versión do navegador e a páxina de referencia dende a que chegaches.
+
+      Ten en conta que todas as preguntas son totalmente opcionais e que nunca vinculamos ningunha información identificable (como o enderezo de correo electrónico) ás respostas da enquisa.
+
+      ### 2. Recollida do correo electrónico
+
+      Opcionalmente podemos recoller o teu correo electrónico para:
+
+      1. Xerar unha ligazón máxica de inicio de sesión. Unha vez xerada, descartamos o teu correo electrónico e só conservamos un hash unidireccional na nosa base de datos de usuarios.
+
+      2. Poñernos en contacto contigo cando se publiquen os resultados da enquisa, así como tamén cando lancemos futuras edicións ou para facer anuncios pouco frecuentes. Podes cancelar a subscrición da nosa lista de correo en calquera momento e o teu correo electrónico descártase dos nosos rexistros unha vez enviado ao noso provedor de boletíns de correo electrónico.
+
+      3. Enviarche unha lista resumida das funcionalidades ou ferramentas das que queres obter máis información. Descartamos o teu correo electrónico unha vez sexa enviado a través do noso provedor de correo electrónico.
+
+      Cando recollemos o teu correo electrónico, nunca está vinculado ás túas respostas nas enquisas nin á túa conta de usuario.
+
+      ### 3. Cookies
+
+      Creamos unha cookie de inicio de sesión. O noso provedor de hospedaxe (Vercel) tamén pode engadir a súa propia cookie. Non configuramos ningunha outra cookie nin usamos analíticas ou anuncios do lado do navegador.
+
+      ### 4. Uso de datos
+
+      Procesamos os datos para publicar informes. Tamén poñemos a disposición do público todo o conxunto de datos.
+
+      ### 5. Eliminación de datos/conta
+
+      Podes enviarnos un correo electrónico a [hello@stateofjs.com](mailto:hello@stateofjs.com) se queres que eliminemos todos ou parte dos teus datos.
+
+  ###########################################################################
+  # Other UI Strings
+  ###########################################################################
+
+  - key: textlist.placeholder
+    t: Item {index}…
+
+  - key: feature.unimplemented
+    t: Non está soportado polos navegadores
+
+  - key: feature.unimplemented.description
+    t: Esta funcionalidade aínda non foi implementada polos navegadores. Pero podes seleccionar «Useina» se a usaches por medio dun *polyfill*, transpilador ou calquera outra ferramenta.
+
+  - key: general.skip_question
+    t: Saltar
+
+  - key: general.unskip_question
+    t: Responder pregunta
+
+  - key: general.skip_question.description
+    t: Omitir pregunta e marcala como completada
+
+  - key: general.unskip_question.description
+    t: Non omitir a pregunta e contestala
+
+  ###########################################################################
+  # Errors & Messages
+  ###########################################################################
+
+  - key: error.duplicate_response
+    t: Xa tes unha sesión aberta para esta enquisa.
+
+  - key: error.report_issue
+    t: Informar dun problema
+
+  - key: success.data_saved
+    t: Datos gardados
+  - key: success.data_saved.description
+    t: Os teus datos foron gardados correctamente.
+
+  ###########################################################################
+  # Accounts
+  ###########################################################################
+
+  - key: accounts.create_account
+    t: Continuar cunha conta
+  - key: accounts.create_account.description
+    t: Ter unha conta permíteche **acceder aos teus propios datos nun futuro** e que te poidamos avisar cando os resultados da enquisa se publiquen.
+  - key: accounts.create_account.note
+    t: Se xa **tes unha conta** enviarémosche un correo electrónico cunhha ligazón máxica coa que poderás entrar nela.
+  - key: accounts.create_account.action
+    t: Continuar cunha conta
+  - key: accounts.your_email
+    t: O teu correo electrónico
+
+  - key: accounts.upgrade_account.action
+    t: Actualiza a túa conta
+  - key: accounts.upgrade_account.description
+    t: Engadir un correo electrónico á túa conta permíteche volver a ver as túas respostas na enquisa unha vez finalizada a sesión.
+
+  - key: accounts.continue_as_guest
+    t: Continuar de xeito anónimo
+  - key: accounts.continue_as_guest.description
+    t: Cubrir a enquisa de xeito anónimo significa que **non poderás acceder aos teus datos de novo** unha vez finalizada a sesión.
+  - key: accounts.continue_as_guest.action
+    t: Continuar de xeito anónimo
+
+  - key: accounts.magic_link.no_email
+    t: Por favor, introduce o teu correo electrónico
+  - key: accounts.magic_link.success
+    t: Consulta a túa bandexa de entrada! Enviámosche unha ligazón máxica, so debes pinchar nela para confirmar a túa conta e entrar nela.
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: general.faq
+    t: FAQ
+  - key: faq.create_account
+    t: Por que preciso crear unha conta?
+  - key: faq.create_account.description
+    t: Pedímosche crear a conta para evitar respostas repetidas, gardar os teus datos e avisarte cando se publiquen os resultados da enquisa.
+  - key: faq.anonymous_survey
+    t: Podo facer a enquisa anónimamente?
+  - key: faq.anonymous_survey.description
+    t: Si, podes usar un enderezo falso (oquesexa@exemplo.com) ou que non te identifique para cubrires a enquisa sempre que o poidas recordar para acceder no futuro.
+  - key: faq.questions_required
+    t: É preciso responder todas as preguntas?
+  - key: faq.questions_required.description
+    t: Non, cada pregunta da enquisa é opcional e podes saltala libremente.
+  - key: faq.data_published
+    t: Os meus datos van ser públicos?
+  - key: faq.data_published.description
+    t: Si, todos os datos vanse poñer públicos, pero só despois de eliminar calquera información que te poida identificar (como enderezos electrónicos, nomes de usuario, IDs, etc.).
+  - key: faq.survey_design
+    t: Como se deseñan as enquisas?
+  - key: faq.survey_design.description
+    t: As enquisas están deseñadas en base aos comentarios da comunidade e revisións de expertos. Podes [obter máis información aquí](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+  - key: faq.results_released
+    t: Cando se van publicar os resultados?
+  - key: faq.results_released.description
+    t: Xeralmente, os resultados publícanse unhas semanas despois de pechar a enquisa.
+  - key: faq.survey_deadline
+    t: Cando se pecha a enquisa?
+  - key: faq.survey_deadline.description
+    t: A enquisa está aberta ata o día {date}
+  - key: faq.team
+    t: Quen dirixe esta enquisa?
+  - key: faq.team.description
+    t: Esta enquisa está dirixida por [Devographics](http://devographics.com) xunto cun colectivo de colaboradores, traductores e voluntarios.
+
+  ###########################################################################
+  # Form Controls
+  ###########################################################################
+
+  - key: bracket.vs
+    t: VS
+  - key: bracket.start_over
+    t: Comezar de novo
+  - key: bracket.winner
+    t: >
+    Gañador:
+  - key: bracket.round
+    t: Rolda
+  - key: bracket.empty_bracket
+    t: Resultado pendente (completa antes a rolda anterior)
+  - key: bracket.result
+    t: Resultado
+  - key: bracket.cancel
+    t: Cancelar
+
+  - key: experience.leave_comment
+    t: Deixar un comentario (opcional)
+  - key: experience.leave_comment_short
+    t: Deixar un comentario
+  - key: experience.tell_us_more
+    t: "Respondeches «{response}». Cóntanos máis sobre a túa escolla:"
+  - key: experience.tell_us_more_generic
+    t: "Cóntanos máis sobre a túa resposta:"
+  - key: experience.tell_us_more_no_value
+    t: "Non seleccionaches ningunha resposta. Cóntanos por que:"
+
+  ###########################################################################
+  # Response
+  ###########################################################################
+
+  - key: response.completion
+    t: "{completion}% completada"
+
+  - key: response.details
+    t: Comezaches ás {startedAt}, {completion}% completada.
+
+  ###########################################################################
+  # Reading List
+  ###########################################################################
+
+  - key: readinglist.prompt
+    t: >
+      Escolleches «{option}». Se queres obter máis información sobre esta funcionalidade ao finalizar a enquisa, podes facer clic na icona «+» de arriba para engadila á túa **lista de lectura**.
+
+  - key: readinglist.add_to_list
+    t: Engadir á lista de lectura
+
+  - key: readinglist.remove_from_list
+    t: Eliminar da lista de lectura
+
+  - key: readinglist.added_to_list
+    t: Engadir «{label}» á lista de lectura.
+
+  - key: readinglist.title
+    t: Lista de lectura
+
+  - key: readinglist.description
+    t: >
+      Garda estes elementos usando o botón «+» e obterás unha lista de ligazóns para obter máis información ao final da enquisa.
+
+  - key: readinglist.empty
+    t: >
+      Non tes ningún elemento na túa lista de lectura.
+      Volve á enquisa e dalle ao botón «+» para engadir as funcionalidades ou bibliotecas das que che gustaría
+      ter máis información.
+
+  - key: readinglist.results
+    t: >
+      Aqui tes máis recursos cos que podes obter máis información sobre os elementos da túa lista de lectura:
+
+  - key: readinglist.homepage_link
+    t: Portada
+
+  - key: readinglist.receive_copy
+    t: >
+      Introduce o teu correo electrónico para recibir unha copia da túa lista de lectura directamente na túa caixa de entrada:
+  - key: readinglist.send_by_email
+    t: Enviar
+  - key: readinglist.email_sent
+    t: Grazas! A lista de lectura vai de camiño á túa caixa de entrada.
+
+  ###########################################################################
+  # Score & Knowledge Ranks
+  ###########################################################################
+
+  - key: knowledge_rank.your_rank
+    t: "A túa clasificación:"
+  - key: knowledge_rank.rank1
+    t: Novato
+  - key: knowledge_rank.rank2
+    t: Aprendiz
+  - key: knowledge_rank.rank3
+    t: Intermedio
+  - key: knowledge_rank.rank4
+    t: Experto
+  - key: knowledge_rank.rank5
+    t: Erudito
+  - key: knowledge_rank.rank6
+    t: Élite
+
+  ###########################################################################
+  # Survey-Specific Intros
+  ###########################################################################
+
+  - key: general.html2023.survey_intro
+    t: |
+      Aínda que os desenvolvedores tenden a enfocarse máis no JavaScript e CSS, nada do que facemos sería posible sen que o HTML actuáse de base.
+
+      Parecía que o HTML non evolucionaba dende hai tempo, pero as cousas están mudando.
+      Hai novos elementos como `<selectlist>` no horizonte, novas e interesantes funcionalidades como popovers,
+      e unha serie de API de navegador (Web Components, PWA etc.).
+
+      Este ano, [Lea Verou](https://lea.verou.me/) asumiu a incrible tarefa de liderar o deseño desta nova enquisa, dende o contido ata a UX e máis alá.
+
+      Partindo do éxito de [State of JS](http://stateofjs.com/) e [State of CSS](https://stateofcss.com/), presentamos State of HTML;
+      a última peza que faltaba para completar a triloxía, e así podermos seguir a evolución da plataforma web en todo o seu conxunto.
+      Como é habitual, as respostas aquí van axudar aos que fan os navegadores a priorizar as súas follas de ruta e traballar para mellorar a compatibilidade,
+      polo que todo o investido en responder con atención esta enquisa vaiche vir de volta multiplicado por 10!
+
+  ###########################################################################
+  # Survey-Specific FAQs
+  ###########################################################################
+
+  # HTML 2023
+
+  - key: faq.data_used_html2023
+    t: Como se usarán estos datos?
+  - key: faq.data_used_html2023.description
+    t: >
+      Todos os datos recollidos publicaránse abertamente para que os poida consultar calquera desenvolvedor ou empresa.
+      Os creadores dos navegadores tamén [empregan estos datos](https://web.dev/interop-2023/) para priorizar áreas de enfoque e obter información para as súas follas de ruta.
+
+  - key: faq.survey_goals_html2023
+    t: Cales son os obxectivos desta enquisa?
+  - key: faq.survey_goals_html2023.description
+    t: >
+      Os obxectivos da enquisa son medir a presenza das novas funcionalidades de HTML e APIs dos navegadores, e axudar aos desenvolvedores a facer un seguimento de como evoluciona o seu uso.
+
+  - key: faq.who_should_take_survey_html2023
+    t: Quen debería cubrir esta enquisa?
+  - key: faq.who_should_take_survey_html2023.description
+    t: >
+      Esta enquisa está aberta para calquera que faga sitios ou aplicacións webs, tanto de forma regular como ocasionalmente, como parte do seu traballo, como estudante ou simplemente para pasalo ben!
+
+  - key: faq.how_long_will_survey_take_html2023
+    t: Canto tempo leva cubrir a enquisa?
+  - key: faq.how_long_will_survey_take_html2023.description
+    t: >
+      Dependendo das preguntas que respondas (todas as preguntas son opcionais),
+      cubrir a enquisa debería levarche uns 15-20 minutos.
+
+  - key: faq.learn_more_html2023
+    t: Onde podo obter máis información?
+  - key: faq.learn_more_html2023.description
+    t: Podes obter máis información sobre esta enquisa neste [post onde foi anunciada](https://lea.verou.me/blog/2023/design-state-of-html/).
+
+  - key: faq.survey_design_html2023
+    t: Como foi deseñada a enquisa?
+  - key: faq.survey_design_html2023.description
+    t: >
+      A enquisa foi deseñada por [Lea Verou](https://lea.verou.me), coa axuda dos creadores de navegadores, así como varios grupos como o [WebDX Community Group](https://www.w3.org/community/webdx/).
+
+  - key: faq.results_released_html2023
+    t: Cando se van publicar os resultados?
+  - key: faq.results_released_html2023.description
+    t: A enquisa estará aberta dende o 19 de setembro ata o 10 de outubro, e os resultados publicaránse pouco tempo despois.

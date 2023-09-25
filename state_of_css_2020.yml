@@ -174,7 +174,7 @@ translations:
 
       Este *kōan* sobre programación, ilustra unha clara tendencia no desenvolvemento web: así como a cada vez máis desenvolvedores de CSS se lle pide que aprendan JavaScript, máis desenvolvedores de JavaScript se están a dar de conta de que pode que haxa algo máis nisto do CSS que `font-weight: bold;`.
 
-      Así que preguntar sobre “O Estado de CSS” é unha pregunta engañosa en si mesma: depende de a quen preguntes, vas a recibir respostas completamente distintas! E, cómo saber cal é a correcta?
+      Así que preguntar sobre «O Estado de CSS» é unha pregunta engañosa en si mesma: depende de a quen preguntes, vas a recibir respostas completamente distintas! E, cómo saber cal é a correcta?
 
       Aquí tes outro *kōan* para tí: a resposta correcta é que non hai unha resposta correcta. Cada unha das moitas ferramentas, metodoloxías, frameworks e librarías amosadas aquí, teñen o seu espazo no basto ecosistema do front-end.
 
@@ -189,7 +189,7 @@ translations:
   - key: picks.my_2020_pick
     t: "Miña selección do 2020: "
   - key: picks.intro
-    t: Pedímoslle á comunidade de CSS que compartan a súa “elección do ano”
+    t: Pedímoslle á comunidade de CSS que compartan a súa «elección do ano»
 
   - key: picks.shadeed9.bio
     t: Autor de debuggingcss.com
