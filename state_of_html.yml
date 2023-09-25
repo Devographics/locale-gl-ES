@@ -7,18 +7,26 @@ translations:
 
   - key: general.state_of_html.intro
     t: |
-      Mentras que os desenvolvedores tenden a enfocarse en JavaScript e CSS, nada do que facemos sería posible sen que o HTML actuase como base.
+      Aínda que os desenvolvedores tenden a enfocarse máis no JavaScript e CSS, nada do que facemos sería posible sen que o HTML actuáse de base.
 
-      Dende hai tempo, semellaba que o HTML non estaba evolucionando, pero as cousas poden estar cambiando.
-      Hai novos elementos como `<selectlist>` que están no horizonte, novas e interesantes funcionalidades como popovers,
-      e unha serie de API para o navegador (Web Components, PWA etc.).
+      Parecía que o HTML non evolucionaba dende hai tempo, pero as cousas están mudando.
+      Hai novos elementos como `<selectlist>` no horizonte, novas e interesantes funcionalidades como popovers,
+      e unha serie de API de navegador (Web Components, PWA etc.).
 
       Este ano, [Lea Verou](https://lea.verou.me/) asumiu a incrible tarefa de liderar o deseño desta nova enquisa, dende o contido ata a UX e máis alá.
 
       Partindo do éxito de [State of JS](http://stateofjs.com/) e [State of CSS](https://stateofcss.com/), presentamos State of HTML;
-      a última peza que faltaba para completar a nosa triloxía, e así podermos seguir a evolución da plataforma web en todo o seu conxunto.
-      Como é habitual, as respostas aquí van axudar aos que manteñen os navegadores a priorizar as súas follas de ruta e traballar para mellorar a compatibilidade,
-      polo que o investido en responder con atención esta enquisa pode virche de volta multiplicado por 10.
+      a última peza que faltaba para completar a triloxía, e así podermos seguir a evolución da plataforma web en todo o seu conxunto.
+
+      Beneficios para ti:
+
+      - Os resultados da enquisa son **usados polos navegadores** e grupos de traballo dos estándares **para priorizar a folla de ruta**.
+      As túas respostas poden axudar a que se implementen as funcionalidades que che interesan, se prioricen as incompatibilidades entre navegadores, e se corrixan lagoas na plataforma.
+      - Aprender sobre novas funcionalidades que están aparecendo; engadir esas funcionalidades á túa lista de lectura e ter unha lista de recursos ao rematar a enquisa!
+      - Obter unha puntuación do teu coñecemento e poderte comparar con outros enquisados
+
+      A enquisa estará aberta durante 3 semanas, pero as respostas **durante os primeiros 9 días (ata o 1 de outubro)** terán un impacto moito maior na Web,
+      porque se van usar estes datos preliminares para certas priorizacións que teñen prazos anteriores á data de finalización da enquisa.
 
   - key: general.state_of_html.description
     t: A enquisa anual da plataforma web para desenvolvedores

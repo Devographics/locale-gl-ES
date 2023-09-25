@@ -193,7 +193,9 @@ translations:
     t: Comparte en Twitter
   - key: thanks.share_score_message
     t: >
-      Tiven unha puntuación do {score}% na enquisa #{hashtag} deste ano! Fai a enquisa ti tamén aquí: {shareUrl}
+      Ei!, saquei {score} puntos de coñecemento na enquisa deste ano de #{hashtag}!
+      Usei {usage_count} funcionalidades, e coñecía outras {awareness_count} máis.
+      Quen o pode superar? {shareUrl}
   # share
   - key: general.share_subject
     t: >
