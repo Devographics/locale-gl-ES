@@ -62,10 +62,10 @@ translations:
     t: Item {index}…
 
   - key: feature.unimplemented
-    t: Non está soportado polos navegadores
+    t: Sen soporte por navegadores
 
   - key: feature.unimplemented.description
-    t: Esta funcionalidade aínda non foi implementada polos navegadores. Pero podes seleccionar «Useina» se a usaches por medio dun *polyfill*, transpilador ou calquera outra ferramenta.
+    t: Esta funcionalidade aínda non foi implementada polos navegadores. Pero podes seleccionar «Useino» se a usaches por medio dun *polyfill*, transpilador ou calquera outra ferramenta.
 
   - key: general.skip_question
     t: Saltar
@@ -221,7 +221,7 @@ translations:
     t: Eliminar da lista de lectura
 
   - key: readinglist.added_to_list
-    t: Engadir «{label}» á lista de lectura.
+    t: «{label}» foi engadido á lista de lectura.
 
   - key: readinglist.title
     t: Lista de lectura
@@ -276,10 +276,10 @@ translations:
 
   - key: general.html2023.survey_intro
     t: |
-      Aínda que os desenvolvedores tenden a enfocarse máis no JavaScript e CSS, nada do que facemos sería posible sen que o HTML actuáse de base.
+      Aínda que os desenvolvedores tendemos a enfocarmos máis no JavaScript e CSS, nada do que facemos sería posible sen o HTML base.
 
-      Parecía que o HTML non evolucionaba dende hai tempo, pero as cousas están mudando.
-      Hai novos elementos como `<selectlist>` no horizonte, novas e interesantes funcionalidades como popovers,
+      Pode parecer que o HTML non evolucionou dende hai tempo, pero as cousas están mudando.
+      Vemos no horizonte novos elementos como `<selectlist>`, interesantes funcionalidades como popovers,
       e unha serie de API de navegador (Web Components, PWA etc.).
 
       Este ano, [Lea Verou](https://lea.verou.me/) asumiu a incrible tarefa de liderar o deseño desta nova enquisa, dende o contido ata a UX e máis alá.
@@ -289,13 +289,13 @@ translations:
 
       Beneficios para ti:
 
-      - Os resultados da enquisa son **usados polos navegadores** e grupos de traballo dos estándares **para priorizar a folla de ruta**.
-      As túas respostas poden axudar a que se implementen as funcionalidades que che interesan, se prioricen as incompatibilidades entre navegadores, e se corrixan lagoas na plataforma.
-      - Aprender sobre novas funcionalidades que están aparecendo; engadir esas funcionalidades á túa lista de lectura e ter unha lista de recursos ao rematar a enquisa!
-      - Obter unha puntuación do teu coñecemento e poderte comparar con outros enquisados
+      - Os resultados da enquisa son **usados polos navegadores** e grupos de traballo dos estándares **para priorizar o seu *roadmap***.
+      As túas respostas poden axudar a que se cheguen a implementar as funcionalidades que máis che interesan, a que se prioricen as incompatibilidades entre navegadores, e se corrixan lagoas na plataforma.
+      - Podes aprender sobre novas funcionalidades que están aparecendo; engadir esas funcionalidades á túa lista de lectura e ter unha lista de recursos ao rematar a enquisa!
+      - Obtén unha puntuación sobre o teu coñecemento e compárate con outros enquisados.
 
-      A enquisa estará aberta durante 3 semanas, pero as respostas **durante os primeiros 9 días (ata o 1 de outubro)** terán un impacto moito maior na Web,
-      porque se van usar estes datos preliminares para certas priorizacións que teñen prazos anteriores á data de finalización da enquisa.
+      A enquisa estará aberta durante 3 semanas, pero as respostas **durante os primeiros 9 días (ata o 1 de outubro)** teñen un impacto moito maior na Web,
+      porque eses datos preliminares vanse usar para certas priorizacións con prazos anteriores á data de finalización da enquisa.
 
   ###########################################################################
   # Survey-Specific FAQs
@@ -308,7 +308,7 @@ translations:
   - key: faq.data_used_html2023.description
     t: >
       Todos os datos recollidos publicaránse abertamente para que os poida consultar calquera desenvolvedor ou empresa.
-      Os creadores dos navegadores tamén [empregan estos datos](https://web.dev/interop-2023/) para priorizar áreas de enfoque e obter información para as súas follas de ruta.
+      Os creadores dos navegadores tamén [empregan estos datos](https://web.dev/interop-2023/) para priorizar e enfocarse en certas áreas e obter información para definir mellor o seu *roadmap*.
 
   - key: faq.survey_goals_html2023
     t: Cales son os obxectivos desta enquisa?
@@ -343,4 +343,4 @@ translations:
   - key: faq.results_released_html2023
     t: Cando se van publicar os resultados?
   - key: faq.results_released_html2023.description
-    t: A enquisa estará aberta dende o 19 de setembro ata o 10 de outubro, e os resultados publicaránse pouco tempo despois.
+    t: A enquisa estará aberta dende o 19 de setembro ata o 10 de outubro, os resultados publicaránse pouco tempo despois.

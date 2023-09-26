@@ -7,10 +7,10 @@ translations:
 
   - key: general.state_of_html.intro
     t: |
-      Aínda que os desenvolvedores tenden a enfocarse máis no JavaScript e CSS, nada do que facemos sería posible sen que o HTML actuáse de base.
+      Aínda que os desenvolvedores tendemos a enfocarmos máis no JavaScript e CSS, nada do que facemos sería posible sen o HTML base.
 
-      Parecía que o HTML non evolucionaba dende hai tempo, pero as cousas están mudando.
-      Hai novos elementos como `<selectlist>` no horizonte, novas e interesantes funcionalidades como popovers,
+      Pode parecer que o HTML non evolucionou dende hai tempo, pero as cousas están mudando.
+      Vemos no horizonte novos elementos como `<selectlist>`, interesantes funcionalidades como popovers,
       e unha serie de API de navegador (Web Components, PWA etc.).
 
       Este ano, [Lea Verou](https://lea.verou.me/) asumiu a incrible tarefa de liderar o deseño desta nova enquisa, dende o contido ata a UX e máis alá.
@@ -20,13 +20,13 @@ translations:
 
       Beneficios para ti:
 
-      - Os resultados da enquisa son **usados polos navegadores** e grupos de traballo dos estándares **para priorizar a folla de ruta**.
-      As túas respostas poden axudar a que se implementen as funcionalidades que che interesan, se prioricen as incompatibilidades entre navegadores, e se corrixan lagoas na plataforma.
-      - Aprender sobre novas funcionalidades que están aparecendo; engadir esas funcionalidades á túa lista de lectura e ter unha lista de recursos ao rematar a enquisa!
-      - Obter unha puntuación do teu coñecemento e poderte comparar con outros enquisados
+      - Os resultados da enquisa son **usados polos navegadores** e grupos de traballo dos estándares **para priorizar o seu *roadmap***.
+      As túas respostas poden axudar a que se cheguen a implementar as funcionalidades que máis che interesan, a que se prioricen as incompatibilidades entre navegadores, e se corrixan lagoas na plataforma.
+      - Podes aprender sobre novas funcionalidades que están aparecendo; engadir esas funcionalidades á túa lista de lectura e ter unha lista de recursos ao rematar a enquisa!
+      - Obtén unha puntuación sobre o teu coñecemento e compárate con outros enquisados.
 
-      A enquisa estará aberta durante 3 semanas, pero as respostas **durante os primeiros 9 días (ata o 1 de outubro)** terán un impacto moito maior na Web,
-      porque se van usar estes datos preliminares para certas priorizacións que teñen prazos anteriores á data de finalización da enquisa.
+      A enquisa estará aberta durante 3 semanas, pero as respostas **durante os primeiros 9 días (ata o 1 de outubro)** teñen un impacto moito maior na Web,
+      porque eses datos preliminares vanse usar para certas priorizacións con prazos anteriores á data de finalización da enquisa.
 
   - key: general.state_of_html.description
     t: A enquisa anual da plataforma web para desenvolvedores
@@ -53,7 +53,7 @@ translations:
   - key: sections.content.title
     t: Contido
   - key: sections.content.description
-    t: Incrustación, multimedia, datos e outras características relacionadas co contido.
+    t: Elementos incrustados, multimedia, datos e outras características relacionadas co contido.
 
   - key: sections.external_content.title
     t: Contido externo
@@ -63,7 +63,7 @@ translations:
   - key: sections.accessibility.title
     t: Accesibilidade
   - key: sections.accessibility.description
-    t: Creación de sitios e aplicacions accesibles para todos.
+    t: Creación de sitios e aplicacions accesibles para todos e todas.
 
   - key: sections.mobile_web_apps.title
     t: Aplicacións web que parecen nativas
@@ -113,12 +113,12 @@ translations:
   - key: features.forms_pain_points
     t: Dificultades cos formularios
   - key: features.forms_pain_points.question
-    t: Cales son as principales dificultades que atopaches traballando con formularios HTML?
+    t: Cales son as principales dificultades coas que te atopaches traballando con formularios HTML?
   - key: features.forms_pain_points.description
     t: |
       Pensa nos diferentes controis de formularios (como `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
       o seu comportamento (validación, autocompletado), o manexo de formularios con JS, APIs para editar (ex. `contentEditable`) etc.
-      Calquera cousa que che dificulta o teu traballo — soporte de navegadores, características que faltan, dificultade para aplicar estilos etc.
+      Calquera cousa que che dificulte o teu traballo — soporte de navegadores, falta de funcionalidades, dificultade para aplicar estilos etc.
   - key: features.forms_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -133,7 +133,7 @@ translations:
   - key: features.dom_html_features
     t: Funcións para traballar con código HTML
   - key: features.dom_html_features.question
-    t: Cales das seguintes funcións para traballar con código HTML empregaches algunha vez?
+    t: Cales das seguintes funcións para traballar con código HTML usaches algunha vez?
 
   - key: features.dom_methods
     t: Funcións para cambiar o pai de elementos DOM
@@ -141,7 +141,7 @@ translations:
   - key: features.dom_moving_element_features
     t: Funcións para mover elementos DOM
   - key: features.dom_moving_element_features.question
-    t: Cales das seguintes funcións para mover elementos DOM tes usado?
+    t: Cales das seguintes funcións para mover elementos DOM usaches algunha vez?
   # - key: options.dom_methods.element_innerhtml.description
   #   t: |
   #     `element.innerHTML = rawHTML`
@@ -184,10 +184,10 @@ translations:
   - key: features.interactivity_pain_points
     t: Dificultades relacionadas coa interactividade
   - key: features.interactivity_pain_points.question
-    t: Cales son as principais dificultades que te atopaches para realizar cambios dinámicos no HTML?
+    t: Cales son as principais dificultades coas que te atopaches para realizar cambios dinámicos no HTML?
   - key: features.interactivity_pain_points.description
     t: |
-      Incompatibilidades entre navegadores ou falta de soporte, características que botas en falta e outros problemas aos que te tes que enfrentar relacionados con elementos interactivos e os seus comportamentos (sen incluír os formularios), manipulación do DOM, eventos e APIs relacionadas.
+      Incompatibilidade entre navegadores ou falta de soporte, funcionalidades que botas en falta e outros problemas relacionados con elementos interactivos, os seus comportamentos (excluíndo formularios), manipulación do DOM, eventos e outras APIs relacionadas.
 
   - key: features.interactivity_pain_points.placeholder
     t: |
@@ -196,7 +196,7 @@ translations:
   - key: features.interactivity_techniques
     t: Funcións de interactividade
   - key: features.interactivity_techniques.question
-    t: Cales das seguintes funcións para engadir interactividade ou modificar dinámicamente HTML empregaches?
+    t: Cales das seguintes funcións para engadir interactividade ou modificar dinámicamente HTML usaches algunha vez?
   - key: options.interactivity_techniques.css_for_interactivity
     t: CSS para interactividade (toggles, tabs, etc.)
   - key: options.interactivity_techniques.js_dom_libraries
@@ -204,7 +204,7 @@ translations:
   - key: options.interactivity_techniques.js_framework
     t: Frameworks en JavaScript (React, Vue, etc.)
   - key: options.interactivity_techniques.vanilla_js
-    t: JavaScript a pelo (sen frameworks nin bibliotecas)
+    t: «Vanilla» JavaScript (sen frameworks nin bibliotecas)
   - key: options.interactivity_techniques.web_components
     t: Web Components
   - key: options.interactivity_techniques.na
@@ -215,7 +215,7 @@ translations:
   - key: features.machine_readable_features
     t: Datos lexibles por computadores
   - key: features.machine_readable_features.question
-    t: Qué técnicas usaches para incluír datos lexibles por computadores no HTML?
+    t: Que técnicas para incluír datos lexibles por computadores no HTML usaches algunha vez?
   - key: options.machine_readable_features.rdfa.description
     t: |
       `property`, `typeof`, etc.
@@ -242,7 +242,7 @@ translations:
   - key: features.i18n_features
     t: Funcións de internacionalización
   - key: features.i18n_features.question
-    t: Cales das seguintes funcións de internacionalización usaches?
+    t: Cales das seguintes funcións de internacionalización usaches algunha vez?
   - key: options.i18n_features.na
     t: <span aria-hidden="true">🚫</span> Ningunha delas
 
@@ -271,8 +271,8 @@ translations:
     t: Cales son as principais dificultades para manexar contido en HTML?
   - key: features.content_pain_points.description
     t: |
-      Pensa en incrustación (multimedia, iframes, SVG etc), datos lexibles por computadores, internacionalización e localización, seguridade e privacidade, rendemento etc.
-      Funcionalidades que botas en falla, incompatibilidades entre navegadores, e calquera outro problema aos que te adoitas enfrontar é válido.
+      Pensa en elementos incrustados (multimedia, iframes, SVG etc), datos lexibles por computadores, internacionalización e localización, seguridade, privacidade, rendemento etc.
+      Funcionalidades que botas en falta, incompatibilidade entre navegadores, ou calquera outro problema co que te podes atopar.
   - key: features.content_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -291,7 +291,7 @@ translations:
       Funcionalidades para seguridade e privacidade
   - key: features.privacy_security_features.question
     t: |
-      Cales das seguintes funcionalidades de seguridade e privacidade usaches algunha vez?
+      Cales das seguintes funcionalidades relacionadas coa seguridade e privacidade usaches algunha vez?
   - key: options.privacy_security_features.na
     t: <span aria-hidden="true">🚫</span> Ningunha delas
 
@@ -335,9 +335,9 @@ translations:
   - key: features.using_web_components_pain_points
     t: Dificultades usando Web Components
   - key: features.using_web_components_pain_points.question
-    t: Cales son as principais dificultades que atopaches á hora de *consumir* web components?
+    t: Cales son as principais dificultades coas que atopaches á hora de *consumir* web components?
   - key: features.using_web_components_pain_points.description
-    t: Usar Web Components feitos por ti ou outras persoas. Funcionalidades que botas en falta, incompatibilidades entre navegadores, etc.
+    t: Usar Web Components feitos por ti ou outras persoas. Funcionalidades que botas en falta, incompatibilidade entre navegadores, etc.
   - key: features.using_web_components_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -348,7 +348,7 @@ translations:
     t: Cales son as túas principais dificultades á hora de *crear* Web Components?
   - key: features.making_web_components_pain_points.description
     t: |
-      Que é o que non che permite crear ese incrible Web Components que tes na cabeza? Funcionalidades que botas en falta, incompatibilidades entre navegadores, etc.
+      Que é o que non che permite crear ese incrible *Web Component* que tes na cabeza? Funcionalidades que botas en falta, incompatibilidade entre navegadores etc.
   - key: features.making_web_components_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -368,7 +368,7 @@ translations:
   - key: features.accessibility_pain_points
     t: Dificultades da accesibilidade
   - key: features.accessibility_pain_points.question
-    t: Cales son as principais dificultades que atopaches relacionadas coa accesibilidade web?
+    t: Cales son as principais dificultades coas que te atopaches relacionadas coa accesibilidade web?
   - key: features.accessibility_pain_points.placeholder
     t: |
       Pain point #{index}…
@@ -386,7 +386,7 @@ translations:
   - key: options.accessibility_disabilities.mobility_impairments
     t: Mobilidade reducida
   - key: options.accessibility_disabilities.mobility_impairments.description
-    t: Artritis, arco do carpo etc.
+    t: Artrite, arco do carpo etc.
 
   - key: options.accessibility_disabilities.learning_disabilities
     t: Problemas de aprendizaxe
@@ -459,42 +459,42 @@ translations:
     t: Xerarquía da información
   - key: options.accessibility_techniques.headings_hierarchy.description
     t: |
-      Uso de cabeceiras (`<h1>` - `<h6>`) que reflexan correctamente a xerarquía da información da páxina.
+      Uso de cabeceiras (`<h1>` - `<h6>`) que reflexen correctamente a xerarquía da información da páxina.
   - key: options.accessibility_techniques.meaningful_link_text
     t: Texto significativo das ligazóns
   - key: options.accessibility_techniques.meaningful_link_text.description
-    t: Asegurándose que o texto dentro dunha ligazón ten sentido cando está fora de contexto
+    t: Asegurarse que o texto dentro dunha ligazón ten sentido cando está fora de contexto
   - key: options.accessibility_techniques.form_control_label
     t: Asignar etiquetas a todos os controis dun formulario
   - key: options.accessibility_techniques.form_control_label.description
     t: |
-      Asegurándose de que cada control do formulario ten un `<label>` (ou `aria-label`, etc.).
+      Asegurarse de que cada control do formulario ten un `<label>` (ou `aria-label`, etc.).
   - key: options.accessibility_techniques.visible_focus
     t: Focus Ring visible
   - key: options.accessibility_techniques.visible_focus.description
-    t: Asegurándose que o resaltado do estado focus e suficientemente visible cando sexa necesario.
+    t: Asegurarse que o resaltado do estado *focus* e suficientemente visible cando sexa necesario.
   - key: options.accessibility_techniques.pointer_alternative
     t: Non depender só do punteiro
   - key: options.accessibility_techniques.pointer_alternative.description
-    t: Asegurándose de que as interacións co punteiro (como *hover*) teñen unha alternativa de teclado.
+    t: Asegurarse de que as interacións co punteiro (como *hover*) teñen unha alternativa co teclado.
   - key: options.accessibility_techniques.good_color_contrast
     t: Contraste suficiente
   - key: options.accessibility_techniques.good_color_contrast.description
-    t: Comprobando o contraste de cor para asegurase de que é suficiente.
+    t: Comprobar o contraste de cor para asegurase de que é suficiente.
   - key: options.accessibility_techniques.color_alternative
     t: Non depender só da cor
   - key: options.accessibility_techniques.color_alternative.description
-    t: Asegurándose de que ningunha información precisa de cor para se entender.
+    t: Asegurarse de que ningunha información precisa de cor para se poder entender.
   - key: options.accessibility_techniques.prefers_reduced_motion
     t: |
       `prefers-reduced-motion` media query
   - key: options.accessibility_techniques.prefers_reduced_motion.description
-    t: Proporcionando CSS alternativo para usuarios que prefiren pouco movemento na páxina.
+    t: Proporcionar CSS alternativo para usuarios que prefiren poucas animacións na páxina.
   - key: options.accessibility_techniques.prefers_contrast
     t: |
       `prefers-contrast` media query
   - key: options.accessibility_techniques.prefers_contrast.description
-    t: Proporcionando CSS alternativo para usuarios que prefiren un maior contraste.
+    t: Proporcionar CSS alternativo para usuarios que prefiren maior contraste.
 
   # PWAs
 
@@ -648,7 +648,7 @@ translations:
     t: Ademáis de ti, cantas persoas usan as bibliotecas, paquetes, compoñentes, APIs etc que creas ou mantés?
   - key: usage.tools_for_other_developers.description
     t: |
-      Pon a suma total, se traballas en varios proxectos que son usados por outros desenvolvedores.
+      Se traballas en varios proxectos que son usados por outros desenvolvedores, pon a suma total.
       Se non estas seguro, escolle a opción próxima ás túas estimacións máis optimistas.
       Para proxectos de código aberto, as descargas de NPM poden ofrecer pistas útiles.
   - key: options.tools_for_other_developers.na
@@ -900,5 +900,5 @@ translations:
     t: |
       Benvida á enquisa! As primerias dúas seccións tratan de descubrir que **funcións** de HTML (e APIs relacionadas) coñeces.
 
-      Por certo, se queres aprender máis sobre algún elemento mencionado na enquisa, podes engadilo á túa lista de lectura pinchando na icona "+"!
+      Por certo, se queres aprender máis sobre algún dos elementos mencionados na enquisa, podes engadilo á túa lista de lectura pinchando na icona "+"!
 
