@@ -7,15 +7,14 @@ translations:
 
   - key: general.state_of_css.intro
     t: >
-      CSS está evoluindo máis á présa que nunca.
+      CSS está evolucionando máis rápido ca nunca.
+
+      Flexbox, Grid, Multi-Column… por non falar do novo paradigma CSS-in-JS.
 
 
-      Flexbox, Grid, Multi-Column… por non falar do totalmente novo paradigma CSS-in-JS.
-
-
-      Así que despois do éxito da nosa enquisa anual sobre o Estado de JavaScript,
-      decidimos facer unha, dentro do mundo dos estilos e os selectores. Agardamos
-      que nos poidas axudar a identificar as últimas tendencias, e as ferramentas que
+      Así que, despois do éxito da nosa enquisa anual sobre o Estado de JavaScript,
+      decidimos facer outra sobre o mundo dos estilos e selectores. Agardamos
+      que nos poidas axudar a identificar as últimas tendencias e as ferramentas que
       debemos aprender e empregar no futuro!
 
   - key: general.results.description
@@ -28,32 +27,32 @@ translations:
   - key: sections.layout.title
     t: Deseño
   - key: sections.layout.description
-    t: Como distribues os elementos pola pantalla?
+    t: Como distribúes os elementos pola pantalla?
 
   - key: sections.shapes_graphics.title
     t: Formas e Gráficos
   - key: sections.shapes_graphics.description
-    t: Controlando a forma e a representación dos elementos.
+    t: Control da forma e a representación dos elementos.
 
   - key: sections.interactions.title
     t: Interaccións
   - key: sections.interactions.description
-    t: Controlando coma o usuario interactúa coa paxina.
+    t: Control de como o usuario interactúa coa paxina.
 
   - key: sections.typography.title
     t: Tipografías
   - key: sections.typography.description
-    t: Configurando e distribuindo o texto.
+    t: Configuración e distribución do texto.
 
   - key: sections.animations_transforms.title
     t: Animacións e Transformacións
   - key: sections.animations_transforms.description
-    t: Animando e transformando elementos.
+    t: Animación e transformación de elementos.
 
   - key: sections.media_queries.title
     t: Media Queries
   - key: sections.media_queries.description
-    t: Formas de adaptar a túa paxina aos dispositivos dos teus usuarios ou as súas preferenzas.
+    t: O xeito de adaptar a túa paxina aos dispositivos dos teus usuarios ou as súas preferenzas.
 
   - key: sections.other_features.title
     t: Outras Características
@@ -63,7 +62,7 @@ translations:
   - key: sections.units_selectors.title
     t: Unidades e Selectores
   - key: sections.units_selectors.description
-    t: Pon a proba o teu coñecimento sobre unidades e selectores de CSS.
+    t: Pon a proba o teu coñecemento sobre unidades e selectores de CSS.
 
   - key: sections.pre_post_processors.title
     t: Pre-/Post-procesadores
@@ -76,7 +75,7 @@ translations:
   - key: sections.css_frameworks.title
     t: CSS Frameworks
   - key: sections.css_frameworks.description
-    t: Librarías que te facilitan compoñentes e estilos listos para ser usados.
+    t: Bibliotecas que che proporcionan compoñentes e estilos listos para usar.
 
   - key: sections.css_frameworks_others.title
     t: Outros CSS Frameworks
@@ -84,7 +83,7 @@ translations:
   - key: sections.css_methodologies.title
     t: Metodoloxías CSS
   - key: sections.css_methodologies.description
-    t: Cómo escribir CSS de forma máis limpa.
+    t: Como escribir CSS de xeito máis limpo.
 
   - key: sections.css_methodologies_others.title
     t: Outras Metodoloxías CSS.
@@ -92,10 +91,10 @@ translations:
   - key: sections.css_in_js.title
     t: CSS-in-JS
   - key: sections.css_in_js.description
-    t: Librarías que nos axudan a escribir CSS dentro do código JavaScript.
+    t: Bibliotecas que nos axudan a escribir CSS dentro de JavaScript.
 
   - key: sections.css_in_js_others.title
-    t: Outras Librarías de CSS-in-JS.
+    t: Outras bibliotecas CSS-in-JS.
 
   - key: sections.tools_others.title
     t: Outras ferramentas
@@ -113,22 +112,22 @@ translations:
 
   # css for print
   - key: options.css_for_print.0
-    t: (Case) nunca escribo CSS para ser impreso
+    t: (Case) nunca escribo CSS para impresión
   - key: options.css_for_print.0.short
     t: Nunca
 
   - key: options.css_for_print.1
-    t: De vez en cando escribo CSS para ser impreso
+    t: De vez en cando escribo CSS para impresión
   - key: options.css_for_print.1.short
     t: Ocasionalmente
 
   - key: options.css_for_print.2
-    t: Escribo CSS para ser impreso para casi todos os proxectos
+    t: Escribo CSS para impresión en case todos os proxectos
   - key: options.css_for_print.2.short
-    t: A miudo
+    t: A miúdo
 
   - key: options.css_for_print.3
-    t: Só me centro en CSS para ser impreso
+    t: Só me centro en CSS para impresión
   - key: options.css_for_print.3.short
     t: Principalmente
 
@@ -144,9 +143,9 @@ translations:
     t: Ocasionalmente
 
   - key: options.css_for_email.2
-    t: Escribo CSS para correos electrónicos en casi tódolos proxectos
+    t: Escribo CSS para correos electrónicos en case todos os proxectos
   - key: options.css_for_email.2.short
-    t: A miudo
+    t: A miúdo
 
   - key: options.css_for_email.3
     t: Só me centro en CSS para correos electrónicos
@@ -225,7 +224,7 @@ translations:
     t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
   - key: features.font_variant
     t: <code>font-variant-*</code>
-  - key: features.initial_letter
+  - key: featres.initial_letter
     t: <code>initial-letter</code>
   - key: features.font_variant_numeric
     t: <code>font-variant-numeric</code>
@@ -252,7 +251,7 @@ translations:
 
   # media queries
   - key: features.feature_support_queries
-    t: Comprobando Características Soportadas (<code>@supports</code>)
+    t: Comprobación de soporte de funcionalidades (<code>@supports</code>)
   - key: features.prefers_reduced_motion
     t: <code>prefers-reduced-motion</code>
   - key: features.prefers_color_scheme
@@ -262,7 +261,7 @@ translations:
 
   # other features
   - key: features.variables
-    t: Variables CSS(Propiedades Custom)
+    t: Variables CSS (Custom properties)
   - key: features.containment
     t: CSS Containment
   - key: features.will_change
@@ -475,7 +474,7 @@ translations:
     t: En qué tamaños e formatos de pantalla fas probas?
 
   - key: environments.css_for_print
-    t: CSS para Imprimir
+    t: CSS para imprimir
   - key: environments.css_for_print.description
     t: Escribes CSS para imprimir?
 
@@ -499,7 +498,7 @@ translations:
     t: Curva de Aprendizaxe
 
   - key: opinions.css_evolving_slowly
-    t: CSS está evolucionando moi despacio
+    t: CSS está evolucionando moi amodo
   - key: opinions.css_evolving_slowly.title
     t: Velocidade de Cambio
 
@@ -509,9 +508,9 @@ translations:
     t: Clases Non Semánticas
 
   - key: opinions.selector_nesting_to_be_avoided
-    t: Aniñar selectores (.foo .bar ul li {...}) debería evitarse
+    t: Os selectores anidados (.foo .bar ul li {...}) debería evitarse
   - key: opinions.selector_nesting_to_be_avoided.title
-    t: Selectores Aniñados
+    t: Selectores anidados
 
   - key: opinions.css_is_programming_language
     t: CSS é unha linguaxe de programación
@@ -519,14 +518,14 @@ translations:
     t: Linguaxe de Programación
 
   - key: opinions.enjoy_writing_css
-    t: Disfruto escribindo CSS
+    t: Gozo escribindo CSS
   - key: opinions.enjoy_writing_css.title
     t: Satisfacción
 
   - key: opinions_others.css_missing_features.others
     t: Que crees que lle falta a CSS?
   - key: opinions_others.css_missing_features.others.description
-    t: Características que queres ver en CSS algún día.
+    t: Funcionalidades que che gustaría ver no CSS algún día.
   - key: opinions_others.css_missing_features.others.note
     t: >
       Estes resultados foron normalizados en base a un eido para texto libre.
@@ -535,10 +534,10 @@ translations:
   - key: opinions.sum_up_one_word_css
     t: CSS nunha palabra
   - key: opinions.sum_up_one_word_css.description
-    t: Como resumirías a túa opinión de CSS cunha palabra?
+    t: Como resumirías a túa opinión sobre CSS nunha palabra?
 
   - key: happiness.state_of_the_web
-    t: Como estás de satisfeito có estado xeral das tecnoloxías web?
+    t: Como de satisfeito estás co estado xeral das tecnoloxías web?
 
   - key: happiness.state_of_css
-    t: Como estás de satisfeito có estado xeral de CSS?
+    t: Como de satisfeito estás co estado xeral de CSS?
