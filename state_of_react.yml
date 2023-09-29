@@ -1,0 +1,385 @@
+locale: en-US
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_react.intro
+    t: |
+      React está presente dende hai bastante tempo e está claro que é un dos frameworks de front-end dominantes.
+
+      Aínda así, React segue evolucionando a un ritmo acelerado e a comunidade está facendo todo o posible para manterse ao día.
+
+      Coa enquisa State of React, agardamos darlle sentido a esa evolución e axudar aos desenvolvedores a atopar o camiño entre o vasto ecosistema de React.
+
+  - key: general.state_of_react.description
+    t: A enquisa anual sobre o ecosistema de React
+
+  - key: features.features_intro_react
+    t: |
+      Benvida á enquisa! Esta primeira parte trata de descubrir
+      cal das API oficiais de React coñeces e usas.
+
+      Por certo, se queres dicirnos algo máis sobre calquera das túas respostas, só tes que premer na icona de comentar.
+
+  - key: tools.tools_intro_react
+    t: |
+      As seguintes seccións céntranse nas **bibliotecas** e **frameworks**
+      que compoñen o ecosistema React. Dinos que é o que máis che entusiasma!
+
+  # sections
+  - key: sections.components.title
+    t: Compoñentes
+  - key: sections.components.description
+    t: Compoñentes especiais proporcionados por React
+  - key: sections.hooks.title
+    t: Hooks
+  - key: sections.hooks.description
+    t: Hooks incorporados por React
+  - key: sections.other_apis.title
+    t: Outras APIs
+  - key: sections.other_apis.description
+    t: Outras APIs e funcionalidades
+  - key: sections.component_apis.title
+    t: APIs para compoñentes
+  - key: sections.component_apis.description
+    t: APIs para manipular compoñentes
+  - key: sections.legacy_apis.title
+    t: APIs antigas
+  - key: sections.legacy_apis.description
+    t: APIs antigas e obsoletas
+
+  - key: sections.state_management.title
+    t: Xestión do estado
+  - key: sections.state_management.description
+    t: Bibliotecas para xestionar o estado das aplicacións
+  - key: sections.data_loading.title
+    t: Carga de datos
+  - key: sections.data_loading.description
+    t: Utilidades para cargar e xestionar datos
+  - key: sections.ui_libraries.title
+    t: Bibliotecas UI
+  - key: sections.ui_libraries.description
+    t: Bibliotecas de compoñentes e outras ferramentas de UI.
+  - key: sections.meta_frameworks.title
+    t: Meta Frameworks
+  - key: sections.meta_frameworks.description
+    t: Frameworks que che axudan a renderizar e servir aplicacións React
+  - key: sections.testing.title
+    t: Testing
+  - key: sections.testing.description
+    t: Uitilidades e bibliotecas de testing
+  - key: sections.mobile_development.title
+    t: Desenvolvemento móvil
+  - key: sections.mobile_development.description
+    t: Bibliotecas e utilidades de desenvolvemento para móviles
+
+  - key: sections.other_tools.title
+    t: Outras ferramentas
+  - key: sections.other_tools.description
+    t: Outras utilidades e bibliotecas de React
+
+  - key: sections.usage_react.title
+    t: Uso
+  - key: sections.usage_react.description
+    t: Como empregas React no teu día a día?
+
+  # tools
+
+  - key: tools.state_management_others
+    t: Outras bibliotecas de xestión do estado
+  - key: tools.state_management_happiness
+    t: Satisfacción
+  - key: tools.state_management_happiness.description
+    t: Como de satisfeito estas coas bibliotecas de xestión de estado?
+
+  - key: tools.data_loading_others
+    t: Outras bibliotecas de carga de datos
+  - key: tools.data_loading_happiness
+    t: Satisfacción
+  - key: tools.data_loading_happiness.description
+    t: Como de satisfeito estas coas bibliotecas para cargar datos?
+
+  - key: tools.ui_libraries_others
+    t: Outras bibliotecas UI
+  - key: tools.ui_libraries_happiness
+    t: Satisfacción
+  - key: tools.ui_libraries_happiness.description
+    t: Como de satisfeito estas coas bibliotecas de UI?
+
+  - key: tools.meta_frameworks_others
+    t: Outros Meta-Frameworks
+  - key: tools.meta_frameworks_happiness
+    t: Satisfacción
+  - key: tools.meta_frameworks_happiness.description
+    t: Como de satisfeito estas co estado actual dos meta-frameworks?
+
+  - key: tools.testing_others
+    t: Outras bibliotecas de testing
+  - key: tools.testing_happiness
+    t: Satisfacción
+  - key: tools.testing_happiness.description
+    t: Como de satisfeito estas co estado actual das ferramentas de testing?
+
+  - key: tools.mobile_development_others
+    t: Outras ferramentas de desenvolvemento móbil
+  - key: tools.mobile_development_happiness
+    t: Satisfacción
+  - key: tools.mobile_development_happiness.description
+    t: Como de satisfeito estas co estado actual do desenvolvemento para móbiles?
+
+  # other tools
+  - key: other_tools.forms.description
+    t: Bibliotecas para xerar e validar formularios
+  - key: options.forms.na
+    t: Ningunha
+
+  - key: other_tools.build_tools
+    t: Ferramentas para compilar
+  - key: other_tools.build_tools.description
+    t: Ferramentas para compilar e bundlers.
+
+  - key: other_tools.animation
+    t: Animación
+  - key: other_tools.animation.description
+    t: Bibliotecas para xestionar animacións e transicións.
+
+  - key: other_tools.auth
+    t: Autenticación
+  - key: other_tools.auth.description
+    t: Bibliotecas e servizos para xestionar a autenticación e a conta.
+
+  - key: other_tools.data_visualization
+    t: Visualización de datos
+  - key: other_tools.data_visualization.description
+    t: Bibliotecas para visualizar datos e gráficas.
+
+  - key: other_tools.css_tools
+    t: Bibliotecas e ferramentas de CSS
+  - key: other_tools.css_tools.description
+    t: Bibliotecas CSS, frameworks e utilidades para aplicar estilos na túa aplicación React.
+
+  - key: other_tools.other_frontend_frameworks
+    t: Outros frameworks de front-end
+  - key: other_tools.other_frontend_frameworks.description
+    t: >
+      Outros frameworks de front-end cos que tiveches unha experiencia positiva
+      ou tes interese en aprender.
+
+  - key: other_tools.hosting
+    t: Servizos de aloxamento
+  - key: other_tools.hosting.description
+    t: Servizos que usas para aloxar as túas aplicacións de React.
+
+  - key: other_tools.backend_language
+    t: Linguaxes back-end
+  - key: other_tools.backend_language.description
+    t: En cales das seguintes linguaxes están escritos o back-end das túas aplicacións?
+
+  - key: other_tools.other_services
+    t: Outros servizos
+  - key: other_tools.other_services.description
+    t: Outros servizos que usas coas aplicacións React
+
+  - key: other_tools.validation
+    t: Bibliotecas de esquemas e validación
+  - key: other_tools.validation.description
+    t: Bibliotecas para validar data segundo un esquema.
+
+  - key: other_tools.ai_tools
+    t: Ferramentas IA
+  - key: other_tools.ai_tools.description
+    t: Ferramentas IA e servizos que usas para escribir código en React.
+
+  - key: other_tools.renderers
+    t: Renderizar React
+  - key: other_tools.renderers.description
+    t: Bibliotecas que che permiten renderizar React a diferentes plataformas e entornos.
+
+  - key: other_tools.other_tools
+    t: Outras ferramentas
+  - key: other_tools.other_tools.description
+    t: Outras ferramentas que usas para desenvolver aplicacións React.
+
+  # CSS
+  - key: options.css_tools.plain_css
+    t: CSS (plano, «vanilla» CSS)
+
+  # react pain points
+
+  - key: options.react_pain_points.rerenders
+    t: Xestión do re-renderizado de compoñentes
+  - key: options.react_pain_points.testing
+    t: Testing
+  - key: options.react_pain_points.data_loading
+    t: Carga de datos e operacións asíncronas
+  - key: options.react_pain_points.state_management
+    t: Xestión do estado (`useState`, Redux, Context, etc.)
+  - key: options.react_pain_points.bundle_sizes
+    t: Reducción dos tamaños do código resultante para navegador
+  - key: options.react_pain_points.server_rendering
+    t: Compoñentes que se renderizan no lado do servidor e «server components»
+  - key: options.react_pain_points.css_styling
+    t: CSS e estilos
+  - key: options.react_pain_points.attribute_names
+    t: Nomes de atributos «erróneos» como `className`, `htmlFor`, etc.
+  - key: options.react_pain_points.synthetic_events
+    t: Eventos sintéticos
+  - key: options.react_pain_points.ref_management
+    t: Xestión de Ref
+  - key: options.react_pain_points.memoization
+    t: Memoization
+  - key: options.react_pain_points.animations
+    t: Animacións e transicións
+  - key: options.react_pain_points.forms
+    t: Formularios
+  - key: options.react_pain_points.typescript
+    t: Falta de soporte oficial de TypeScript nativo
+
+  # usage type
+  - key: usage.react_usage_type
+    t: Uso de React
+  - key: usage.react_usage_type.description
+    t: En que contextos empregas principalmente React?
+
+  # react version
+
+  - key: usage.react_version
+    t: Versión de React
+  - key: usage.react_version.description
+    t: Que versión de React usas máis no día a día?
+
+  - key: options.react_version.react_v16x
+    t: 16.x
+  - key: options.react_version.react_v17x
+    t: 17.x
+  - key: options.react_version.react_v18x
+    t: 18.x
+  - key: options.react_version.not_sure
+    t: Non estou seguro
+
+  # JS App Patterns
+
+  - key: usage.js_app_patterns
+    t: Patróns de aplicación
+  - key: usage.js_app_patterns.description
+    t: Cales das seguintes arquitecturas e patróns de renderizado usaches **no último ano**?
+
+  - key: options.js_app_patterns.single_page_app
+    t: Single Page Application (SPA)
+  - key: options.js_app_patterns.single_page_app.description
+    t: Aplicacións que se executan completamente no navegador
+  - key: options.js_app_patterns.multiple_page_app
+    t: Multi-Page Application (MPA)
+  - key: options.js_app_patterns.multiple_page_app.description
+    t: Aplicacións que se executan completamente no lado do servidor, cuns mínimos comportamentos dinámicos de lado do cliente.
+  - key: options.js_app_patterns.static_site_generation
+    t: Static Site Generation (SSG)
+  - key: options.js_app_patterns.static_site_generation.description
+    t: Contido estático pre-renderizado, con ou sin elementos dinámicos de lado do cliente.
+  - key: options.js_app_patterns.server_side_rendering
+    t: Server-Side Rendering (SSR)
+  - key: options.js_app_patterns.server_side_rendering.description
+    t: Contido HTML renderizado dinamicamente no servidor antes de ser *rehidratado* no cliente
+  - key: options.js_app_patterns.partial_hydration
+    t: Hidratación parcial
+  - key: options.js_app_patterns.partial_hydration.description
+    t: Só se hidratan algúns compoñentes de lado do cliente (usando por exemplo *Server Components* de React)
+  - key: options.js_app_patterns.progressive_rehydration
+    t: Hidratación progresiva
+  - key: options.js_app_patterns.progressive_rehydration.description
+    t: Controlando a orde de hidratación do lado do cliente
+  - key: options.js_app_patterns.islands_architecture
+    t: Arquitectura de illas
+  - key: options.js_app_patterns.islands_architecture.description
+    t: Illas (*islands*) con comportamento dinámido e múltiples entradas dentro dun sitio estático (Astro, Eleventy)
+  - key: options.js_app_patterns.progressive_enhancement
+    t: Mellora progresiva
+  - key: options.js_app_patterns.progressive_enhancement.description
+    t: Asegurándote de que a aplicación é funcional incluso sen JavaScript
+  - key: options.js_app_patterns.incremental_static_generation
+    t: Xeración estática incremental
+  - key: options.js_app_patterns.incremental_static_generation.description
+    t: Ser capaz de aumentar ou modificar dinámicamente un sitio estático incluso despois do compilado inicial (Next.js ISR, Gatsby DSG)
+  - key: options.js_app_patterns.streaming_ssr
+    t: Streaming SSR
+  - key: options.js_app_patterns.streaming_ssr.description
+    t: Dividindo o contido renderizado do lado do servidor en pezas máis pequenas
+  - key: options.js_app_patterns.resumability
+    t: Reanudabilidade
+  - key: options.js_app_patterns.resumability.description
+    t: Serializando o estado do framework no servidor, de xeito que o cliente pode reanudalo sen necesidade de volver a executar o código.
+  - key: options.js_app_patterns.edge_rendering
+    t: Edge Rendering
+  - key: options.js_app_patterns.edge_rendering.description
+    t: Alterar o HTML renderizado no *edge* xusto antes de envialo ao cliente
+
+  - key: options.js_app_patterns.micro_frontend
+    t: Micro Frontend
+  - key: options.js_app_patterns.domain_driven_design
+    t: Domain-Driven Design
+  - key: options.js_app_patterns.serverless
+    t: Serverless
+  - key: options.js_app_patterns.pespa
+    t: PESPA
+
+  - key: usage.what_do_you_use_react_for
+    t: Para que empregas React?
+
+  - key: usage.react_pain_points
+    t: Dificultades de React
+
+  - key: usage.state_of_react
+    t: Como de satisfeito estas co estado actual de React?
+
+  # new features
+  - key: usage.new_features
+    t: Novas funcionalidades
+  - key: usage.new_features.description
+    t: De cales das recentes e próximas funcionalidades estas máis entusiasmado?
+
+  - key: options.new_features.asset_loading
+    t: Carga de assets
+  - key: options.new_features.asset_loading.description
+    t: Integración total de Suspense na ciclo de vida de carga de estilos, tipografías e imaxes
+  - key: options.new_features.cache.description
+    t: API para axudar a gardar datos na caché.
+  - key: options.new_features_react_forget.description
+    t: Un compilador automático de reactividade para React
+  - key: options.new_features.new_docs
+    t: Nova documentación
+  - key: options.new_features.new_docs.description
+    t: Actualización da web de documentación de React.
+  - key: options.new_features.offscreen_rendering
+    t: Renderizado fora da pantalla
+  - key: options.new_features_offscreen_rendering.description
+    t: Renderizado de pantallas en segundo plano, sen unha carga adicional no rendemento.
+  - key: options.new_features.use_hook
+    t: >
+      Hook `use`
+  - key: options.new_features.use_hook.description
+    t: >
+      `use` é como unha promesa, pero pódese empregar dentro dun compoñente normal e de Hooks, incluso no lado do cliente.
+
+  - key: options.new_features.transition_tracing
+    t: Seguimento de transicións
+  - key: options.new_features.transition_tracing.description
+    t: Detecta cando as transicións de React comezan a ir lentas e investiga as razóns.
+
+  # what do you use React for?
+  - key: options.what_do_you_use_react_for.static_sites
+    t: Sitios estáticos
+  - key: options.what_do_you_use_react_for.design_systems
+    t: Sistemas de deseño
+  - key: options.what_do_you_use_react_for.web_apps
+    t: Aplicacións web
+  - key: options.what_do_you_use_react_for.mobile_apps
+    t: Aplicacións para móvil
+  - key: options.what_do_you_use_react_for.desktop_apps
+    t: Aplicacións para escritorio
+
+  # resources
+  - key: resources.first_steps_react
+    t: Primeiros pasos
+  - key: resources.first_steps_react.description
+    t: Que recursos empregaches para aprender React iniciamente?
