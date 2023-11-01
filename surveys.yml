@@ -4,6 +4,11 @@ translations:
   # General
   ###########################################################################
 
+  - key: general.title
+    t: Enquisas Devographics
+  - key: general.description
+    t: O estado de JavaScript, estado de CSS, estado de HTML, e outras enquisas para desenvolvedores.
+
   - key: general.no_preview_surveys
     t: Non hai enquisas para previsualizar
   - key: general.global_nav
@@ -64,9 +69,6 @@ translations:
   - key: feature.unimplemented
     t: Sen soporte por navegadores
 
-  - key: feature.unimplemented.description
-    t: Esta funcionalidade aínda non foi implementada polos navegadores. Pero podes seleccionar «Useino» se a usaches por medio dun *polyfill*, transpilador ou calquera outra ferramenta.
-
   - key: general.skip_question
     t: Saltar
 
@@ -78,6 +80,26 @@ translations:
 
   - key: general.unskip_question.description
     t: Non omitir a pregunta e contestala
+  
+  - key: years.less_than_one_year
+    t: Menos dun ano
+  
+  - key: years.years
+    t: anos
+  
+  - key: likert.option.0
+    t: Moi descontente
+  - key: likert.option.1
+    t: Descontente
+  - key: likert.option.2
+    t: Neutral
+  - key: likert.option.3
+    t: Contente
+  - key: likert.option.4
+    t: Moi contente
+
+  - key: general.numeric_input.invalid_input
+    t: Por favor, asegúrate de meter un número válido.
 
   ###########################################################################
   # Errors & Messages
@@ -125,6 +147,8 @@ translations:
     t: Por favor, introduce o teu correo electrónico
   - key: accounts.magic_link.success
     t: Consulta a túa bandexa de entrada! Enviámosche unha ligazón máxica, so debes pinchar nela para confirmar a túa conta e entrar nela.
+  - key: accounts.magic_link.browser
+    t: <a href="{link}">Abrir a bandexa de entrada.</a>
 
   ###########################################################################
   # FAQ
@@ -274,6 +298,67 @@ translations:
   # Survey-Specific Intros
   ###########################################################################
 
+  - key: general.js2020.survey_intro
+    t: |
+      2020 foi un ano duro para todos, uno deses anos nos que preocuparse polos últimos frameworks de JavaScript parece bastante inútil en comparación.
+
+      Aínda asi, o mundo ten que seguir adiante, e tamén o fai o JavaScript. E unha vez máis, coa túa axuda intentaremos construír unha imaxe completa to ecosistema para saber un pouco máis cara onde se está dirixindo.
+  
+  - key: general.css2021.survey_intro
+    t: |
+      Ei CSS, en que andiveches metida últimamente? Oh de verdade? `@container`? Oh e tamén dimensionamento intrínseco? E `@property` tamén? Vaia! estiveches ocupada!
+
+      Aínda que a pandemia continuou dificultándonos a vida durante o 2021, moitos
+      colaboradores de todo o mundo conseguiron dalgún xeito que o CSS siga avanzando.
+      E así, unha vez máis, é hora de investigar o ecosistema CSS e descubrir
+      onde vai todo isto. E quizais aprendas algunhas cousas novas mentres o fas!
+
+  - key: general.js2021.survey_intro
+    t: |
+      Primeiro, os Xogos Olímpicos de 2020 adiáronse ao 2021,
+      e agora a enquisa sobre o estado de JavaScript de 2021 tamén se está a realizar agora, en 2022.
+
+      É certo: entre o traballo, a familia e todo o que sucede no mundo,
+      algunhas cousas ralentizáronse un pouco.
+
+      Pero aínda que o ano pode estar cambiado, esperamos que os datos proporcionados pola enquisa sexa tan informativa coma sempre.
+      E non te preocupes, haberá outra enquisa a finais de ano para axustar as cousas de novo!
+
+  - key: general.graphql2022.survey_intro
+    t: |
+      Cando se presentou GraphQL por primeira vez, propoñía un xeito radicalmente novo de construír API, con máis control, máis granularidade e máis flexibilidade.
+
+      Pero esa flexibilidade ten un prezo en forma de complexidade adicional, e rapidamente apareceu unha gran cantidade de frameworks, bibliotecas e servizos para axudar a definir mellores patróns e fluxos de traballo.
+
+      Agora, por primeira vez, estamos enquisando a comunidade GraphQL para descubrir cales destas ferramentas son as máis populares e cales son as funcións que realmente se están a utilizar. Coa túa axuda, imos ver o que estivo facendo GraphQL en 2022.
+
+  - key: general.css2022.survey_intro
+    t: |
+      CSS segue progresando a un ritmo sen precedentes. Afortunadamente, este ano contamos coa axuda de alguén á fronte de todos estes cambios: [Lea Verou](https://lea.verou.me/) levou a cabo a selección das preguntas deste ano, con especial atención en sinalar as próximas funcionalidades de CSS.
+
+      Ademais, os resultados da enquisa tamén axudarán aos creadores de navegadores a priorizar as súas follas de ruta e traballar para mellorar a compatibilidade entre os navegadores.
+
+      Con todo isto, vexamos como evolucionou CSS en 2022.
+
+  - key: general.js2022.survey_intro
+    t: |
+      Por primeira vez dende hai tempo, parece que o status quo do ecosistema JavaScript está a ser cuestionado.
+
+      Compilado máis rápido con Vite, arquitectura de illas con Astro, reanudabilidade con Qwik... Os novos participantes están desafiando á vella garda, e o resultado é moito máis excitante, pero tamén
+      con máis incerteza.
+
+      Asi que, unha vez máis, intentemos descubrir xuntos cara a onde vai JavaScript, en 2022 e máis aló.
+
+  - key: general.css2023.survey_intro
+    t: |
+      Para axudarche a estar ao día de `:has()`, `@container` e todas as novas funcións de CSS, este ano presentamos unha nova funcionalidade: a **Lista de lectura**.
+
+      Ao responder á enquisa, poderás marcar calquera característica da que desexas obter máis información, despois de enviar as túas respostas.
+
+      Este ano [Chen Hui Jing](https://chenhuijing.com/) asumiu o liderado do proceso de deseño da enquisa, baseándose no traballo realizado por [Lea Verou](https://lea.verou.me/) o ano pasado. E como é habitual, os teus comentarios desempeñarán un papel fundamental para axudar aos fabricantes de navegadores a priorizar as súas follas de ruta e traballar para lograr unha mellor compatibilidade entre os navegadores.
+
+      Dito isto, vexamos como evolucionou CSS ata agora en 2023.
+
   - key: general.html2023.survey_intro
     t: |
       Aínda que os desenvolvedores tendemos a enfocarmos máis no JavaScript e CSS, nada do que facemos sería posible sen o HTML base.
@@ -296,6 +381,18 @@ translations:
 
       A enquisa estará aberta durante 3 semanas, pero as respostas **durante os primeiros 9 días (ata o 1 de outubro)** teñen un impacto moito maior na Web,
       porque eses datos preliminares vanse usar para certas priorizacións con prazos anteriores á data de finalización da enquisa.
+
+  - key: general.react2023.survey_intro
+    t: |
+      Tan pronto como apareceu React, deixou claro que se convertería nun gran avance para a web.
+
+      Despois de todo, utilizouse para construír Facebook e, a pesar do raro que parece o "JSX", os desenvolvedores adoptárono rapidamente. E o que é aínda máis impresionante, a comunidade mantívose fiel durante os grandes cambios, como os compoñentes de funcións e os *hooks*.
+
+      10 anos despois, os *React Server Components*, recentemente introducidos, prometen ser o maior cambio dende... ben, desde o propio React!
+
+      Continuará aí a comunidade unha vez máis? Ou os desenvolvedores saltarán a Svelte, Solid ou calquera outro framework?
+
+      Imos descubrilo xuntos, coa primeira enquisa sobre o estado de React!
 
   ###########################################################################
   # Survey-Specific FAQs
@@ -344,3 +441,47 @@ translations:
     t: Cando se van publicar os resultados?
   - key: faq.results_released_html2023.description
     t: A enquisa estará aberta dende o 19 de setembro ata o 10 de outubro, os resultados publicaránse pouco tempo despois.
+
+  # React 2023
+
+  - key: faq.data_used_react2023
+    t: Como van ser usados estos datos?
+  - key: faq.data_used_react2023.description
+    t: >
+      Todos os datos recollidos publicaranse abertamente para que calquera os poida consultar. Os desenvolvedores ou as empresas poden usalos para priorizar e definir as súas follas de ruta.
+
+  - key: faq.survey_goals_react2023
+    t: Cales son os obxectivos da enquisa?
+  - key: faq.survey_goals_react2023.description
+    t: >
+      Os obxectivos da enquisa son medir o coñecemento e a popularidade das APIs de React, así como das bibliotecas do seu ecosistema.
+
+  - key: faq.who_should_take_survey_react2023
+    t: Quen debería cubrir esta enquisa?
+  - key: faq.who_should_take_survey_react2023.description
+    t: >
+      Esta é unha enquisa aberta para calquera que use React, xa sexa regularmente ou ocasionalmente, como parte do seu traballo, como estudante ou só por pracer.
+
+  - key: faq.how_long_will_survey_take_react2023
+    t: Canto tempo leva completar a enquisa?
+  - key: faq.how_long_will_survey_take_react2023.description
+    t: >
+      Dependendo de cantas preguntas respondas (todas as preguntas son opcionais),
+      cubrir a enquisa debería levar uns 15-20 minutos.
+
+  - key: faq.learn_more_react2023
+    t: Onde me podo informar máis sobre esta enquisa?
+  - key: faq.learn_more_react2023.description
+    t: Podes obter máis informcación sobre e enquisa no [post onde foi anunciada](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b).
+
+  - key: faq.survey_design_react2023
+    t: Como foi deseñada a enquisa?
+  - key: faq.survey_design_react2023.description
+    t: >
+      A enquisa foi deseñada coas suxestións da comunidade por medio dun
+      [fío aberto para recibir feedback](https://github.com/Devographics/surveys/issues/85).
+
+  - key: faq.results_released_react2023
+    t: Cando se publicarán os resultados??
+  - key: faq.results_released_react2023.description
+    t: A enquisa estará aberta dende o 27 de outubro ata o 15 de novembro, e os resultados publicaránse pouco despois.

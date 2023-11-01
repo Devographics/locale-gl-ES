@@ -28,26 +28,25 @@ translations:
       que compoñen o ecosistema React. Dinos que é o que máis che entusiasma!
 
   # sections
-  - key: sections.components.title
-    t: Compoñentes
-  - key: sections.components.description
-    t: Compoñentes especiais proporcionados por React
+  - key: sections.main_apis.title
+    t: APIs principais
+  - key: sections.main_apis.description
+    t: Funcionalidades estables de React
+  
   - key: sections.hooks.title
     t: Hooks
   - key: sections.hooks.description
-    t: Hooks incorporados por React
-  - key: sections.other_apis.title
-    t: Outras APIs
-  - key: sections.other_apis.description
-    t: Outras APIs e funcionalidades
-  - key: sections.component_apis.title
-    t: APIs para compoñentes
-  - key: sections.component_apis.description
-    t: APIs para manipular compoñentes
-  - key: sections.legacy_apis.title
-    t: APIs antigas
-  - key: sections.legacy_apis.description
-    t: APIs antigas e obsoletas
+    t: Os *hooks* que veñen incorporados en React
+  
+  - key: sections.new_apis.title
+    t: Novas APIs
+  - key: sections.new_apis.description
+    t: Funcionalidades introducidas recentemente ou experimentais
+  
+  - key: sections.component_libraries.title
+    t: Bibliotecas de compoñentes
+  - key: sections.component_libraries.description
+    t: Os bloques para construir a túa interface
 
   - key: sections.state_management.title
     t: Xestión do estado
@@ -57,22 +56,11 @@ translations:
     t: Carga de datos
   - key: sections.data_loading.description
     t: Utilidades para cargar e xestionar datos
-  - key: sections.ui_libraries.title
-    t: Bibliotecas UI
-  - key: sections.ui_libraries.description
-    t: Bibliotecas de compoñentes e outras ferramentas de UI.
-  - key: sections.meta_frameworks.title
-    t: Meta Frameworks
-  - key: sections.meta_frameworks.description
-    t: Frameworks que che axudan a renderizar e servir aplicacións React
-  - key: sections.testing.title
-    t: Testing
-  - key: sections.testing.description
-    t: Uitilidades e bibliotecas de testing
-  - key: sections.mobile_development.title
-    t: Desenvolvemento móvil
-  - key: sections.mobile_development.description
-    t: Bibliotecas e utilidades de desenvolvemento para móviles
+  
+  - key: sections.back_end_infrastructure.title
+    t: Back-End e infraestrutura
+  - key: sections.back_end_infrastructure.description
+    t: Como compilar e servir a túa app
 
   - key: sections.other_tools.title
     t: Outras ferramentas
@@ -83,123 +71,336 @@ translations:
     t: Uso
   - key: sections.usage_react.description
     t: Como empregas React no teu día a día?
+  
+  - key: tools.data_loading_heading
+    t: Bibliotecas de carga de datos
+
+  - key: tools.state_management_heading
+    t: Bibliotecas de xestion do estado
+  
+  # features
+
+  - key: features.main_apis_pain_points
+    t: Inconvintes das APIs
+  - key: features.main_apis_pain_points.question
+    t: Cales son os principais inconvintes que te atopaches relacionados coas APIs mencionadas arriba?
+  
+  - key: features.hooks_pain_points
+    t: Inconvintes dos *hooks*
+  - key: features.hooks_pain_points.question
+    t: Cales son os principais inconvites que te atopaches cos *hooks*?
+  
+  - key: features.new_apis_pain_points
+    t: Inconvintes das novas APIs
+  - key: features.new_apis_pain_points.question
+    t: Cales son os principais inconvintes que te atopaches relacionados coas novas APIs?
+
+  # main features
+  - key: features.fragment.description
+    t: >
+      `<Fragment>`, tamén usado coa sintaxe `<>...</>`, permite agrupar elementos sen ter necesidade dun nodo que os envolva.
+  - key: features.profiler.description
+    t: >
+      `<Profiler>` permite medir o rendemento do renderizado dunha estrutura de React de forma programática.
+  - key: features.strictmode.description
+    t: >
+      `<StrictMode>` permite atopar bugs comúns nos teus componentes nos primeiros momentos durante a fase de desenvolvemento.
+
+  - key: features.createportal.description
+    t: >
+      `createPortal` permite renderizar algúns elementos fillos nun sitio diferente do DOM.
+
+  - key: features.createcontext.description
+    t: >
+      `createContext` permite crear un contexto que os componentes poden ler ou fornecer.
+
+  - key: features.forwardref.description
+    t: >
+      `forwardRef` permite que os compoñentes poidan expoñer un nodo do DOM ao seu compoñente pais usando unha referencia.
+
+  - key: features.lazy.description
+    t: >
+      `lazy` permite diferir a carga do código dun compoñente ata que é renderizado por primeira vez.
+
+  - key: features.memo.description
+    t: >
+      `memo` permite saltar o pre-renderizado dun compoñente mentres que as súas propiedades non cambien.
+
+  - key: features.createroot.description
+    t: >
+      `createRoot` permite crear a raíz onde mostrar os compoñentes de React dentro dun nodo DOM do navegador.
+
+  - key: features.hydrateroot.description
+    t: >
+      `hydrateRoot` permite ensinar os compoñentes de React dentro dun nodo DOM do navegador cuxo contido xa foi xerado previamente por `react-dom/server`.
+
+  # hooks
+
+  - key: features.usecallback.description
+    t: >
+      `useCallback` é un *hook* de React que permite cachear a definición dunha función entre re-renderizados.
+
+  - key: features.usecontext.description
+    t: >
+      `useContext` é un *hook* de React que permite ler e subscribirse ao contexto dende un componente.
+
+  - key: features.usedebugvalue.description
+    t: >
+      `useDebugValue` é un *hook* de React que permite engadir unha etiqueta a un *hook* personalizado no React DevTools.
+
+  - key: features.usedeferredvalue.description
+    t: >
+      `useDeferredValue` é un *hook* de React que permite diferir a actualización dunha parte da interface.
+
+  - key: features.useeffect.description
+    t: >
+      `useEffect` é un *hook* de React que permite sincronizar un componente cun sistema externo.
+
+  - key: features.useid.description
+    t: >
+      `useId` é un *hook* de React para a xeración de IDs únicos que se poden usar para atributos de accesibilidade.
+
+  - key: features.usememo.description
+    t: >
+      `useMemo` é un *hook* de React que permite cachear o resultado de certos cálculos entre re-renderizados.
+
+  - key: features.usereducer.description
+    t: >
+      `useReducer` é un *hook* de React que pertite engadir un *reducer* aos teus compoñentes.
+
+  - key: features.useref.description
+    t: >
+      `useRef` é un *hook* de React que permite referenciar un valor que non é necesario para o renderizado.
+
+  - key: features.usestate.description
+    t: >
+      `useState` é un *hook* de React que permite engadir unha variable de estado ao teu compoñente.
+
+  - key: features.usesyncexternalstore.description
+    t: >
+      `useSyncExternalStore` é un *hook* de React que permite subscribirse a un almacenamento externo.
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition` é un *hook* de React que permite actualizar oo estado sen bloquear a interface.
+
+  # new features
+
+  - key: features.suspense.description
+    t: >
+      `<Suspense>` permite amosar un estado transitorio ata que o contido se acabe de cargar.
+
+  - key: features.use_hook.description
+    t: >
+      `use` é un *hook* de React que permite ler o valor dun recurso como unha promesa ou contexto.
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition` é un *hook* de React que permite actualizar o estado sen bloquear a interface.
+
+  - key: features.starttransition.description
+    t: >
+      `startTransition` permite actualizar o estado sen bloquear a interface.
+
+  - key: features.react_server_components.description
+    t: >
+      Compoñentes que se executan exclusivamente no servidor.
+
+  - key: features.use_client.description
+    t: >
+      `'use client'` marca os arquivos cuxos compoñentes se executan de lado do cliente.
+
+  - key: features.use_server.description
+    t: >
+      `'use server'` marca as funcións de lado de servidor que poden ser executadas dende código do cliente.
+
+  - key: features.server_actions.description
+    t: >
+      Solución integrada de React para mutacións no servidor.
+
+  - key: features.taint_api.description
+    t: >
+      Evita que un obxecto ou valor específico se pase a un compoñente cliente.
+
+  - key: features.cache.description
+    t: >
+      `cache` permite cachear o resultado de obter un dato ou realizar un cálculo.
+
+  - key: features.useformstatus.description
+    t: >
+      `useFormStatus` é un *hook* que che da a información de estado do último formulario enviado.
+
+  - key: features.useformstate.description
+    t: >
+      `useFormState` é un *hook* que permite actualizar o estado en base ao resultado dunha acción dun formulario.
 
   # tools
 
+  - key: tools.component_libraries_others
+    t: Otras bibliotecas
+  - key: tools.component_libraries_others.question
+    t: Que outras bibliotecas de compoñentes usaches algunha vez?
+
+  - key: tools.component_libraries_pain_points
+    t: Inconvintes dos compoñentes
+  - key: tools.component_libraries_pain_points.question
+    t: Que inconvintes principais atopaches relacionados cos compoñentes de React?
+
   - key: tools.state_management_others
     t: Outras bibliotecas de xestión do estado
-  - key: tools.state_management_happiness
-    t: Satisfacción
-  - key: tools.state_management_happiness.description
-    t: Como de satisfeito estas coas bibliotecas de xestión de estado?
+  - key: tools.state_management_others.question
+    t: Que outras bibliotecas usaches para xestionar o estado das túas apps?
+  
+  - key: tools.state_management_pain_points
+    t: Inconvintes da xestión do estado
+  - key: tools.state_management_pain_points.question
+    t: Cales son os principais inconvintes que te atopaches relacionados coa xestión de estado?
+
+  # - key: tools.state_management_happiness
+  #   t: Satisfacción
+  # - key: tools.state_management_happiness.description
+  #   t: Como de satisfeito estas coas bibliotecas de xestión de estado?
 
   - key: tools.data_loading_others
-    t: Outras bibliotecas de carga de datos
-  - key: tools.data_loading_happiness
-    t: Satisfacción
-  - key: tools.data_loading_happiness.description
-    t: Como de satisfeito estas coas bibliotecas para cargar datos?
+    t: Outras bibliotecas de carga de datos  
+  - key: tools.data_loading_others.question
+    t: Que outras bibliotecas de carga de datos empregaches algunha vez?
+  
+  - key: tools.data_loading_pain_points
+    t: Inconvintes da carga de datos
+  - key: tools.data_loading_pain_points.question
+    t: Cales son os principais inconvintes que te atopaches relacionados coa carga de datos?
 
-  - key: tools.ui_libraries_others
-    t: Outras bibliotecas UI
-  - key: tools.ui_libraries_happiness
-    t: Satisfacción
-  - key: tools.ui_libraries_happiness.description
-    t: Como de satisfeito estas coas bibliotecas de UI?
+  # - key: tools.data_loading_happiness
+  #   t: Satisfacción
+  # - key: tools.data_loading_happiness.description
+  #   t: Como de satisfeito estas coas bibliotecas para cargar datos?
 
   - key: tools.meta_frameworks_others
-    t: Outros Meta-Frameworks
-  - key: tools.meta_frameworks_happiness
-    t: Satisfacción
-  - key: tools.meta_frameworks_happiness.description
-    t: Como de satisfeito estas co estado actual dos meta-frameworks?
+    t: Outros meta-frameworks
+  
+  - key: tools.meta_frameworks_heading
+    t: Meta-frameworks
+  
+  - key: tools.other_back_end_tools_heading
+    t: Outras ferramentas de back-end e servizos
+  
+  - key: tools.back_end_infrastructure_pain_points
+    t: Inconvintes no back-end
+  - key: tools.back_end_infrastructure_pain_points.question
+    t: Que inconvintes atopaches relacionados co back-end e a infraestrutura?
+  
+  - key: other_tools.testing
+    t: Bibliotecas de testaxe
+  - key: other_tools.testing.question
+    t: Que bibliotecas empregas para a testaxe das túas aplicacións React?
 
-  - key: tools.testing_others
-    t: Outras bibliotecas de testing
-  - key: tools.testing_happiness
-    t: Satisfacción
-  - key: tools.testing_happiness.description
-    t: Como de satisfeito estas co estado actual das ferramentas de testing?
+  # - key: tools.testing_happiness
+  #   t: Satisfacción
+  # - key: tools.testing_happiness.description
+  #   t: Como de satisfeito estas co estado actual das ferramentas de testing?
 
-  - key: tools.mobile_development_others
-    t: Outras ferramentas de desenvolvemento móbil
-  - key: tools.mobile_development_happiness
-    t: Satisfacción
-  - key: tools.mobile_development_happiness.description
-    t: Como de satisfeito estas co estado actual do desenvolvemento para móbiles?
+  - key: other_tools.mobile_development
+    t: Ferramentas de desenvolvemto móbil
+  - key: other_tools.mobile_development.question
+    t: Que bibliotecas empregaches para o desenvolvemento móbil?
+
+  # - key: tools.mobile_development_others
+  #   t: Outras ferramentas de desenvolvemento móbil
+  # - key: tools.mobile_development_happiness
+  #   t: Satisfacción
+  # - key: tools.mobile_development_happiness.description
+  #   t: Como de satisfeito estas co estado actual do desenvolvemento para móbiles?
 
   # other tools
-  - key: other_tools.forms.description
-    t: Bibliotecas para xerar e validar formularios
-  - key: options.forms.na
+  - key: other_tools.form_libraries
+    t: Bibliotecas para formularios
+  - key: other_tools.form_libraries.question
+    t: Que bibliotecas empregas para xestionar formularios?
+  - key: options.form_libraries.na
     t: Ningunha
 
   - key: other_tools.build_tools
     t: Ferramentas para compilar
-  - key: other_tools.build_tools.description
-    t: Ferramentas para compilar e bundlers.
+  # - key: other_tools.build_tools.description
+  #   t: Ferramentas para compilar e bundlers.
+  - key: other_tools.build_tools.question
+    t: Que ferramentas para compilar empregas?
 
-  - key: other_tools.animation
+  - key: other_tools.animation_libraries
     t: Animación
-  - key: other_tools.animation.description
-    t: Bibliotecas para xestionar animacións e transicións.
+  # - key: other_tools.animation.description
+  #   t: Bibliotecas para xestionar animacións e transicións.
+  - key: other_tools.animation_libraries.question
+    t: Que bibliotecas empregas para as animacións?
 
   - key: other_tools.auth
     t: Autenticación
-  - key: other_tools.auth.description
-    t: Bibliotecas e servizos para xestionar a autenticación e a conta.
+  # - key: other_tools.auth.description
+  #   t: Bibliotecas e servizos para xestionar a autenticación e a conta.
+  - key: other_tools.auth.question
+    t: Que bibliotecas e servizos empregas para xestionar a autenticación?
 
-  - key: other_tools.data_visualization
+  - key: other_tools.data_visualization_libraries
     t: Visualización de datos
-  - key: other_tools.data_visualization.description
-    t: Bibliotecas para visualizar datos e gráficas.
+  # - key: other_tools.data_visualization.description
+  #   t: Bibliotecas para visualizar datos e gráficas.
+  - key: other_tools.data_visualization_libraries.question
+    t: Que bibliotecas de visualización e xeración de gráficas empregas?
 
   - key: other_tools.css_tools
     t: Bibliotecas e ferramentas de CSS
-  - key: other_tools.css_tools.description
-    t: Bibliotecas CSS, frameworks e utilidades para aplicar estilos na túa aplicación React.
+  # - key: other_tools.css_tools.description
+  #   t: Bibliotecas CSS, frameworks e utilidades para aplicar estilos na túa aplicación React.
+  - key: other_tools.css_tools.question
+    t: Que bibliotecas ou frameworks empregas para aplicar estilos á túa aplicación de React?
 
   - key: other_tools.other_frontend_frameworks
     t: Outros frameworks de front-end
-  - key: other_tools.other_frontend_frameworks.description
+  # - key: other_tools.other_frontend_frameworks.description
+  #   t: >
+  #     Outros frameworks de front-end cos que tiveches unha experiencia positiva
+  #     ou tes interese en aprender.
+  - key: other_tools.other_frontend_frameworks.question
     t: >
-      Outros frameworks de front-end cos que tiveches unha experiencia positiva
-      ou tes interese en aprender.
+      Que outros frameworks para front-end tes empregado?
 
   - key: other_tools.hosting
     t: Servizos de aloxamento
-  - key: other_tools.hosting.description
-    t: Servizos que usas para aloxar as túas aplicacións de React.
+  # - key: other_tools.hosting.description
+  #   t: Servizos que usas para aloxar as túas aplicacións de React.
+  - key: other_tools.hosting.question
+    t: Que servizos de aloxamento empregaches para as túas aplicacións de React?
 
   - key: other_tools.backend_language
     t: Linguaxes back-end
-  - key: other_tools.backend_language.description
+  - key: other_tools.backend_language.question
     t: En cales das seguintes linguaxes están escritos o back-end das túas aplicacións?
 
   - key: other_tools.other_services
     t: Outros servizos
-  - key: other_tools.other_services.description
-    t: Outros servizos que usas coas aplicacións React
+  - key: other_tools.other_services.question
+    t: Que outros servizos usas coas aplicacións React
 
   - key: other_tools.validation
     t: Bibliotecas de esquemas e validación
-  - key: other_tools.validation.description
-    t: Bibliotecas para validar data segundo un esquema.
+  - key: other_tools.validation.question
+    t: Que bibliotecas empregas para validar datos contra un esquema?
 
   - key: other_tools.ai_tools
     t: Ferramentas IA
-  - key: other_tools.ai_tools.description
-    t: Ferramentas IA e servizos que usas para escribir código en React.
+  - key: other_tools.ai_tools.question
+    t: Que ferramentas IA e servizos usas para escribir código en React?
 
   - key: other_tools.renderers
     t: Renderizar React
-  - key: other_tools.renderers.description
-    t: Bibliotecas que che permiten renderizar React a diferentes plataformas e entornos.
+  - key: other_tools.renderers.question
+    t: Que bibliotecas empregas para renderizar React a diferentes plataformas e entornos?
 
   - key: other_tools.other_tools
     t: Outras ferramentas
-  - key: other_tools.other_tools.description
-    t: Outras ferramentas que usas para desenvolver aplicacións React.
+  - key: other_tools.other_tools.question
+    t: Que outras ferramentas que usas para desenvolver aplicacións React.
 
   # CSS
   - key: options.css_tools.plain_css
@@ -239,14 +440,14 @@ translations:
   # usage type
   - key: usage.react_usage_type
     t: Uso de React
-  - key: usage.react_usage_type.description
+  - key: usage.react_usage_type.question
     t: En que contextos empregas principalmente React?
 
   # react version
 
   - key: usage.react_version
     t: Versión de React
-  - key: usage.react_version.description
+  - key: usage.react_version.question
     t: Que versión de React usas máis no día a día?
 
   - key: options.react_version.react_v16x
@@ -255,6 +456,8 @@ translations:
     t: 17.x
   - key: options.react_version.react_v18x
     t: 18.x
+  - key: options.react_version.react_canary
+    t: Canary
   - key: options.react_version.not_sure
     t: Non estou seguro
 
@@ -262,7 +465,7 @@ translations:
 
   - key: usage.js_app_patterns
     t: Patróns de aplicación
-  - key: usage.js_app_patterns.description
+  - key: usage.js_app_patterns.question
     t: Cales das seguintes arquitecturas e patróns de renderizado usaches **no último ano**?
 
   - key: options.js_app_patterns.single_page_app
@@ -324,18 +527,27 @@ translations:
     t: PESPA
 
   - key: usage.what_do_you_use_react_for
+    t: Uso de React
+  - key: usage.what_do_you_use_react_for.question
     t: Para que empregas React?
 
   - key: usage.react_pain_points
     t: Dificultades de React
 
   - key: usage.state_of_react
+    t: Satisfacción
+  - key: usage.state_of_react.question
     t: Como de satisfeito estas co estado actual de React?
+  
+  - key: usage.usage_pain_points
+    t: Outros inconvintes
+  - key: usage.usage_pain_points.question
+    t: Algún outro inconvinte de React que che gustaría mencionar?
 
   # new features
   - key: usage.new_features
     t: Novas funcionalidades
-  - key: usage.new_features.description
+  - key: usage.new_features.question
     t: De cales das recentes e próximas funcionalidades estas máis entusiasmado?
 
   - key: options.new_features.asset_loading
@@ -379,7 +591,32 @@ translations:
     t: Aplicacións para escritorio
 
   # resources
-  - key: resources.first_steps_react
-    t: Primeiros pasos
-  - key: resources.first_steps_react.description
+  - key: resources.learning_methods_react
+    t: Métodos de aprendizaxe
+  - key: resources.learning_methods_react.question
     t: Que recursos empregaches para aprender React iniciamente?
+
+  - key: resources.blogs_news_magazines_react
+    t: Blogs e boletíns
+  - key: resources.blogs_news_magazines_react.question
+    t: Que blogs, revistas ou boletíns consultas para manterte actualizado das noticias relacionadas con React?
+
+  - key: resources.sites_courses_react
+    t: Sitios web e cursos
+  - key: resources.sites_courses_react.question
+    t: Que sitios web ou cursos fixeches para aprender React?
+
+  - key: resources.podcasts_react
+    t: Podcasts
+  - key: resources.podcasts_react.question
+    t: Que podcasts de React ou desenvolvemento web escoitas?
+
+  - key: resources.video_creators_react
+    t: Creadores de vídeo
+  - key: resources.video_creators_react.question
+    t: Que creadores de vídeo sobre React ou desenvolvemento web adoitas ver en YouTube, Twich, etc?
+
+  - key: resources.people_react
+    t: Xente
+  - key: resources.people_react.question
+    t: A quen les, sigues ou simplemente queres destacar na comunidade de React?
