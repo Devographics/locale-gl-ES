@@ -138,7 +138,7 @@ translations:
   # navigation
   - key: general.table_of_contents
     t: >
-     {sectionCount} seccións ({completion}% completado)
+      {sectionCount} seccións ({completion}% completado)
   - key: general.all_questions_optional
     t: >
       Nota: todas as preguntas son opcionais, non precisas respondelas todas.
@@ -291,7 +291,7 @@ translations:
 
   - key: sections.report.title
     t: Informe de tendencia
-  
+
   - key: sections.usage.title
     t: Uso
 
@@ -350,7 +350,7 @@ translations:
     t: Sei o que é, pero nunca o usei
   - key: options.features.used.label
     t: Useino
-  
+
   # features (no emoji, short versions)
   - key: options.features.never_heard.label.short
     t: Nunca oín falar diso
@@ -442,7 +442,7 @@ translations:
     t: Estou dacordo
   - key: options.opinions.4
     t: Estou moi dacordo
-  
+
   # age
   - key: options.age.range_less_than_10
     t: 10 anos ou menos
@@ -594,7 +594,7 @@ translations:
     t: Avanzado
   - key: options.proficiency.4
     t: Experto
-  
+
   # Gender
 
   - key: options.gender.female
@@ -609,7 +609,7 @@ translations:
     t: Prefiro non dicilo
   - key: options.gender.not_listed
     t: Ningún destes
-  
+
   # Gender (short)
 
   - key: options.gender.female.short
@@ -624,7 +624,7 @@ translations:
     t: Prefiro non dicilo
   - key: options.gender.not_listed.short
     t: Ningún destes
-  
+
   # Race & Ethnicity
 
   - key: options.race_ethnicity.white_european
@@ -687,7 +687,7 @@ translations:
     t: Nativo americano/Illas do pacífico/Indixena australiano
   - key: options.race_ethnicity.not_listed.short
     t: Ningúnha das opcións
-  
+
   # Disability Status
   - key: options.disability_status.na
     t: 🚫 Ningunha
@@ -706,7 +706,7 @@ translations:
   - key: options.disability_status.not_listed
     t: >
       Ningunha das opcións
-  
+
   # Disability Status (short)
   - key: options.disability_status.visual_impairments.short
     t: >
@@ -723,7 +723,7 @@ translations:
   - key: options.disability_status.not_listed.short
     t: >
       Ningunha das opcións
-  
+
   # Form Factors
   - key: options.form_factors.desktop
     t: Escritorio
@@ -1261,7 +1261,7 @@ translations:
     t: Outros sectores industriais
   - key: user_info.industry_sector.others.description
     t: Outros sectores industriais nos que traballas non mencionados anteriormente.
-  
+
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
   - key: usage.industry_sector.description
@@ -1272,7 +1272,7 @@ translations:
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
     aliasFor: user_info.industry_sector.description
-  
+
   # degree
   - key: user_info.higher_education_degree
     t: Grao de educación superior
@@ -1314,7 +1314,7 @@ translations:
   # first steps
   - key: resources.first_steps
     t: Métodos iniciais de aprendizaxe
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: Como aprendiches a escribir código nos teus comezos?
   - key: resources.first_steps.others
     t: Outros métodos iniciais de aprendizaxe
@@ -1324,7 +1324,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blogs e revistas
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Que blogs/revistas/etc. acostumas ler?
   - key: resources.blogs_news_magazines.others
     t: Outros blogs e revistas
@@ -1336,7 +1336,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Páxinas web e cursos
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: Que páxinas web/cursos/etc. acostumas consultar?
   - key: resources.sites_courses.others
     t: Outras páxinas webs e cursos
@@ -1348,7 +1348,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcasts
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Que podcast sobre programación acostumas escoitar?
   - key: resources.podcasts.others
     t: Outros Podcasts
@@ -1378,7 +1378,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: Outas enquisas
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: En que outras enquisas de desenvolvedores participaches?
   - key: resources.other_surveys.others
     t: Outras enquisas non incluídas na lista
@@ -1391,7 +1391,7 @@ translations:
   - key: user_info.other_surveys
     aliasFor: resources.other_surveys
   - key: user_info.other_surveys.question
-    aliasFor: resources.other_surveys.description
+    aliasFor: resources.other_surveys.question
 
   # video creators
   - key: resources.video_creators
