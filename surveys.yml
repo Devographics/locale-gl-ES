@@ -485,3 +485,55 @@ translations:
     t: Cando se publicarán os resultados??
   - key: faq.results_released_react2023.description
     t: A enquisa estará aberta dende o 27 de outubro ata o 15 de novembro, e os resultados publicaránse pouco despois.
+
+  # JS 2023
+
+  - key: general.js2023.survey_intro
+    t: >
+      JavaScript comezou a sua vida como linguaxe de navegador, que logo acabou por conquistar o servidor con Node.js.
+
+      Estamos en 2023, e parece que o ecosistema no seu conxunto podería finalmente estar preparado para tentar salvar esta brecha. Entre funcionalidades como React Server Components, frameworks como Solid ou Qwik, ou meta-frameworks como Next.js e Sveltekit, ofrecer un mellor xeito de servir código e datos ao cliente converteuse no próximo gran obxectivo de JavaScript.
+
+      Ou deberíamos dicir TypeScript? Chegados a este punto, tornouse dificil desentrañar os dous, asi que nin o vamos a intentar.
+
+      En vez diso, podes cubrir esta enquisa e axudarnos a descubrir o que é novo, o que é vello e o que nos agarda nos próximos anos!
+
+  - key: faq.data_used_js2023
+    t: Como se usaran estes datos?
+  - key: faq.data_used_js2023.description
+    t: >
+      Todos os datos recollidos serán publicados en aberto para calquera persoa que os queira consultar. Desenvolvedores ou compañías poden usalos para priorizar e definir as súas follas de ruta.
+
+  - key: faq.survey_goals_js2023
+    t: Que obxectivos ten esta enquisa?
+  - key: faq.survey_goals_js2023.description
+    t: >
+      Os obxectivos da enquisa son medir o coñecemento e popularidade das funcionalidades de JavaScript e as súas bibliotecas para anticipar futuras tendencias.
+
+  - key: faq.who_should_take_survey_js2023
+    t: Quen debería cubrir esta enquisa?
+  - key: faq.who_should_take_survey_js2023.description
+    t: >
+      Esta enquisa está aberta para calquera que use JavaScript (ou TypeScript), tanto regular como ocasionalmente, como parte do seu traballo, estudos ou simplemente para divertirse!
+
+  - key: faq.how_long_will_survey_take_js2023
+    t: Canto tempo leva cubrir a enquisa?
+  - key: faq.how_long_will_survey_take_js2023.description
+    t: >
+      Dependendo das preguntas que respondas (todas as preguntas son opcionais), cumplimentar a enquisa debería levar uns 15-20 minutos.
+
+  - key: faq.learn_more_js2023
+    t: Onde podo saber máis?
+  - key: faq.learn_more_js2023.description
+    t: Podes saber máis desta enquisa no [post que fixemos para anunciala](https://dev.to/sachagreif/the-state-of-js-2023-survey-is-now-open-2hah).
+
+  - key: faq.survey_design_js2023
+    t: Como foi deseñada a enquisa?
+  - key: faq.survey_design_js2023.description
+    t: >
+      A enquisa foi deseñada coas suxestións da comunidade a través dun [fío de feedback aberto](https://github.com/Devographics/surveys/issues/224).
+
+  - key: faq.results_released_js2023
+    t: Cando se publicarán os resultados?
+  - key: faq.results_released_js2023.description
+    t: A enquisa estará aberta dende o 22 de novembro ata o 12 de decembro, e os resultados publicaránse pouco despois desa data.
