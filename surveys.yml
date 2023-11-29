@@ -490,19 +490,19 @@ translations:
 
   - key: general.js2023.survey_intro
     t: >
-      JavaScript comezou a sua vida como linguaxe de navegador, que logo acabou por conquistar o servidor con Node.js.
+      JavaScript comezou a sua vida como unha linguaxe para o navegador que acabou por conquistar tamén o servidor con Node.js.
 
-      Estamos en 2023, e parece que o ecosistema no seu conxunto podería finalmente estar preparado para tentar salvar esta brecha. Entre funcionalidades como React Server Components, frameworks como Solid ou Qwik, ou meta-frameworks como Next.js e Sveltekit, ofrecer un mellor xeito de servir código e datos ao cliente converteuse no próximo gran obxectivo de JavaScript.
+      Estamos en 2023 e parece que o ecosistema podería estar xa preparado para rematar de salvar esta brecha. Entre funcionalidades como React Server Components, frameworks como Solid ou Qwik, ou meta-frameworks como Next.js e Sveltekit, ofrecer un mellor xeito de servir código e datos ao cliente converteuse no próximo gran obxectivo de JavaScript.
 
       Ou deberíamos dicir TypeScript? Chegados a este punto, tornouse dificil desentrañar os dous, asi que nin o vamos a intentar.
 
-      En vez diso, podes cubrir esta enquisa e axudarnos a descubrir o que é novo, o que é vello e o que nos agarda nos próximos anos!
+      En vez diso, podes cubrir esta enquisa e axudarnos a descubrir o que é novo, o que é vello e o que nos agarda para os próximos anos!
 
   - key: faq.data_used_js2023
     t: Como se usaran estes datos?
   - key: faq.data_used_js2023.description
     t: >
-      Todos os datos recollidos serán publicados en aberto para calquera persoa que os queira consultar. Desenvolvedores ou compañías poden usalos para priorizar e definir as súas follas de ruta.
+      Todos os datos recollidos serán publicados en aberto para calquera persoa que os queira consultar. Desenvolvedores ou empresas poden usalos para priorizar e definir as súas follas de ruta.
 
   - key: faq.survey_goals_js2023
     t: Que obxectivos ten esta enquisa?

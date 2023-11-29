@@ -141,7 +141,7 @@ translations:
 
     - key: tools.tools_intro
       t: >
-        As seguintes seccións estan centradas nas **bibliotecas** e **frameworks** que compoñen o ecosistema de JavaScript. Coméntanos que é o que che entusiasma!
+        As seguintes seccións estan centradas en **bibliotecas** e **frameworks** que compoñen o ecosistema de JavaScript. Coméntanos que é o que che mola!
     
     ###########################################################################
     # Options
@@ -522,19 +522,19 @@ translations:
       t: Importación Dinámica
 
     - key: features.syntax_features
-      t: Syntax Features
+      t: Características da sintaxe
     - key: features.syntax_features.question
-      t: Cales das seguintes funcionalidades de sintaxe usaches?
+      t: Cales das seguintes características da sintaxe usaches?
 
     - key: features.string_features
-      t: Funcionalidades para cadeas de texto
+      t: Funcións de cadeas de texto
     - key: features.string_features.question
-      t: Cales das seguintes funcionalidades para cadeas de texto empregaches?
+      t: Cales das seguintes funcións de cadeas de texto empregaches?
 
     - key: features.array_features
-      t: Funcionalidades de Array
+      t: Funcións de Array
     - key: features.array_features.question
-      t: Cales das seguintes funcionalidades de array empregaches?
+      t: Cales das seguintes funcións de array empregaches?
 
     - key: features.async_features
       t: Funcionalidades asíncronas
