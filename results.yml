@@ -26,7 +26,7 @@ translations:
 
   - key: sponsors.learn_more
     t: Saber máis.
-  
+
   - key: tabs.all_respondents
     t: Todos os enquisados
   - key: tabs.main_answers
@@ -74,7 +74,7 @@ translations:
     t: Uso
   - key: options.experience_ranking.awareness
     t: Presenza
-  
+
   - key: options.features_mode.grouped
     t: Agrupados
   - key: options.features_mode.awareness_rank
@@ -209,16 +209,16 @@ translations:
 
   - key: sections.technologies.title
     t: Tecnoloxías
-  
+
   - key: sections.libraries.title
     t: Bibliotecas
 
   - key: sections.conclusion.title
     t: Conclusión
-  
+
   - key: sections.about.title
     t: Acerca de
-  
+
   - key: sections.how_to_help.title
     t: Como axudar
 
@@ -260,7 +260,7 @@ translations:
     t: Orixe por xénero
 
   - key: user_info.source_by_race_ethnicity
-    t: Orixe por raza ou étnia 
+    t: Orixe por raza ou étnia
 
   - key: user_info.gender_by_country
     t: Orixe por país
@@ -460,7 +460,7 @@ translations:
     t: npm
   - key: blocks.entity.youtube_link
     t: YouTube
-  
+
   # people
   - key: blocks.people.name
     t: Nome
@@ -474,7 +474,7 @@ translations:
     t: Cardinalidade do uso das tecnoloxías
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: Para cada sección, o porcentaxe de enquisados que usa (definido como ter respondido «volveríao usar») unha, dúas, tres etc, tecnoloxías.
-  
+
   - key: blocks.cardinality.max
     t: Respostas máis repetidas
 
@@ -534,7 +534,7 @@ translations:
   # tool tier list
   - key: blocks.tools_tier_list
     t: Lista de niveis de bibliotecas
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       Este gráfico clasifica bibliotecas baseadas na no seu ratio de retención (porcentaxe de usuarios
       que a usarían de novo). Ten en conta que as bibliotecas usadas por menos do 10% 
@@ -704,7 +704,7 @@ translations:
     t: Recursos recomendados
   - key: blocks.recommended_events
     t: Eventos recomendados
-  
+
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
     t: Clasificación de evaluación de bibliotecas
@@ -755,7 +755,7 @@ translations:
     t: Media {axis}
   - key: chart_units.averageByFacet
     aliasFor: chart_units.average
-  
+
   - key: chart_units.percentilesByFacet
     t: "{axis} percentiles"
 
@@ -796,7 +796,7 @@ translations:
     t: Uso %
   - key: charts.axis_legends.awareness_percentage
     t: Presenza %
-  
+
   - key: chart_units.interest_percentage
     aliasFor: charts.axis_legends.interest_percentage
   - key: chart_units.satisfaction_percentage
