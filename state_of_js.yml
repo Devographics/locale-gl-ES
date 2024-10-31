@@ -906,14 +906,14 @@ translations:
   - key: other_tools.backend_frameworks.others
     aliasFor: tools.backend_frameworks.others
 
-  - key: other_tools.ai_tools
+  - key: tools.ai_tools
     t: Ferramentas de intelixencia artificial
-  - key: other_tools.ai_tools.question
+  - key: tools.ai_tools.question
     t: Cales destas ferrametas IA usas regularmente para axudarche a escribir código?
 
-  - key: other_tools.hosting
+  - key: tools.hosting
     t: Servizos de aloxamento
-  - key: other_tools.hosting.question
+  - key: tools.hosting.question
     t: Cales destes servizos usaches para aloxar aplicacións de JavaScript?
 
   ###########################################################################
