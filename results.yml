@@ -925,7 +925,7 @@ translations:
   - key: share.site.title
     t: Descubrir os resultados de {siteTitle}
   - key: share.site.twitter_text
-    t: "Descubre los resultados de {siteTitle} {link} {hashtag}"
+    t: "Descubre los resultados de {siteTitle} {link}"
   - key: share.site.subject
     t: Resultados da enquisa {siteTitle}
   - key: share.site.body
