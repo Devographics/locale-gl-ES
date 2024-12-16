@@ -385,7 +385,6 @@ translations:
 
       Podes atopar unha visión técnica máis detallada de como se realizan as enquisas [aquí](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2024-edition-1p6a).
 
-
   ###########################################################################
   # Takeaways
   ###########################################################################
@@ -424,7 +423,7 @@ translations:
 
   - key: user_info.gender.takeaway.js2024
     t: >
-      A pesar dos [esforzos extra realizados](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-c4g) este ano, só observamos un pequeno aumento na proporción de mulleres e enquisados non binarios en comparación con 2023, do 5% ao 7%.
+      A pesar dos [esforzos extra realizados](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e) este ano, só observamos un pequeno aumento na proporción de mulleres e enquisados non binarios en comparación con 2023, do 5% ao 7%.
 
   - key: user_info.race_ethnicity.takeaway.js2024
     t: >
@@ -622,7 +621,7 @@ translations:
     t: >
       A maioría dos enquisados coñecía a enquisa de anos anteriores. Tamén paga a pena destacar que as páxinas de inicio [Angular](https://angular.dev/) e [Nuxt](https://nuxt.com/) presentaban banners que apuntaban aos seus usuarios á enquisa; e que Bluesky entrou no número 5 a pesar de ser esta a primeira vez que aparece como fonte de tráfico para a enquisa.
 
-      Tamén fixemos un esforzo especial de divulgación ([tes o informe completo aquí](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-c4g)) enfocado a atraer máis mulleres desenvolvedoras, pero a súa eficacia non foi o que esperabamos.
+      Tamén fixemos un esforzo especial de divulgación ([tes o informe completo aquí](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e)) enfocado a atraer máis mulleres desenvolvedoras, pero a súa eficacia non foi o que esperabamos.
 
   - key: user_metadata.past_surveys.takeaway.js2024
     t: >
