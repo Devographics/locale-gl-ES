@@ -51,13 +51,13 @@ translations:
   - key: introduction.js2024
     t: |
 
-      <span class="first-letter">I</span>mos tomar un segundo para pensar nisto: Os frameworks de frontend que están top 3 en 2024 foron lanzados hai unha década. 
+      <span class="first-letter">I</span>mos tomar un segundo para pensar nisto: Os frameworks de frontend que están no top 3 en 2024 foron lanzados hai unha década. 
 
-      É certo que os tres evolucionaron moito ao longo deste tempo e os patróns que había en 2014 están francamente anticuados hoxe en día. Pero tendo en conta a reputación do ecosistema de JavaScript no que se producen cambios constantes, pode ser bo saber que hai cousas que permanecen constantes.
+      É certo que os tres evolucionaron moito ao longo deste tempo e os patróns que había en 2014 están xa anticuados hoxe en día. Pero tendo en conta a reputación do ecosistema de JavaScript no que se producen cambios continuamente, pode ser bo saber que hai cousas que permanecen constantes.
 
-      Falando de constantes – chegar máis alá do público habitual da enquisa segue a ser frustantemente dificil, a pesares dos esforzos de divulgación renovados. Isto é algo no que definitivamente necesitamos seguir traballando.
+      Falando de constantes, chegar máis alá do público habitual da enquisa segue a ser frustantemente dificil, a pesares dos esforzos de divulgación renovados. Isto é algo no que definitivamente hai que seguir traballando.
 
-      Mentras tanto, tamén engadimos un novo apéndice de **metadatos** que che dará máis información sobre as respostas recollidas e a propia enquisa. E non te esquezas que tamén podes aplicar calquera desas novas variables nas gráficas usando o **Query Builder**. 
+      Mentras tanto, engadíuse un novo apéndice de **metadatos** que che dará máis información sobre as respostas recollidas e a propia enquisa. E non te esquezas de que tamén podes aplicar calquera desas novas variables nas gráficas usando o **Query Builder**. 
 
       Con todo diso, vamos entón a descubrir que estivo facendo JavaScript este ano!
 
